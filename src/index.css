@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital@1&family=Recursive&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pf-400 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 400;
+}
+
+.pf-600 {
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+}
+
+.pf-700 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+}
+
+.lato-300 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.lato-400 {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}

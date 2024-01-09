@@ -1,0 +1,79 @@
+.artist-section {
+  min-height: 80%;
+  background-color: #232020;
+  display: flex; /* Makes this a flex container */
+  flex-direction: row; /* Places the children side by side */
+  justify-content: space-around; /* Adds space around the children */
+  align-items: center; /* Vertically centers the children */
+  overflow: hidden;
+  border: 5px solid rgb(56, 56, 48);
+}
+.section-heading {
+  font-size: 3rem;
+}
+
+.section-subheading {
+  font-size: 2.2rem;
+  margin-top: 40px; /* Reduced from 40px */
+}
+
+.artist-content {
+  min-height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  word-break: break-word;
+  padding: 10px 10px 0px 20px;
+  width: 50%;
+}
+
+.artist {
+  color: palegreen;
+  line-height: 26px;
+  font-size: 1.1rem;
+}
+
+canvas {
+  display: none;
+  width: 100% !important;
+}
+
+.artist-image {
+  width: 50%;
+  min-height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  padding: 5% 5% 5% 2%;
+}
+
+.artist-image > img {
+  width: 70%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .artist-section {
+    flex-direction: column; /* Stack the children vertically on small screens */
+  }
+  .artist-content {
+    width: 100%; /* Make the text full width on small screens */
+    order: 2;
+  }
+  .artist-image {
+    width: 100%; /* Make the image full width on small screens */
+    order: 1;
+  }
+  .artist-image > img {
+    width: 90%; /* Increase the width of the images on small screens */
+  }
+
+
+}
+
+
+ 
+
