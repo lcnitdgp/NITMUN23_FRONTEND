@@ -39,3 +39,11 @@ code {
   font-family: "Lato", sans-serif;
   font-weight: 400;
 }
+
+.gallery-title {
+  text-align: center;
+  padding-top: 10%;
+  padding-bottom: 4%;
+  background-color: #232020;
+  color: bisque;
+}

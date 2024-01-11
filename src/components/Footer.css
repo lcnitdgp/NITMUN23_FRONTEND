@@ -22,7 +22,7 @@
 }
 
 .contact-content p::after {
-    background: #353C46;
+    background: #232020;;
     bottom: -30px;
     content: "";
     height: 1px;
@@ -73,7 +73,7 @@
 }
 
 section, footer {
-    background: #1A1E25;
+    background: #232020;;
     color: #868c96;
 }
 

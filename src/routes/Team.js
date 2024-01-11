@@ -1,7 +1,13 @@
+import React from "react";
+import TeamCards from "../components/TeamMembers";
+import Footer from "../components/Footer";
+ 
+
 function Team () {
     return(
         <>
-        <h1>This is Team</h1>
+        <TeamCards />
+        <Footer />
         </>
     )
 }

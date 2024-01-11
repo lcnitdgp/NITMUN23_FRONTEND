@@ -4,44 +4,30 @@ import "./GalleryComp.css";
 function GalleryComp () {
     return(
         <>
-        <div class="gallery-body">
-            <div class="gallery-header">
-                <h1>Gallery</h1>
-                </div>
-        <div class="gallery">
-	<div class="column">
-		<img src="https://source.unsplash.com/random/800x600/?jungle"/> 
-		<img src="https://source.unsplash.com/random/600x800/?mountain"/> 
-		<img src="https://source.unsplash.com/random/800x600/?beach"/> 
-		<img src="https://source.unsplash.com/random/600x800/?forest"/> 
-		<img src="https://source.unsplash.com/random/800x600/?desert"/>  
-		<img src="https://source.unsplash.com/random/600x800/?pond"/>  
-	</div>
-	<div class="column">
-		<img src="https://source.unsplash.com/random/600x800/?bicycle"/> 
-		<img src="https://source.unsplash.com/random/800x600/?airballon"/> 
-		<img src="https://source.unsplash.com/random/600x800/?skate"/> 
-		<img src="https://source.unsplash.com/random/800x600/?scooter"/>  
-		<img src="https://source.unsplash.com/random/600x800/?moto"/> 
-		<img src="https://source.unsplash.com/random/800x600/?car"/> 
-	</div>
-	<div class="column">
-		<img src="https://source.unsplash.com/random/800x600/?lemonade"/>  
-		<img src="https://source.unsplash.com/random/600x800/?coffee"/> 
-		<img src="https://source.unsplash.com/random/800x600/?water"/> 
-		<img src="https://source.unsplash.com/random/600x800/?wine"/> 
-		<img src="https://source.unsplash.com/random/800x600/?juice"/>
-		<img src="https://source.unsplash.com/random/600x800/?beer"/>  
-	</div>
-	<div class="column">
-		<img src="https://source.unsplash.com/random/600x800/?office"/> 
-		<img src="https://source.unsplash.com/random/800x600/?bar"/> 
-		<img src="https://source.unsplash.com/random/600x800/?garage"/>  
-		<img src="https://source.unsplash.com/random/800x600/?house"/> 
-		<img src="https://source.unsplash.com/random/600x800/?camping"/>  
-		<img src="https://source.unsplash.com/random/800x600/?store"/> 
-	</div>
-</div>
+		<div className="gallery-body">
+       <article className="gallery">
+  <img src="./assets/NITMUN2.jpg" alt="guitar player at concert" />
+  <blockquote className="quote spacer">
+    <span>Without music, life would be a mistake.</span>
+    <cite>&mdash;Friedrich Nietzsche</cite>
+  </blockquote>
+  <img src="./assets/NITMUN4.jpg" alt="duo singing" />
+  <img src="./assets/NITMUN3.jpg" alt="crowd cheering" />
+  <img src="./assets/NITMUN5.jpg" alt="singer performing" />
+  <img src="./assets/NITMUN7.jpg" alt="singer fistbumping crowd" />
+  <div className="spacer"></div>
+  <img src="./assets/NITMUN8.jpg" alt="crowd cheering" />
+  <img src="./assets/NITMUN9.jpg" alt="crowd in a concert" />
+  <img src="./assets/NITMUN10.jpg" alt="woman singing" />
+  <div className="spacer"></div>
+  <div className="spacer"></div>
+  <img src="./assets/NITMUN11.jpg" alt="Person playing a cello" />
+  <img src="./assets/NITMUN12.jpg" alt="Kiss playing" />
+  <img src="./assets/NITMUN13.jpg" alt="young man singing" />
+  <div className="spacer"></div>
+  <img src="./assets/NITMUN2.jpg" alt="woman singing" />
+  <img src="./assets/NITMUN3.jpg" alt="man playing drums" />
+</article>
 </div>
         </>
     )

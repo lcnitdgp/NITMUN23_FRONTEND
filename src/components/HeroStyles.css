@@ -90,12 +90,16 @@ body {
 }
 
 .register-button {
-    display: block;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
     width: 200px;
     height: 50px;
     margin: 20px auto;
-    background-color: #4E9CAF;
-    color: #fff;
+    background-color: bisque;
+    color: black;
     border-radius: 5px;
     border: none;
     text-align: center;

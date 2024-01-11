@@ -1,104 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 .gallery-body {
-	margin: 0;
-	padding: 0;
-	background: #1f1d1d;
-}
-
-.gallery-header{
-	padding: 10% 20% 2% 20%;
-	font-size: 3 rem;
-	color: antiquewhite;
-}
-
-.gallery-body:before, .gallery-body:after {
-	position: absolute;
-	top: 0px;
-	color: #00000000;
-	left: 50%;
-	transform: translateX(-50%);
-	text-shadow: 0 -1px 1px #000000ab, 0 1px 1px #ffffff82;
-	font-family: Arial, serif;
-	padding: 2px 10px;
-	border-radius: 2px;
-	font-size: 9px;
-	display: flex;
-	align-items: flex-end;
-	line-height: 14px;
-}
-
-.gallery-body:after {
-	top: inherit;
-	bottom: 0;
-	position: relative;
-	margin-top: -12px;
-	margin-left: 90px;
-	width: 150px;
-  }
-
-img { 
-	width: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  background-color: #232020;
 }
 
 .gallery {
-	display: flex;
-	padding: 5px;
-	flex-wrap: wrap;
-}
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 100px;
+  gap: 0px 20px;
+  width: clamp(70vmin, 1200px, 90%);  
 
-.column {
-	flex: 25%;
-	padding: 5px;
+  &:has(img:hover) img:not(:hover) {
+    filter: brightness(0.35);
+  }
 
-}
-
-.column img {
-	margin-top: 5px;
-	cursor: pointer;
-	transition: transform 0.3s ease; /* Add transition for smooth scaling */
+  & img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    clip-path: polygon(0 20px, 100% 0, 100% calc(100% - 20px), 0 100%);
+    transition: clip-path 0.5s, transform 0.5s, filter 0.75s;
+    transform: scale(1);
+    
+    &:nth-child(3n):not(:nth-last-child(-n+4)) { 
+      grid-row: span 2;
+    }
+    
+    &:nth-child(14n):not(:nth-last-child(-n+4)) { 
+      grid-row: span 2;
+    }
+    
+    &:hover {
+      transform: scale(1.3);
+      z-index: 1;
+      width: 100%;
+      aheight: auto;
+      aaspect-ratio: 1;
+      clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      transition: clip-path 0.5s, transform 0.5s, filter 0.5s;
+    }
   }
   
-  .column img:hover {
-	transform: scale(1.1); /* Enlarge the image on hover */
+  & .spacer {
+    background: #3d3333;
+    clip-path: polygon(0 20px, 100% 0, 100% calc(100% - 20px), 0 100%);
+    box-sizing: border-box;
   }
   
-  /*.column img:active {
-	height: auto; 
-	width: auto;
-	max-width: 80%;
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	border: 10px solid #fff;
-	margin: 0px;
-	box-shadow: 0 0 1000px 1000px #fff8;
-	transform: translateX(-50%) translateY(-50%);
-	background: rgba(255, 255, 255, 0.8);  Add a semi-transparent white background 
-  } */
-
-
-@media (max-width: 1000px) and (min-width: 768px) {
-	.column {
-		flex: 50%;
-	}
-	.gallery-header{
-		padding: 20% 20% 2% 20%;
-	}
+  & .quote {
+    grid-row: span 3;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #eee;
+    font-family: Montserrat;
+    font-size: 0.9em;
+    
+    & span {
+      text-wrap: balance;
+      margin: 0 auto 15px auto;
+      max-width: 80%;
+      line-height: 1.5;
+      
+      &::before {
+        content: "\"";
+        font-size: 4em;
+        font-family: Georgia, 'Palatino Linotype','Times New Roman', serif;
+        vertical-align: middle;
+        line-height: 0;
+        color: #fff8;
+      }
+    }
+  }
 }
 
-@media (max-width: 767px) {
-	.column {
-		flex: 50%;
-	}
-	.gallery-header{
-		padding: 30% 20% 2% 20%;
-	}
-	/* .column img:hover {
-		transform: none;  Disable the hover effect on mobile 
-	  } */
+@media all and (max-width: 700px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
-@media (max-width: 500px) {
-	.column {
-		flex: 100%;
-	}
+@media all and (max-width: 500px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media all and (max-width: 400px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

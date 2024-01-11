@@ -1,38 +1,125 @@
 import React from 'react';
 import './RegisterStyle.css'
+import { useState } from 'react';
+
+
 
 function RegisterPage () {
+
+  const [institute, setInstitute] = useState("NIT Durgapur");
+
     return(
         <>
-        <div className='reg'>
-         <h1 className='regtext'>Registration Form</h1>
-    <p className='regtext'>Please fill out this form with the required information</p>
-    <form action='https://register-demo.freecodecamp.org'>
-      <fieldset>
-        <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
-        <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
-      </fieldset>
-      <fieldset>
-        <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
-        <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
-        <label for="referrer">How did you hear about us?
-          <select id="referrer" name="referrer">
-            <option value="">(select one)</option>
-            <option value="1">MNC Artwork News</option>
-            <option value="2">Linkedin</option>
-            <option value="3">MNC Artwork Forum</option>
-            <option value="4">Other</option>
-          </select>
-        </label>
-        <label for="bio">Provide a bio:
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I am.. "></textarea>
-        </label>
-      </fieldset>
-      <input type="submit" value="Submit" />
-    </form>
-    </div>
+        <div className='register-body'>
+        	<div className="section">
+		<div className="container">
+			<div className="row full-height justify-content-center">
+				<div className="col-12 text-center align-self-center py-5">
+					<div className="section pb-5 pt-5 pt-sm-2 text-center">
+						<h6 className="mb-0 pb-3"><span>Log In </span><span>Sign Up</span></h6>
+			          	<input className="checkbox" type="checkbox" id="reg-log" name="reg-log"/>
+			          	<label for="reg-log"></label>
+						<div className="card-3d-wrap mx-auto">
+							<div className="card-3d-wrapper">
+								<div className="card-front">
+                 
+									<div className="center-wrap">
+										<div className="section text-center">
+										
+											<div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Name" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Email" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Phone" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+  <select name="logemail" className="form-style" id="logemail"  onChange={(e) => {
+                    setInstitute(e.target.value);
+                  }} value = {institute}>
+    <option value="NIT Durgapur">NIT Durgapur</option>
+    <option value="OTHER INSTITUTION">OTHER INSTITUTION</option>
+  </select>
+  <i className="input-icon uil uil-at"></i>
+</div>   
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Roll Number" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div
+                className="form-group"
+                style={
+                  institute == "NIT Durgapur"
+                    ? { display: "block" }
+                    : { display: "none" }
+                }
+              >
+                <input
+				className='form-style'
+                  placeholder="Roll Number"
+                  name="logemail"
+                  id="logemail"
+                  type="email"
+                  data-type="text"
+				  autoComplete='off'
+                />
+				<i className="input-icon uil uil-at"></i>
+              </div>
+											<div className="form-group mt-2">
+												<input type="password" name="logpass" className="form-style" placeholder="Year" id="logpass" autocomplete="off"/>
+												<i className="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" className="btn mt-4">submit</a>
+                            				<p className="mb-0 mt-4 text-center"><a href="#0" className="link">Forgot your password?</a></p>
+				      					</div>
+			      					</div>
+			      				</div>
+								<div className="card-back">
+
+									<div className="center-wrap">
+										<div className="section text-center">
+											
+                    <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Name" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Email" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Phone" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Your Institution" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+                      <div className="form-group">
+												<input type="email" name="logemail" className="form-style" placeholder="Roll Number" id="logemail" autocomplete="off"/>
+												<i className="input-icon uil uil-at"></i>
+											</div>	
+											<div className="form-group mt-2">
+												<input type="password" name="logpass" className="form-style" placeholder="Year" id="logpass" autocomplete="off"/>
+												<i className="input-icon uil uil-lock-alt"></i>
+											</div>
+											<a href="#" className="btn mt-4">submit</a>
+				      					</div>
+			      					</div>
+			      				</div>
+			      			</div>
+			      		</div>
+			      	</div>
+		      	</div>
+	      	</div>
+	    </div>
+	</div>
+  </div>
         </>
     )
 }

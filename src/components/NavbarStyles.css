@@ -1,5 +1,5 @@
 .NavbarItems{
-    background-color: #7F3634;
+    background-color: #7f363400;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +14,8 @@
     transform: translate(-50%);
     z-index: 999;
     color: bisque;
+    backdrop-filter: blur(4.7px);
+    --webkit-backdrop-filter: blur(4.7px);
 }
 
 .navbar-logo{
@@ -44,8 +46,8 @@ white-space: nowrap;
 }
 
 .nav-links:hover{
-    background-color: #01959a;
-    color: #fff;
+    background-color: #FDE2C2;
+    color: black;
     border-radius: 5px;
     transition: all 0.2s ease-in-out;
     
@@ -86,7 +88,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        background-color: white;
+        background-color: rgb(52, 47, 47);
         width: 100%;
         height: auto;
         position: absolute;
@@ -116,7 +118,7 @@ button:hover{
     }
 
     .nav-links:hover{
-        background-color: #01959a;
+        background-color: #323838;
         transition: none;
 
     }
@@ -129,8 +131,8 @@ button:hover{
         margin: auto;
         border-radius: 5px ;
         width: 80%;
-        background-color: #01959a;
-        color: #fff;
+        background-color: #FDE2C2;
+        color: black;
         font-size: 1.2rem;
         font-weight: 700;
         letter-spacing: 2px;
@@ -147,6 +149,6 @@ button:hover{
 
  .menu-icons i {
     font-size: 1.2rem;
-    color: #222;
+    color:bisque;
  }
 }

@@ -9,7 +9,7 @@ const Commitees = () => {
         <div className="about-section" id="aboutSection">
           <div className="about-content">
             <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>01</span> NITMUN</span>
-            <Fade duration={700} top cascade><span className="pf-200 section-heading " style={{fontSize: '3.1rem'}}>ABOUT LITERARY CIRCLE</span></Fade>
+            <Fade duration={700} top cascade><span className="pf-200 section-heading " style={{fontSize: '2.7rem'}}>ABOUT LITERARY CIRCLE</span></Fade>
             <Slide bottom>
               <p className="lato-400 about">
               Literary Circle is the club in NIT Durgapur, which gives the college an extra. NITMUN is a forum convened by the members of the Literary Circle for discussion and analysis of global issues. It seeks to bring out motivated delegates from all over the country for brainstorming and discussing over significant international issues.
