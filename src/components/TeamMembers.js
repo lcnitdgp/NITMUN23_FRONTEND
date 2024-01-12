@@ -13,7 +13,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
     backgroundImage="./assets/ayush.jpeg"
 />
@@ -22,7 +22,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -31,7 +31,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -40,7 +40,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -49,7 +49,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -58,7 +58,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -67,7 +67,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -76,7 +76,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -85,7 +85,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -94,7 +94,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -103,7 +103,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -112,7 +112,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -121,7 +121,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -130,7 +130,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -139,7 +139,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -148,7 +148,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -157,7 +157,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -166,7 +166,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -175,7 +175,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -184,7 +184,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
@@ -193,7 +193,7 @@ function TeamCards() {
     instagramLink="https://instagram.com" 
     twitterLink="https://twitter.com" 
     dribbbleLink="https://dribbble.com" 
-    name="PUTIN" 
+    name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
 />
