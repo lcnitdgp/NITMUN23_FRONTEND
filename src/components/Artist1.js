@@ -3,11 +3,12 @@ import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 import './Artist.css';
 
-const Artist1 = () => {
+const Artist1 = (props) => {
+  const isMobile = window.innerWidth <= 768;
 
       return (
         <div className="artist-section" id="artistSection">
-          <div className="artist-content">
+         <div className="artist-content" style={{order: isMobile ? '' : props.orderContent}}>
             <span className="lato-400 "> <span className="pf-400" style={{fontSize: '2rem'}}>01</span> NITMUN</span>
             <Fade duration={700} top cascade><span className="pf-200 section-heading " style={{fontSize: '3rem'}}>SPECPOL</span></Fade>
             <Slide bottom>
@@ -16,7 +17,7 @@ const Artist1 = () => {
               </p>
             </Slide>
           </div>
-          <div className="artist-image">
+          <div className="artist-image" style={{order: isMobile ? '' : props.orderImage}}>
             <img src="./assets/p2.jpg" alt="Top view"/>
           </div>
         </div>

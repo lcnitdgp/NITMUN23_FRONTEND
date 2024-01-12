@@ -8,27 +8,195 @@ function TeamCards() {
         <div>
         <h1 className="team-title">Meet the Team</h1>
         <div className="grid-container">
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
-            <Cards />
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+    backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+    twitterLink="https://twitter.com" 
+    dribbbleLink="https://dribbble.com" 
+    name="PUTIN" 
+    jobTitle="UI Developer" 
+     backgroundImage="./assets/ayush.jpeg"
+/>
             {/* More cards... */}
         </div>
         </div>

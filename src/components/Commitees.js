@@ -3,11 +3,11 @@ import Slide from 'react-reveal'
 import Fade from 'react-reveal/Fade'
 import './Commitees.css';
 
-const Commitees = () => {
+const Commitees = ({ border = '0px solid #fff' }) => {
 
       return (
-        <div className="about-section" id="aboutSection">
-          <div className="about-content">
+        <div className="about-section" id="aboutSection" style={{ border: border }}>
+         <div className="about-content">
             <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>01</span> NITMUN</span>
             <Fade duration={700} top cascade><span className="pf-200 section-heading " style={{fontSize: '2.7rem'}}>ABOUT LITERARY CIRCLE</span></Fade>
             <Slide bottom>

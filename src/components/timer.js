@@ -38,22 +38,22 @@ class Clock extends Component {
                <div className="timer-container">
             <div className='timer'>
                <div className="Clock-days">
-                    <span>
+                    <div className='spanning'>
                     {this.leading0(this.state.days)} Days &nbsp;
 
-                    </span>
-                    <span>
+                    </div>
+                    <div className='spanning'>
                     {this.leading0(this.state.hours)} Hours &nbsp;
 
-                    </span>
-                    <span>
+                    </div>
+                    <div className='spanning'>
                     {this.leading0(this.state.minutes)} Min &nbsp;
 
-                    </span>
-                    <span className="sec">
-                    {this.leading0(this.state.seconds)} Sec
+                    </div>
+                    <div className="spanning sec">
+                    {this.leading0(this.state.seconds)} Sec 
 
-                    </span>
+                    </div>
                </div>
                </div>
                </div>

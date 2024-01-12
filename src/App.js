@@ -10,10 +10,9 @@ import Register from './routes/Register';
 function App() {
   return (
      <div className='App'>
-      <Navbar/>
+      
        <Routes>
         <Route path = '/' element={<Home/>}/>
-         
         <Route path = '/about' element={<About/>}/> 
         <Route path = '/gallery' element={<Gallery/>}/> 
         <Route path = '/team' element={<Team/>}/> 

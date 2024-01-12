@@ -1,12 +1,14 @@
 import Footer from "../components/Footer";
-import RegisterPage from "../components/RegisterPage";
+import Navbar from "../components/Navbar";
+import RegisterPage from "../components/RegisterCard";
+ 
 import React from "react";
 
 function Register () {
     return(
         <>
-        <RegisterPage/>
-        <Footer />
+        <Navbar/>
+        <RegisterPage />
         </>
     )
 }
