@@ -11,8 +11,12 @@
   height: 110%;
   backface-visibility: hidden;
   scroll-behavior: smooth;
-  scrollbar-width: thin; /* For Firefox */
-  -ms-overflow-style: auto;  /* For Internet Explorer and Edge */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari and Opera */
 }
 
 .register-body::-webkit-scrollbar {
