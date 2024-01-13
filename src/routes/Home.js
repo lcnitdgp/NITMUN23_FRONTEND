@@ -9,7 +9,6 @@ function Home () {
         <>
         <Navbar/>
         <Hero />
-        <Commitees border = "5px solid rgb(56, 56, 48)" />
         <Footer />
         </>
     )

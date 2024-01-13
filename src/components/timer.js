@@ -39,18 +39,18 @@ class Clock extends Component {
             <div className='timer'>
                <div className="Clock-days">
                     <div className='spanning'>
-                    {this.leading0(this.state.days)} Days &nbsp;
+                    {this.leading0(this.state.days)} Days 
 
                     </div>
                     <div className='spanning'>
-                    {this.leading0(this.state.hours)} Hours &nbsp;
+                    {this.leading0(this.state.hours)} Hours 
 
                     </div>
                     <div className='spanning'>
-                    {this.leading0(this.state.minutes)} Min &nbsp;
+                    {this.leading0(this.state.minutes)} Min 
 
                     </div>
-                    <div className="spanning sec">
+                    <div className="spanning">
                     {this.leading0(this.state.seconds)} Sec 
 
                     </div>

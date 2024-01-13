@@ -18,15 +18,17 @@
 }
 
 .artist-content {
-  min-height: 70%;
+  color: white;
+  word-break: break-word;
+  position: relative;
+  width: 50%;
+  min-height: 35%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  word-break: break-word;
-  padding: 10px 50px 0px 30px;
-  width: 50%;
+  z-index: 3;
+  padding: 5% 3% 5% 2%;
 }
 
 .artist {
@@ -41,19 +43,93 @@ canvas {
 }
 
 .artist-image {
+  position: relative;
   width: 50%;
-  min-height: 35%;
+  min-height: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 3;
   padding: 5% 3% 5% 2%;
+  overflow: hidden;
 }
 
 .artist-image > img {
-  width: 70%;
+  width: 60%;
   height: auto;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out; /* Add this line */
 }
+
+.artist-image:hover > img {
+  transform: scale(1.1); /* Scale up the image */
+  opacity: 0.8; /* Change the opacity */
+}
+
+.artist-image::before {
+  position: absolute;
+  top: 0;
+  left: -75%;
+  z-index: 2;
+  display: block;
+  content: '';
+  width: 50%;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+  -webkit-transform: skewX(-25deg);
+  transform: skewX(-25deg);
+}
+
+.artist-image:hover::before {
+  -webkit-animation: shine .75s;
+  animation: shine .75s;
+}
+
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+
+.commitee-btn-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+ 
+ 
+}
+
+.commitee-btn {
+  padding: 3% 5%;
+  border-radius: 5px;
+  color: #201d1d; /* Change text color to white */
+  background-color: bisque; /* Change background color to blue */
+  text-decoration: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 80%;
+  height: 100%;
+  margin: 3%;
+}
+
+.guide-button, .matrix-button {
+  color: #000;
+  width: 90%;
+  height: 90%;
+  text-decoration: none;
+}
+ 
+
 
 @media (max-width: 768px) {
   .artist-section {
@@ -68,10 +144,19 @@ canvas {
     order: 1;
   }
   .artist-image > img {
-    width: 90%; /* Increase the width of the images on small screens */
+    width: 85%; /* Increase the width of the images on small screens */
   }
 
+  .commitee-btn-container {
+    flex-direction: column;
+    height: auto; /* Add this line */
+  }
 
+  .guide-button, .matrix-button, .commitee-btn {
+    color: #000;
+    width: 70%; /* Add this line */
+    height: 70%;
+  }
 }
 
 

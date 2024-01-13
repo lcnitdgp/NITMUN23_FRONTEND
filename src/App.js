@@ -6,17 +6,26 @@ import About from './routes/About';
 import Gallery from './routes/Gallery';
 import Team from './routes/Team';
 import Register from './routes/Register';
+import withLoader from "./components/Loader";
+import HomePage from "./routes/Home1";
+
+import {RingLoader} from "react-spinners";
+import GalleryPage from './routes/Gallery1';
+import AboutPage from './routes/About1';
+import RegisterLoad from './routes/Register1';
+import TeamPage from './routes/Team1';
 
 function App() {
+
   return (
      <div className='App'>
       
        <Routes>
-        <Route path = '/' element={<Home/>}/>
-        <Route path = '/about' element={<About/>}/> 
-        <Route path = '/gallery' element={<Gallery/>}/> 
-        <Route path = '/team' element={<Team/>}/> 
-        <Route path = '/register' element={<Register/>}/>  
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/gallery" element={<GalleryPage />} /> 
+        <Route path="/team" element={<TeamPage />} /> 
+        <Route path="/register" element={<RegisterLoad />} />  
        </Routes>
 
      </div>

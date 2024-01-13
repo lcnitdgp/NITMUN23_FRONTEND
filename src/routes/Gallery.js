@@ -11,6 +11,8 @@ function Gallery () {
         <h1 className="gallery-title">Gallery</h1>
         <GalleryComp />
         <GalleryComp />
+        <GalleryComp />
+        <div className="about-gap"></div>
         <Footer />
         </>
     )

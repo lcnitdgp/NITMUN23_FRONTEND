@@ -18,7 +18,7 @@ function Footer() {
                                 <li><a className="hover-target" href="https://www.facebook.com/lcnitdgp/"><i className="fab fa-facebook-f"></i></a></li>
                                 <li><a className="hover-target" href="https://www.instagram.com/lcnitd/"><i className="fab fa-instagram"></i></a></li>
                                 <li><a className="hover-target" href="https://www.youtube.com/channel/UCnnXqep517pke6rywOC61Cg"><i className="fab fa-youtube"></i></a></li>
-                                <li><a className="hover-target" href="https://lcnitd.co.in/"><i className="fab fa-at"></i></a></li>
+                                <li><a className="hover-target" href="https://lcnitd.co.in/"><i className="fa fa-globe"></i></a></li>
                             </ul>
                         </div>
                     </div>

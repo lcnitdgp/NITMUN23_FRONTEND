@@ -1,9 +1,14 @@
 import "./RegisterCard.css";
 import { useState } from "react";
-import Footer from "./Footer";
+import { useFormik } from "formik";
+import * as Yup from "yup";
+import Footer from "./Footer";  
+
+import { ToastContainer, toast } from "react-toastify";
+
 
 function RegisterPage() {
-  const [institute, setInstitute] = useState("NIT Durgapur");
+  const [institute, setInstitute] = useState("");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -15,6 +20,36 @@ function RegisterPage() {
   const [preference2, setPreferences2] = useState("");
   const [committee3, setComittee3] = useState("");
   const [preference3, setPreferences3] = useState("");
+
+  const phoneRegExp =
+    /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
+
+  const formik = useFormik({
+    initialValues: {
+      Name: "",
+      email: "",
+      phone: "",
+      institution: "NIT DURGAPUR",
+      committee1: "",
+      preference1: "",
+      committee2: "",
+      preference2: "",
+      committee3: "",
+      preference3: "",
+      experience: "",
+    },
+    validationSchema: Yup.object({
+      Name: Yup.string()
+        .max(15, "Must atleast be of 15 Characters")
+        .required("required"),
+      email: Yup.string().email("Invalid email address").required("Required"),
+      phone: Yup.string().matches(phoneRegExp, "Phone Number not valid"),
+      experience: Yup.string().required("Required"),
+    }),
+    onSubmit: (values) => {
+      alert(JSON.stringify(values, null, 2));
+    },
+  });
 
   return (
     <>
@@ -46,6 +81,9 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 />
+                  {formik.touched.Name && formik.errors.Name ? (
+                      <div>{formik.errors.Name}</div>
+                    ) : null}
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
@@ -65,6 +103,9 @@ function RegisterPage() {
                   }}
                   value={email}
                 />
+                 {formik.touched.email && formik.errors.email ? (
+                  <div>{formik.errors.email}</div>
+                ) : null}
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
@@ -84,6 +125,9 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 />
+                {formik.touched.phone && formik.errors.phone ? (
+                  <div>{formik.errors.phone}</div>
+                ) : null}
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
@@ -105,9 +149,7 @@ function RegisterPage() {
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
-              <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">ROLL NUMBER</p>
-              </div>
+             
               <div
                 className="form-group"
                 style={
@@ -116,6 +158,9 @@ function RegisterPage() {
                     : { display: "none" }
                 }
               >
+                 <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">ROLL NUMBER</p>
+              </div>
                 <input
                   className="form-style"
                   placeholder="Roll Number"
@@ -132,9 +177,7 @@ function RegisterPage() {
                 />
                 <i className="input-icon uil uil-at"></i>
               </div>
-              <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">YEAR</p>
-              </div>
+             
               <div
                 className="form-group"
                 style={
@@ -143,6 +186,9 @@ function RegisterPage() {
                     : { display: "none" }
                 }
               >
+                 <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">YEAR</p>
+              </div>
                 <select
                   name="logemail"
                   className="form-style-2"
@@ -159,6 +205,33 @@ function RegisterPage() {
                   <option value="YEAR 3"> YEAR 3</option>
                   <option value="YEAR 4"> YEAR 4</option>
                 </select>
+                <i className="input-icon uil uil-at"></i>
+              </div>
+              <div
+                className="form-group"
+                style={
+                  institute == "OTHER INSTITUTION"
+                    ? { display: "block" }
+                    : { display: "none" }
+                }
+              >
+                 <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">Institute name</p>
+              </div>
+                <input
+                  className="form-style"
+                  placeholder="Roll Number"
+                  name="logemail"
+                  id="logemail"
+                  type="email"
+                  data-type="text"
+                  autoComplete="off"
+                  value={roll}
+                  onChange={(e) => {
+                    setRoll(e.target.value);
+                    console.log(e.target.value);
+                  }}
+                />
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
@@ -276,6 +349,26 @@ function RegisterPage() {
                 >
                   <option value="select country">select country</option>
                 </select>
+                <i className="input-icon uil uil-at"></i>
+              </div>
+              <div className="from-group">
+              <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">Experience</p>
+              </div>
+                <input
+                  className="form-style"
+                  placeholder="Experience"
+                  name="logemail"
+                  id="logemail"
+                  type="email"
+                  data-type="text"
+                  autoComplete="off"
+                  value={roll}
+                  onChange={(e) => {
+                    setRoll(e.target.value);
+                    console.log(e.target.value);
+                  }}
+                />
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="btn-container">
@@ -367,9 +460,7 @@ function RegisterPage() {
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
-              <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">ROLL NUMBER</p>
-              </div>
+             
               <div
                 className="form-group"
                 style={
@@ -378,6 +469,9 @@ function RegisterPage() {
                     : { display: "none" }
                 }
               >
+                 <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">ROLL NUMBER</p>
+              </div>
                 <input
                   className="form-style"
                   placeholder="Roll Number"
@@ -394,9 +488,7 @@ function RegisterPage() {
                 />
                 <i className="input-icon uil uil-at"></i>
               </div>
-              <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">YEAR</p>
-              </div>
+             
               <div
                 className="form-group"
                 style={
@@ -405,6 +497,9 @@ function RegisterPage() {
                     : { display: "none" }
                 }
               >
+                 <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">YEAR</p>
+              </div>
                 <select
                   name="logemail"
                   className="form-style-2"
@@ -421,6 +516,33 @@ function RegisterPage() {
                   <option value="YEAR 3"> YEAR 3</option>
                   <option value="YEAR 4"> YEAR 4</option>
                 </select>
+                <i className="input-icon uil uil-at"></i>
+              </div>
+              <div
+                className="form-group"
+                style={
+                  institute == "OTHER INSTITUTION"
+                    ? { display: "block" }
+                    : { display: "none" }
+                }
+              >
+                 <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">Institute name</p>
+              </div>
+                <input
+                  className="form-style"
+                  placeholder="Roll Number"
+                  name="logemail"
+                  id="logemail"
+                  type="email"
+                  data-type="text"
+                  autoComplete="off"
+                  value={roll}
+                  onChange={(e) => {
+                    setRoll(e.target.value);
+                    console.log(e.target.value);
+                  }}
+                />
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
@@ -450,14 +572,14 @@ function RegisterPage() {
                   name="logemail"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select News Agency"
                   value={committee1}
                   onChange={(e) => {
                     setComittee1(e.target.value);
                     console.log(e.target.value);
                   }}
                 >
-                  <option value="select country">select country</option>
+                  <option value="select country">select News Agency</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
@@ -471,9 +593,9 @@ function RegisterPage() {
                   className="form-style-2"
                   id="logemail"
                   placeholder="Select Commitee"
-                  value={preference2}
+                  value={preference1}
                   onChange={(e) => {
-                    setPreferences2(e.target.value);
+                    setPreferences1(e.target.value);
                     console.log(e.target.value);
                   }}
                 >
@@ -489,14 +611,14 @@ function RegisterPage() {
                   name="logemail"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
-                  value={committee2}
+                  placeholder="Select News Agency"
+                  value={committee1}
                   onChange={(e) => {
-                    setComittee2(e.target.value);
+                    setComittee1(e.target.value);
                     console.log(e.target.value);
                   }}
                 >
-                  <option value="select country">select country</option>
+                  <option value="select country">select News Agency</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
@@ -511,9 +633,9 @@ function RegisterPage() {
                   className="form-style-2"
                   id="logemail"
                   placeholder="Select Commitee"
-                  value={preference3}
+                  value={preference1}
                   onChange={(e) => {
-                    setPreferences3(e.target.value);
+                    setPreferences1(e.target.value);
                     console.log(e.target.value);
                   }}
                 >
@@ -529,15 +651,35 @@ function RegisterPage() {
                   name="logemail"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
-                  value={committee3}
+                  placeholder="Select News Agency"
+                  value={committee1}
                   onChange={(e) => {
-                    setComittee3(e.target.value);
+                    setComittee1(e.target.value);
                     console.log(e.target.value);
                   }}
                 >
-                  <option value="select country">select country</option>
+                  <option value="select country">select News Agency</option>
                 </select>
+                <i className="input-icon uil uil-at"></i>
+              </div>
+              <div className="from-group">
+              <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">Experience</p>
+              </div>
+                <input
+                  className="form-style"
+                  placeholder="Experience"
+                  name="logemail"
+                  id="logemail"
+                  type="email"
+                  data-type="text"
+                  autoComplete="off"
+                  value={roll}
+                  onChange={(e) => {
+                    setRoll(e.target.value);
+                    console.log(e.target.value);
+                  }}
+                />
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="btn-container">
@@ -551,7 +693,7 @@ function RegisterPage() {
         </div>
         </div>
       </div>
-      
+      <ToastContainer position="top-right" />
 
     </>
   );

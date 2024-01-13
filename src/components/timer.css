@@ -12,19 +12,18 @@
 }
 
 .Clock-days {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: blanchedalmond;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   border-radius: 10px;
-  animation: none; /* Remove the animation */
-}
+  animation: none; /* Remove the animation */}
 
 .Clock-days  .spanning {
   margin-right: 10px;
+  padding: 5px;
 }
 
 .Clock-days .sec {

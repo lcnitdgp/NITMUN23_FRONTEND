@@ -75,6 +75,7 @@
 section, footer {
     background: #232020;;
     color: #868c96;
+    border-top: 5px solid #342427;
 }
 
 footer p {

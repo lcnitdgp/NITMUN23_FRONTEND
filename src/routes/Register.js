@@ -9,6 +9,7 @@ function Register () {
         <>
         <Navbar/>
         <RegisterPage />
+        <Footer/>
         </>
     )
 }
