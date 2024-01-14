@@ -57,6 +57,15 @@ a:hover {
   color: bisque;
 }
 
+.reg-p1{
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 1;
+  left: 10%;
+  color: bisque;
+  padding:10px 0;
+}
+
 
 .para-container {
   display: flex;

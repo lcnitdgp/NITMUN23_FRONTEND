@@ -10,7 +10,7 @@ class TimerComp extends Component {
  constructor(props) {
   super(props);
   this.state = {
-    deadline: 'Feb, 23, 2024'
+    deadline: 'Feb, 2, 2024'
   }
 }
     render(){

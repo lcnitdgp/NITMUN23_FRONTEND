@@ -12,7 +12,7 @@ function About( ) {
         <>
              <Navbar/>
              <div className="about-gap"></div>
-        <Commitees />
+        <Commitees comname="About NITMUN" />
         <Artist1 orderContent={2} orderImage={1} />
         <Artist1 orderContent={1} orderImage={2} />
         <Artist1 orderContent={2} orderImage={1} />

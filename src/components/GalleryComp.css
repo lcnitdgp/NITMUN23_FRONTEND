@@ -12,7 +12,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-auto-rows: 100px;
   gap: 0px 20px;
-  width: clamp(70vmin, 1200px, 90%);  
+  width: clamp(70vmin, 1000px, 90%);  
 
   &:has(img:hover) img:not(:hover) {
     filter: brightness(0.35);
@@ -35,7 +35,7 @@
     }
     
     &:hover {
-      transform: scale(1.3);
+      transform: scale(1.1);
       z-index: 1;
       width: 100%;
       aheight: auto;

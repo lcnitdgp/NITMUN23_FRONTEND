@@ -10,7 +10,7 @@ function Team () {
         <>
         <Navbar/>
         <div className="about-gap"></div>
-        <Commitees />
+        <Commitees comname="About Literary Circle" />
         <TeamCards />
         <Footer />
         </>
