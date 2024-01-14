@@ -188,6 +188,7 @@ function RegisterPage() {
                   }}
                   value={institute}
                 >
+                   <option value="Select option">Select option</option>
                   <option value="NIT Durgapur">NIT Durgapur</option>
                   <option value="OTHER INSTITUTION">OTHER INSTITUTION</option>
                 </select>
@@ -271,10 +272,10 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 >
-                  <option value="HALL 1"> HALL 1</option>
-                  <option value="HALL 1">HALL 1</option>
-                  <option value="HALL 1"> HALL 1</option>
-                  <option value="HALL 1"> HALL 1</option>
+                  <option value="HALL 14"> HALL 14</option>
+                  <option value="HALL 11">HALL 11</option>
+                  <option value="HALL 10"> HALL 10</option>
+                  <option value="HALL 13"> HALL 13</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>

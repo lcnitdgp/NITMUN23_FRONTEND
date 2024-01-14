@@ -7,7 +7,17 @@
   align-items: center; /* Vertically centers the children */
   overflow: hidden;
   border: 5px solid rgb(56, 56, 48);
+  word-break: keep-all;
+  overflow-wrap: normal;
+  -ms-word-break: keep-all;
 }
+
+.about {
+  word-break: keep-all;
+  overflow-wrap: normal;
+  -ms-word-break: keep-all;
+}
+
 .section-heading {
   font-size: 3rem;
 }

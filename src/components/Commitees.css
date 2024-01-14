@@ -55,6 +55,7 @@ canvas {
 .about-image > img {
   width: 90%;
   height: auto;
+  border-radius: 20px;
 }
 
 .yt-video {

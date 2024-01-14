@@ -11,8 +11,6 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
     name="Ayush" 
     jobTitle="UI Developer" 
     backgroundImage="./assets/ayush.jpeg"
@@ -20,8 +18,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -29,8 +26,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -38,8 +34,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -47,8 +42,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -56,8 +50,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -65,8 +58,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -74,8 +66,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -83,8 +74,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -92,8 +82,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -101,8 +90,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -110,8 +98,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -119,8 +106,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -128,8 +114,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -137,8 +122,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -146,8 +130,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -155,8 +138,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -164,8 +146,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -173,8 +154,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -182,8 +162,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"
@@ -191,8 +170,7 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    twitterLink="https://twitter.com" 
-    dribbbleLink="https://dribbble.com" 
+
     name="Ayush" 
     jobTitle="UI Developer" 
      backgroundImage="./assets/ayush.jpeg"

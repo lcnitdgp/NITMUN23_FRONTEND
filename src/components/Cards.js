@@ -1,14 +1,20 @@
 import React from 'react';
-import './Cards.css';
+import './Cards.scss';
 
 function Cards(props) {
     return (
-      <div className="card-container">
+      <>
+  <div class="container">    
     
-    <div className="card-wrapper">
+<div class="card-wrapper">
       
-    <div className="card" style={{backgroundImage: `url(${props.backgroundImage})`}}>
-      <ul className="social-icons">
+      <div class="card profile-two">
+        
+        <div class="card-image profile-img--two">
+          <img src={props.backgroundImage} alt="profile two" />
+        </div>
+
+        <ul className="social-icons">
         <li>
         <a href={props.facebookLink}>
             <i className="fab fa-facebook-f"></i>
@@ -17,16 +23,6 @@ function Cards(props) {
         <li>
         <a href={props.instagramLink}>
             <i className="fab fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-        <a href={props.twitterLink}>
-            <i className="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-        <a href={props.dribbbleLink}>
-            <i className="fab fa-dribbble"></i>
           </a>
         </li>
       </ul>
@@ -38,8 +34,10 @@ function Cards(props) {
         </h2>
       </div>
     </div>
-  </div>
-  </div>
+ </div >
+     
+ </div> 
+  </>
     );
 }
 
