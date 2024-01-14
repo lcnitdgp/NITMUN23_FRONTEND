@@ -20,6 +20,9 @@
 
 .section-heading {
   font-size: 3rem;
+  word-break: keep-all;
+  overflow-wrap: normal;
+  -ms-word-break: keep-all;
 }
 
 .section-subheading {
@@ -112,10 +115,9 @@ canvas {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 70%;
   height: 100%;
- 
- 
+
 }
 
 .commitee-btn {

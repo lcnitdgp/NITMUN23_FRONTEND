@@ -11,171 +11,99 @@ function TeamCards() {
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
-    name="Ayush" 
-    jobTitle="UI Developer" 
-    backgroundImage="./assets/ayush.jpeg"
+    name="Tushar Yadav" 
+    jobTitle="Director General" 
+    backgroundImage="./assets/tushar.jpg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Ayush" 
-    jobTitle="UI Developer" 
+    name="Epshitha Chakraborthy" 
+    jobTitle="Secretary General" 
+     backgroundImage="./assets/epshitha1.jpg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+
+    name="Pushpal Ghodaskar" 
+    jobTitle="Head of the Organising Committee" 
+     backgroundImage="./assets/pushpal1.jpg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+
+    name="Diya Sutar" 
+    jobTitle="International Press Head" 
+     backgroundImage="./assets/diya.jpg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+
+    name="Archit Lall" 
+    jobTitle="Director of Commitee Affairs" 
+     backgroundImage="./assets/archit.jpg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+
+    name="Sakshi Mishra" 
+    jobTitle="Director of Commitee Affairs" 
+     backgroundImage="./assets/sakshi2.jpg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+
+    name="Soumik Biswas" 
+    jobTitle="Deputy Director General" 
      backgroundImage="./assets/ayush.jpeg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Ayush" 
-    jobTitle="UI Developer" 
+    name="Navneet Berwal" 
+    jobTitle="Under Secretary General" 
      backgroundImage="./assets/ayush.jpeg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Ayush" 
-    jobTitle="UI Developer" 
+    name="Abhishek Prusty" 
+    jobTitle="Under Secretary General" 
+     backgroundImage="./assets/abhishek1.jpg"
+/>
+            <Cards 
+    facebookLink="https://facebook.com" 
+    instagramLink="https://instagram.com" 
+
+    name="Kshitiz Chada" 
+    jobTitle="Under Secretary General" 
      backgroundImage="./assets/ayush.jpeg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
+    name="Rishav Mishra" 
+    jobTitle="Editor-in-Chief" 
+     backgroundImage="./assets/rishav.jpg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
+    name="Ayush Raj" 
+    jobTitle="Editor-in-Chief" 
+     backgroundImage="./assets/ayush.jpg"
 />
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            <Cards 
-    facebookLink="https://facebook.com" 
-    instagramLink="https://instagram.com" 
-
-    name="Ayush" 
-    jobTitle="UI Developer" 
-     backgroundImage="./assets/ayush.jpeg"
-/>
-            {/* More cards... */}
+             
         </div>
         </div>
     );

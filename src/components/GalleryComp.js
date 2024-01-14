@@ -8,8 +8,8 @@ function GalleryComp () {
        <article className="gallery">
   <img src="./assets/NITMUN2.jpg" alt="guitar player at concert" />
   <blockquote className="quote spacer">
-    <span>Without music, life would be a mistake.</span>
-    <cite>&mdash;Friedrich Nietzsche</cite>
+  <span>Resolution through Diplomacy, not ideology</span>
+    <cite>&mdash;NITMUN XII</cite>
   </blockquote>
   <img src="./assets/NITMUN4.jpg" alt="duo singing" />
   <img src="./assets/NITMUN3.jpg" alt="crowd cheering" />
@@ -25,8 +25,8 @@ function GalleryComp () {
   <img src="./assets/NITMUN12.jpg" alt="Kiss playing" />
   <img src="./assets/NITMUN13.jpg" alt="young man singing" />
   <div className="spacer"></div>
-  <img src="./assets/NITMUN2.jpg" alt="woman singing" />
-  <img src="./assets/NITMUN3.jpg" alt="man playing drums" />
+  <img src="./assets/DSC_0054.jpg" alt="woman singing" />
+  <img src="./assets/DSC_0631.jpg" alt="man playing drums" />
 </article>
 </div>
         </>

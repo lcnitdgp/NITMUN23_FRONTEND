@@ -14,8 +14,8 @@
     transform: translate(-50%);
     z-index: 999;
     color: bisque;
-    backdrop-filter: blur(4.7px);
-    --webkit-backdrop-filter: blur(4.7px);
+    backdrop-filter: blur(16px);
+    --webkit-backdrop-filter: blur(16px);
 }
 
 .navbar-logo{
@@ -102,7 +102,8 @@ button:hover{
         margin: 0;
         transition: 0.3s ease-in-out;
         border-radius: 15px;
-        box-shadow: 15px 15px 15px 15px rgba(189, 179, 179, 0.75);
+        box-shadow: 5px 5px 5px 5px rgba(40, 38, 38, 0.5);
+
     }
 
     .nav-menu.active{
