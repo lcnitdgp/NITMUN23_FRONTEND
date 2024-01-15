@@ -61,7 +61,7 @@ function TeamCards() {
 
     name="Soumik Biswas" 
     jobTitle="Deputy Director General" 
-     backgroundImage="./assets/ayush.jpeg"
+     backgroundImage="./assets/soumik.jpeg"
 />
             <Cards 
     facebookLink="https://facebook.com" 

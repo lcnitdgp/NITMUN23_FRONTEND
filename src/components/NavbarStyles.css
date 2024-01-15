@@ -17,6 +17,13 @@
     backdrop-filter: blur(16px);
     --webkit-backdrop-filter: blur(16px);
 }
+ 
+
+.navbar-logo-img{
+    height: 55px;
+    width: 55px;
+    margin-right: 5px;
+}
 
 .navbar-logo{
     color: #e8dddd;

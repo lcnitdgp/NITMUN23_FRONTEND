@@ -276,10 +276,20 @@ function RegisterPage() {
                   }}
                 >
                    <option value="Select option">Select option</option>
-                  <option value="HALL 14"> HALL 14</option>
-                  <option value="HALL 11">HALL 11</option>
-                  <option value="HALL 10"> HALL 10</option>
-                  <option value="HALL 13"> HALL 13</option>
+                   <option value="HALL 14"> HALL 1</option>
+                   <option value="HALL 14"> HALL 2</option>
+                   <option value="HALL 14"> HALL 3</option>
+                   <option value="HALL 14"> HALL 4</option>
+                   <option value="HALL 14"> HALL 5</option>
+                   <option value="HALL 14"> HALL 6</option>
+                   <option value="HALL 14"> HALL 7</option>
+                   <option value="HALL 14"> HALL 8</option>
+                   <option value="HALL 14"> HALL 9</option>
+                   <option value="HALL 10"> HALL 10</option>
+                   <option value="HALL 11"> HALL 11</option>
+                   <option value="HALL 12"> HALL 14</option>
+                   <option value="HALL 13"> HALL 13</option>
+                   <option value="HALL 14"> HALL 14</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>

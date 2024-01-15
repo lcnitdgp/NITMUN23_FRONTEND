@@ -7,7 +7,7 @@ function Hero () {
     <>
      <div className="hero-container">
      <div className='mobile-hero-gap'><h1>The clock<br />is <span>ticking</span>.</h1></div>
-     <div><p>The seconds, minutes, and hours slip away,<br />each one bringing us closer to the future and farther from the past</p></div>
+     <div><p>Resolution through Diplomacy<br />not Ideology</p></div>
      <div><TimerComp/></div>
      <div><Link to="/register" className="register-button pf-400">Register</Link> </div>
      <div className="bg"></div>

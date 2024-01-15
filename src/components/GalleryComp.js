@@ -6,27 +6,27 @@ function GalleryComp () {
         <>
 		<div className="gallery-body">
        <article className="gallery">
-  <img src="./assets/NITMUN2.jpg" alt="guitar player at concert" />
+  <img src="./assets/NITMUN2.jpg" alt="NITMUN" />
   <blockquote className="quote spacer">
   <span>Resolution through Diplomacy, not ideology</span>
     <cite>&mdash;NITMUN XII</cite>
   </blockquote>
-  <img src="./assets/NITMUN4.jpg" alt="duo singing" />
-  <img src="./assets/NITMUN3.jpg" alt="crowd cheering" />
-  <img src="./assets/NITMUN5.jpg" alt="singer performing" />
-  <img src="./assets/NITMUN7.jpg" alt="singer fistbumping crowd" />
+  <img src="./assets/NITMUN4.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN3.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN5.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN7.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="./assets/NITMUN8.jpg" alt="crowd cheering" />
-  <img src="./assets/NITMUN9.jpg" alt="crowd in a concert" />
-  <img src="./assets/NITMUN10.jpg" alt="woman singing" />
+  <img src="./assets/NITMUN8.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN9.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN10.jpg" alt="NITMUN" />
   <div className="spacer"></div>
   <div className="spacer"></div>
-  <img src="./assets/NITMUN11.jpg" alt="Person playing a cello" />
-  <img src="./assets/NITMUN12.jpg" alt="Kiss playing" />
-  <img src="./assets/NITMUN13.jpg" alt="young man singing" />
+  <img src="./assets/NITMUN11.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN12.jpg" alt="NITMUN" />
+  <img src="./assets/NITMUN13.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="./assets/DSC_0054.jpg" alt="woman singing" />
-  <img src="./assets/DSC_0631.jpg" alt="man playing drums" />
+  <img src="./assets/DSC_0054.jpg" alt="NITMUN" />
+  <img src="./assets/DSC_0631.jpg" alt="NITMUN" />
 </article>
 </div>
         </>

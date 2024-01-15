@@ -15,13 +15,17 @@ class Navbar extends Component {
     return (
       <>
         <nav className={`NavbarItems ${this.state.clicked ? 'no-blur' : ''}`}>
-        <h1 className="navabr-logo">NITMUN</h1>
+        <Link to="/">
+    <img className="navbar-logo-img" src="./assets/toplogo4.png" alt="logo" />
+  </Link>
+        
 
         <div className="menu-icons" onClick={this.handleClick}> 
           <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>
         </div>
 
         <ul className={this.state.clicked ? "nav-menu active" : "nav-menu"}>
+          
           {MenuItems.map((item ,index) => {
             return(
               <li key={index}>
