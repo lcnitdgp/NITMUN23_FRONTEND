@@ -6,7 +6,7 @@ function GalleryComp1 () {
         <>
 		<div className="gallery-body">
        <article className="gallery">
-  <img src="./assets/IMG_9814.jpg" alt="NITMUN" />
+       <img src={process.env.PUBLIC_URL + "/assets/IMG_9814.jpg"} alt="NITMUN" />
   <blockquote className="quote spacer">
     <span>Resolution through Diplomacy, not ideology</span>
     <cite>&mdash;NITMUN XII</cite>
