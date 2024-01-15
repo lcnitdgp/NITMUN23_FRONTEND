@@ -6,27 +6,27 @@ function GalleryComp2 () {
         <>
 		<div className="gallery-body">
        <article className="gallery">
-  <img src="./assets/IMG_9844.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/VudsVdb.jpg" alt="NITMUN" />
   <blockquote className="quote spacer">
   <span>Resolution through Diplomacy, not ideology</span>
     <cite>&mdash;NITMUN XII</cite>
   </blockquote>
-  <img src="./assets/DSC_0801.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0830.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_00861.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0865.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/rHQwwtq.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/LnYquyf.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/h81KJBZ.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/HVVaxBi.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="./assets/DSC_0902.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0903.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0912.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/SZz59tq.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/uRe8t5z.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/xFPohwo.jpg" alt="NITMUN" />
   <div className="spacer"></div>
   <div className="spacer"></div>
-  <img src="./assets/DSC_0991.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_1044.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_1154.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/TfpIk1q.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/BYpVkhQ.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/IZvTUG9.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="./assets/IMG_9890.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0265.jpg" alt="NITMUN" /> 
+  <img src="https://i.imgur.com/DHKofbJ.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/azTFwUA.jpg" alt="NITMUN" /> 
 </article>
 </div>
         </>
