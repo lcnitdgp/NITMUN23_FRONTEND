@@ -22,7 +22,7 @@ function GalleryComp1 () {
   <div className="spacer"></div>
   <div className="spacer"></div>
   <img src="./assets/DSC_0645.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0041.jpg" alt="NITMUN" />
+  <img src=" https://i.ibb.co/F7gXBf6/DSC-0041.jpg" alt="NITMUN" />
   <img src="./assets/DSC_0675.jpg" alt="NITMUN" />
   <div className="spacer"></div>
   <img src="./assets/DSC_0773.jpg" alt="NITMUN" />
