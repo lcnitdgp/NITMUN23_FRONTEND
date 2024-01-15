@@ -25,6 +25,7 @@ function RegisterPage() {
   const [preference3, setPreferences3] = useState("");
   const [experience, setExperience] = useState("");
   const [hall, setHall] = useState("");
+  const [instName, setInstName] = useState("");
 
   const postData = async (e) => {
     e.preventDefault();
@@ -245,10 +246,12 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 >
+                   <option value="Select option">Select option</option>
                   <option value="YEAR 1"> YEAR 1</option>
                   <option value="YEAR 2"> YEAR 2</option>
                   <option value="YEAR 3"> YEAR 3</option>
                   <option value="YEAR 4"> YEAR 4</option>
+                  <option value="Other"> Other</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
@@ -272,6 +275,7 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 >
+                   <option value="Select option">Select option</option>
                   <option value="HALL 14"> HALL 14</option>
                   <option value="HALL 11">HALL 11</option>
                   <option value="HALL 10"> HALL 10</option>
@@ -298,9 +302,9 @@ function RegisterPage() {
                   type="text"
                   data-type="text"
                   autoComplete="off"
-                  value={roll}
+                  value={instName}
                   onChange={(e) => {
-                    setRoll(e.target.value);
+                    setInstName(e.target.value);
                     console.log(e.target.value);
                   }}
                 />
@@ -333,7 +337,7 @@ function RegisterPage() {
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Country 1</p>
+              <p className="mb-4 pb-3 reg-p">  {committee1 == "AIPPM" ? "Personality 1" : "Country 1"}</p>
               </div>
               <div className="form-group">
                 <select
@@ -934,7 +938,7 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Country 1</p>
+              <p className="mb-4 pb-3 reg-p">  {committee2 == "AIPPM" ? "Personality 2" : "Country 2"}</p>
               </div>
               <div className="form-group">
                 <select
@@ -1535,7 +1539,7 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Country 3</p>
+              <p className="mb-4 pb-3 reg-p">  {committee3 == "AIPPM" ? "Personality 3" : "Country 3"}</p>
               </div>
               <div className="form-group">
                 <select
@@ -2109,6 +2113,26 @@ Czech Republic
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
+              <div className="from-group">
+              <div className="para-container">
+                <p className="mb-4 pb-3 reg-p">Experience</p>
+              </div>
+                <input
+                  className="form-style"
+                  placeholder="Experience"
+                  name="Experience"
+                  id="logemail"
+                  type="email"
+                  data-type="text"
+                  autoComplete="off"
+                  value={experience}
+                  onChange={(e) => {
+                    setExperience(e.target.value);
+                    console.log(e.target.value);
+                  }}
+                />
+                <i className="input-icon uil uil-at"></i>
+              </div>
               <div className="btn-container">
                 <button   className="btn mt-4"  onClick={postData}>
                   submit
@@ -2202,6 +2226,7 @@ Czech Republic
                   }}
                   value={institute}
                 >
+                   <option value="Select option">Select option</option>
                   <option value="NIT Durgapur">NIT Durgapur</option>
                   <option value="OTHER INSTITUTION">OTHER INSTITUTION</option>
                 </select>
@@ -2258,10 +2283,12 @@ Czech Republic
                     console.log(e.target.value);
                   }}
                 >
+                   <option value="Select option">Select option</option>
                   <option value="YEAR 1"> YEAR 1</option>
                   <option value="YEAR 2"> YEAR 2</option>
                   <option value="YEAR 3"> YEAR 3</option>
                   <option value="YEAR 4"> YEAR 4</option>
+                  <option value="Other"> Other</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
@@ -2285,6 +2312,7 @@ Czech Republic
                     console.log(e.target.value);
                   }}
                 >
+                   <option value="Select option">Select option</option>
                   <option value="HALL 1"> HALL 1</option>
                   <option value="HALL 1">HALL 1</option>
                   <option value="HALL 1"> HALL 1</option>
@@ -2311,9 +2339,9 @@ Czech Republic
                   type="email"
                   data-type="text"
                   autoComplete="off"
-                  value={roll}
+                  value={instName}
                   onChange={(e) => {
-                    setRoll(e.target.value);
+                    setInstName(e.target.value);
                     console.log(e.target.value);
                   }}
                 />

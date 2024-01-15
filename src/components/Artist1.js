@@ -34,15 +34,15 @@ import { useState, useEffect } from 'react';
             </Slide>
             <div className='commitee-btn-container'>
             <div className='commitee-btn'>
-            <a className="guide-button "  href="https://www.un.org/en/pdfs/18-00159e_un_system_chart_17x11_4c_en_web.pdf" download>Study Guide</a> {/* Add this line */}
+            <a className="guide-button "  href={props.studyguide} download>Study Guide</a> {/* Add this line */}
             </div>
             <div className='commitee-btn'>
-        <a className="matrix-button" href="https://www.un.org/en/pdfs/18-00159e_un_system_chart_17x11_4c_en_web.pdf" download>Portfolio Matrix</a> {/* Add this line */}
+        <a className="matrix-button" href={props.portfolio} download>Portfolio Matrix</a> {/* Add this line */}
         </div>
         </div>
           </div>
           <div className="artist-image" style={{order: isMobile ? 1 : props.orderImage}}>
-            <img src="./assets/p2.jpg" alt="Top view"/>
+            <img src={props.imagesrc} alt="Top view"/>
           </div>
         </div>
       );
