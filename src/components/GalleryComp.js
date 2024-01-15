@@ -11,7 +11,7 @@ function GalleryComp () {
   <span>Resolution through Diplomacy, not ideology</span>
     <cite>&mdash;NITMUN XII</cite>
   </blockquote>
-  <img src="./assets/NITMUN4.jpg" alt="NITMUN" />
+  <img src={"/assets/NITMUN4.jpg"} alt="NITMUN" />
   <img src="./assets/NITMUN3.jpg" alt="NITMUN" />
   <img src="./assets/NITMUN5.jpg" alt="NITMUN" />
   <img src="./assets/NITMUN7.jpg" alt="NITMUN" />
