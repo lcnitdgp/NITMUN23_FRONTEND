@@ -124,7 +124,7 @@ h6 span {
   .checkbox:checked ~ .reg-card-wrapper .card-front {
     opacity: 0;
     filter: blur(5px);
-    transform: rotateY(180deg);
+    transform: rotateY(540deg);
   }
   
   .checkbox:checked ~ .reg-card-wrapper .card-back {
@@ -142,7 +142,7 @@ h6 span {
   .checkbox:not(:checked) ~ .reg-card-wrapper .card-back {
     opacity: 0;
     filter: blur(10px);
-    transform: rotateY(180deg);
+    transform: rotateY(-540deg);
   }
   
 .center-wrap {

@@ -41,6 +41,7 @@ padding: 0.7rem 1rem;
 white-space: nowrap;
 }
 
+ 
 .nav-links i {
     padding-right: 10px;
 }
@@ -68,6 +69,11 @@ button{
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
+
+.no-blur {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
 
 button:hover{
     background-color: #01959a;
@@ -111,8 +117,11 @@ button:hover{
        opacity: 1;
        z-index: -1;
        transition: 0.3s ease-in-out;
-       backdrop-filter: none;
-       -webkit-backdrop-filter: none;
+       left: 0;
+       opacity: 1;
+       z-index: -1;
+       transition: 0.3s ease-in-out;
+ 
     }
     
     .nav-links{
@@ -157,3 +166,4 @@ button:hover{
     color:bisque;
  }
 }
+

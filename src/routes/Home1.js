@@ -10,7 +10,7 @@ const HomePage = () => {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 4000);
+      }, 2000);
     }, []);
     return (
         <div className="App">

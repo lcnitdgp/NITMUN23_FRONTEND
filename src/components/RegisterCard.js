@@ -306,6 +306,7 @@ function RegisterPage() {
                 />
                 <i className="input-icon uil uil-at"></i>
               </div>
+
               <div className="para-container">
                 <p className="mb-4 pb-3 reg-p1">Preference 1:</p>
               </div>
@@ -325,7 +326,7 @@ function RegisterPage() {
                   }}
                 >
                    <option value="select commitee"> select commitee..</option>
-                  <option value="UNGA-DISEC">UNGA-DISEC</option>
+                  <option value="UNSC">UNSC</option>
                   <option value="UNGA-SPECPOL">UNGA-SPECPOL</option>
                   <option value="AIPPM">AIPPM</option>
                 </select>
@@ -346,544 +347,558 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 >
-                   {committee1 == "UNGA-DISEC" ? (
+                   {committee1 == "UNSC" ? (
                     <>
                       <option value="Select">Select Portfolio</option>
-                      <option value="Islamic Emirate of Afghanistan">
-                        Islamic Emirate of Afghanistan
+                      <option value="United States of America">
+                        United States of America
                       </option>
-                      <option value="Republic of Albania">
-                        Republic of Albania
+                      <option value="Russia">
+                        Russia
                       </option>
-                      <option value="People's Democratic Republic of Algeria">
-                        People's Democratic Republic of Algeria
+                      <option value="United Kingdom">
+                        United Kingdom
                       </option>
-                      <option value="Republic of Angola">
-                        Republic of Angola
+                      <option value="France">
+                        France
                       </option>
-                      <option value="Argentine Republic">
-                        Argentine Republic
+                      <option value="China">
+                        China
                       </option>
-                      <option value="Republic of Armenia">
-                        Republic of Armenia
+                      <option value="Sudan">
+                        Sudan
                       </option>
-                      <option value="Commonwealth of Australia">
-                        Commonwealth of Australia
+                      <option value="Egypt">
+                        Egypt
                       </option>
-                      <option value="Republic of Austria">
-                        Republic of Austria
+                      <option value="United Arab Emirates">
+                        United Arab Emirates
                       </option>
-                      <option value="Republic of Azerbaijan">
-                        Republic of Azerbaijan
+                      <option value="Saudi Arabia">
+                        Saudi Arabia
                       </option>
-                      <option value="Kingdom of Bahrain">
-                        Kingdom of Bahrain
+                      <option value="Ethiopia">
+                        Ethiopia
                       </option>
-                      <option value="People's Republic of Bangladesh">
-                        People's Republic of Bangladesh
+                      <option value="Chad">
+                        Chad
                       </option>
-                      <option value="Barbados">Barbados</option>
-                      <option value="Republic of Belarus">
-                        Republic of Belarus
+                      <option value="Libya">Libya</option>
+                      <option value="Eritrea">
+                        Eritrea
                       </option>
-                      <option value="Kingdom of Bhutan">
-                        Kingdom of Bhutan
+                      <option value="South Sudan">
+                        South Sudan
                       </option>
-                      <option value="Federative Republic of Brazil">
-                        Federative Republic of Brazil
+                      <option value="South Sudan">
+                        South Sudan
                       </option>
-                      <option value="Republic of Bulgaria">
-                        Republic of Bulgaria
+                      <option value="Central African Republic">
+                        Central African Republic
                       </option>
-                      <option value="Republic of Burundi">
-                        Republic of Burundi
+                      <option value="Israel">
+                        Israel
                       </option>
+                      <option value="Germany">Germany</option>
                       <option value="Canada">Canada</option>
-                      <option value="Republic of Chad">Republic of Chad</option>
-                      <option value="Republic of Chile">
-                        Republic of Chile
+                      <option value="India">
+                        India
                       </option>
-                      <option value="People's Republic of China (PRC)">
-                        People's Republic of China (PRC)
+                      <option value="Equador">
+                        Equador
                       </option>
-                      <option value="Republic of Colombia">
-                        Republic of Colombia
+                      <option value="Albania">
+                        Albania
                       </option>
-                      <option value="Republic of Côte d'Ivoire">
-                        Republic of Côte d'Ivoire
+                      <option value="Ghana">
+                        Ghana
                       </option>
-                      <option value="Republic of Cuba">Republic of Cuba</option>
-                      <option value="Republic of Cyprus">
-                        Republic of Cyprus
+                      <option value="Central African Union">Central African Union</option>
+                      <option value="Nigeria">
+                        Nigeria
                       </option>
-                      <option value="Czech Republic">Czech Republic</option>
-                      <option value="Democratic People's Republic of Korea (DPRK)">
-                        Democratic People's Republic of Korea (DPRK)
+                      <option value="Yemen">Yemen</option>
+                      <option value="Oman">
+                        Oman
                       </option>
-                      <option value="Democratic Republic of the Congo">
-                        Democratic Republic of the Congo
+                      <option value="Qatar">
+                        Qatar
                       </option>
                       <option value="Republic of Djibouti">
                         Republic of Djibouti
                       </option>
-                      <option value="Arab Republic of Egypt">
-                        Arab Republic of Egypt
+                      <option value="Uganda">
+                        Uganda
                       </option>
-                      <option value="Republic of El Salvador">
-                        Republic of El Salvador
+                      <option value="Democratic Republic of Congo">
+                        Democratic Republic of Congo
                       </option>
-                      <option value="State of Eritrea">State of Eritrea</option>
+                      <option value="Iran">Iran</option>
                       <option value="Kingdom of Eswatini">
                         Kingdom of Eswatini
                       </option>
-                      <option value="Federal Democratic Republic of Ethiopia">
-                        Federal Democratic Republic of Ethiopia
+                      <option value="South Africa">
+                        South Africa
                       </option>
-                      <option value="Republic of Fiji">Republic of Fiji</option>
-                      <option value="French Republic">French Republic</option>
-                      <option value="Georgia">Georgia</option>
-                      <option value="Federal Republic of Germany">
-                        Federal Republic of Germany
+                      <option value="Kenya">Kenya</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="Turkiye">Turkiye</option>
+                      <option value="Italy">
+                        Italy
                       </option>
                       <option value="Hellenic Republic(Greece)">
                         Hellenic Republic(Greece)
                       </option>
-                      <option value="Republic of Haiti">
-                        Republic of Haiti
+                      <option value="Spain">
+                        Spain
                       </option>
-                      <option value="Hungary">Hungary</option>
-                      <option value="Republic of India">
-                        Republic of India
+                      <option value="Jordan">Jordan</option>
+                      <option value="Seychelles">
+                        Seychelles
                       </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
+                      <option value="Pakistan">
+                        Pakistan
                       </option>
-                      <option value="Islamic Republic of Iran">
-                        Islamic Republic of Iran
+                      <option value="Brazil">
+                        Brazil
                       </option>
-                      <option value="Republic of Iraq">Republic of Iraq</option>
-                      <option value="Republic of Ireland">
-                        Republic of Ireland
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Australia">
+                        Australia
                       </option>
-                      <option value="State of Israel">State of Israel</option>
-                      <option value="Italian Republic">Italian Republic</option>
-                      <option value="Jamaica">Jamaica</option>
                       <option value="Japan">Japan</option>
-                      <option value="Hashemite Kingdom of Jordan">
-                        Hashemite Kingdom of Jordan
-                      </option>
-                      <option value="Republic of Kazakhstan">
-                        Republic of Kazakhstan
-                      </option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Kyrgyz Republic">Kyrgyz Republic</option>
-                      <option value="Republic of Latvia">
-                        Republic of Latvia
-                      </option>
-                      <option value="Republic of Lebanon">
-                        Republic of Lebanon
-                      </option>
-                      <option value="State of Libya">State of Libya</option>
-                      <option value="Republic of Madagascar">
-                        Republic of Madagascar
-                      </option>
-                      <option value="Republic of Mauritius">
-                        Republic of Mauritius
-                      </option>
-                      <option value="United Mexican States(Mexico)">
-                        United Mexican States(Mexico)
-                      </option>
-                      <option value="Mongolia">Mongolia</option>
-                      <option value="Kingdom of Morocco">
-                        Kingdom of Morocco
-                      </option>
-                      <option value="Kingdom of the Netherlands">
-                        Kingdom of the Netherlands
-                      </option>
-                      <option value="Realm of New Zealand">
-                        Realm of New Zealand
-                      </option>
-                      <option value="Federal Republic of Nigeria">
-                        Federal Republic of Nigeria
-                      </option>
-                      <option value="Kingdom of Norway">
-                        Kingdom of Norway
-                      </option>
-                      <option value="Sultanate of Oman">
-                        Sultanate of Oman
-                      </option>
-                      <option value="Islamic Republic of Pakistan">
-                        Islamic Republic of Pakistan
-                      </option>
-                      <option value="Republic of Panama">
-                        Republic of Panama
-                      </option>
-                      <option value="Republic of Peru">Republic of Peru</option>
-                      <option value="Republic of the Philippines">
-                        Republic of the Philippines
-                      </option>
-                      <option value="Republic of Poland">
-                        Republic of Poland
-                      </option>
-                      <option value="Portuguese Republic">
-                        Portuguese Republic
-                      </option>
-                      <option value="State of Qatar">State of Qatar</option>
-                      <option value="Republic of Korea(ROK)">
-                        Republic of Korea(ROK)
-                      </option>
-                      <option value="Russian Federation">
-                        Russian Federation
-                      </option>
-                      <option value="Saint Lucia">Saint Lucia</option>
-                      <option value="Independent State of Samoa">
-                        Independent State of Samoa
-                      </option>
-                      <option value="Kingdom of Saudi Arabia (KSA)">
-                        Kingdom of Saudi Arabia (KSA)
-                      </option>
-                      <option value="Republic of Senegal">
-                        Republic of Senegal
-                      </option>
-                      <option value="Republic of Seychelles">
-                        Republic of Seychelles
-                      </option>
-                      <option value="Republic of Singapore">
-                        Republic of Singapore
-                      </option>
-                      <option value="Solomon Islands">Solomon Islands</option>
-                      <option value="Federal Republic of Somalia">
-                        Federal Republic of Somalia
-                      </option>
-                      <option value="Republic of South Africa (RSA)">
-                        Republic of South Africa (RSA)
-                      </option>
-                      <option value="Kingdom of Spain">Kingdom of Spain</option>
-                      <option value="Republic of the Sudan">
-                        Republic of the Sudan
-                      </option>
-                      <option value="Swiss Confederation">
-                        Swiss Confederation
-                      </option>
-                      <option value="Syrian Arab Republic">
-                        Syrian Arab Republic
-                      </option>
-                      <option value="Republic of China (ROC)">
-                        Republic of China (ROC)
-                      </option>
-                      <option value="Kingdom of Thailand">
-                        Kingdom of Thailand
-                      </option>
-                      <option value="Republic of Türkiye">
-                        Republic of Türkiye
-                      </option>
-                      <option value="Turkmenistan">Turkmenistan</option>
-                      <option value="Ukraine">Ukraine</option>
-                      <option value="United Arab Emirates">
-                        United Arab Emirates
-                      </option>
-                      <option value="United Kingdom of Great Britain and Northern Ireland">
-                        United Kingdom of Great Britain and Northern Ireland
-                      </option>
-                      <option value="United States of America">
-                        United States of America
-                      </option>
-                      <option value="Bolivarian Republic of Venezuela">
-                        Bolivarian Republic of Venezuela
-                      </option>
-                      <option value="Socialist Republic of Vietnam">
-                        Socialist Republic of Vietnam
-                      </option>
-                      <option value="Republic of Yemen">
-                        Republic of Yemen
-                      </option>
                     </>
                   ) : (committee1 == "UNGA-SPECPOL") ? (
                     <>
                       <option value="Select">Select Portfolio</option>
 
-                      <option value="State of Israel">State of Israel</option>
-                      <option value="State of Palestine">
-                        State of Palestine
+                      <option value="Islamic Emirate of Afghanistan
+">Islamic Emiratre of Afghanistan</option>
+                      <option value="People's Democratic Republic of Angola">
+                      People’s Democratic Republic of Algeria
                       </option>
-                      <option value="United States of America">
-                        United States of America
+                      <option value="Republic of Argentina">
+                      Republic of Argentina
                       </option>
-                      <option value="French Republic">French Republic</option>
-                      <option value="Federal Republic of Germany">
-                        Federal Republic of Germany
-                      </option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Republic of Lebanon">
-                        Republic of Lebanon
-                      </option>
-                      <option value="Syrian Arab Republic">
-                        Syrian Arab Republic
-                      </option>
-                      <option value="Hashemite Kingdom of Jordan">
-                        Hashemite Kingdom of Jordan
-                      </option>
-                      <option value="Arab Republic of Egypt">
-                        Arab Republic of Egypt
-                      </option>
-                      <option value="Kingdom of Saudi Arabia">
-                        Kingdom of Saudi Arabia
-                      </option>
-                      <option value="Republic of Iraq">Republic of Iraq</option>
-                      <option value="Islamic Republic of Iran">
-                        Islamic Republic of Iran
-                      </option>
-                      <option value="Republic of India">
-                        Republic of India
-                      </option>
-                      <option value="People’s Republic of China">
-                        People’s Republic of China
-                      </option>
-                      <option value="Russian Federation">
-                        Russian Federation
-                      </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
-                      </option>
-                      <option value="Plurinational State of Bolivia">
-                        Plurinational State of Bolivia
-                      </option>
-                      <option value="Republic of Chile">
-                        Republic of Chile
-                      </option>
-                      <option value="Republic of Ecuador">
-                        Republic of Ecuador
-                      </option>
-                      <option value="Federal Democratic Republic of Ethiopia">
-                        Federal Democratic Republic of Ethiopia
-                      </option>
-                      <option value="Republic of Tunisia">
-                        Republic of Tunisia
-                      </option>
-                      <option value="United Republic of Tanzania">
-                        United Republic of Tanzania
-                      </option>
-                      <option value="Bolivarian Republic of Venezuela">
-                        Bolivarian Republic of Venezuela
-                      </option>
-                      <option value="Republic of Cuba">Republic of Cuba</option>
-                      <option value="Republic of the Congo">
-                        Republic of the Congo
-                      </option>
-                      <option value="Independent State of Papua New Guinea">
-                        Independent State of Papua New Guinea
-                      </option>
-                      <option value="Republic of Fiji">Republic of Fiji</option>
-                      <option value="Commonwealth of Dominica">
-                        Commonwealth of Dominica
-                      </option>
-                      <option value="Islamic Emirate of Afghanistan">
-                        Islamic Emirate of Afghanistan
-                      </option>
-                      <option value="Commonwealth of Australia">
+                      <option value="Republic of Armenia
+">Republic of Armenia
+</option>
+                      <option value="Commonwealth of Australia
+">
                         Commonwealth of Australia
+
                       </option>
-                      <option value="Federative Republic of Brazil">
-                        Federative Republic of Brazil
+                      <option value="Republic of Austria
+">Republic of Austria
+</option>
+                      <option value="Republic of Azerbaijan
+">
+                       Republic of Azerbaijan
+
                       </option>
-                      <option value="Democratic People's Republic of Korea">
-                        Democratic People's Republic of Korea
+                      <option value="Commonwealth of the Bahamas
+">
+                       Commonwealth of the Bahamas
+
                       </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
+                      <option value="Kingdom of Bahrain">
+                      Kingdom of Bahrain
                       </option>
-                      <option value="Canada">Canada</option>
-                      <option value="Kingdom of Belgium">
-                        Kingdom of Belgium
+                      <option value="People’s Republic of Bangladesh">
+                      People’s Republic of Bangladesh
                       </option>
-                      <option value="Republic of Italy">
-                        Republic of Italy
+                      <option value="Republic of Belarus
+">
+                       Republic of Belarus
+
                       </option>
-                      <option value="United Mexican States">
-                        United Mexican States
-                      </option>
-                      <option value="Republic of Belarus">
-                        Republic of Belarus
-                      </option>
-                      <option value="People's Republic of Bangladesh">
-                        People's Republic of Bangladesh
-                      </option>
-                      <option value="Islamic Republic of Pakistan">
-                        Islamic Republic of Pakistan
-                      </option>
-                      <option value="Realm of New Zealand">
-                        Realm of New Zealand
-                      </option>
-                      <option value="Japan">Japan</option>
-                      <option value="Republic of Singapore">
-                        Republic of Singapore
-                      </option>
-                      <option value="United Arab Emirates">
-                        United Arab Emirates
-                      </option>
-                      <option value="Republic of Austria">
-                        Republic of Austria
+                      <option value="Kingdom of Belgium">Kingdom of Belgium</option>
+                      <option value="Belize
+">
+                      Belize
+
                       </option>
                       <option value="Kingdom of Bhutan">
-                        Kingdom of Bhutan
+                      Kingdom of Bhutan
                       </option>
-                      <option value="Czech Republic">Czech Republic</option>
-                      <option value="Republic of Mauritius">
-                        Republic of Mauritius
+                      <option value="Plurinational State of Bolivia">
+                      Plurinational State of Bolivia
                       </option>
-                      <option value="State of Qatar">State of Qatar</option>
-                      <option value="Kingdom of Thailand">
-                        Kingdom of Thailand
+                      <option value="Federative Republic of Brazil
+">
+                      Federative Republic of Brazil
+
                       </option>
-                      <option value="Republic of the Philippines">
-                        Republic of the Philippines
+                      <option value="Republic of Bulgaria
+">
+                       Republic of Bulgaria
+
+                      </option>
+                      <option value="Kingdom of Cambodia">
+                      Kingdom of Cambodia
+                      </option>
+                      <option value="Canada">
+                      Canada
+                      </option>
+                      <option value="Central African Republic">
+                      Central African Republic
+                      </option>
+                      <option value="Republic of Chile">
+                      Republic of Chile
+                      </option>
+                      <option value="People’s Republic of China
+">
+                       People’s Republic of China
+
+                      </option>
+                      <option value="Republic of Croatia">
+                      Republic of Croatia
+                      </option>
+                      <option value="Republic of Cuba
+">
+                      Republic of Cuba
+
+                      </option>
+                      <option value="
+Czech Republic
+">
+Czech Republic
+</option>
+                      <option value="Democratic People’s Republic of Korea">
+                      Democratic People’s Republic of Korea
+                      </option>
+                      <option value="Kingdom of Denmark
+">
+                      Kingdom of Denmark
+
+                      </option>
+                      <option value="Arab Republic of Egypt">Arab Republic of Egypt</option>
+                      <option value="Republic of Estonia
+">
+                      Republic of Estonia
+
+                      </option>
+                      <option value="Republic of France
+">
+                      Republic of France
+
+                      </option>
+                      <option value="Federal Republic of Germany">
+                      Federal Republic of Germany
+                      </option>
+                      <option value="Hellenic Republic of Greece">
+                      Hellenic Republic of Greece
+                      </option>
+                      <option value="Republic of Guatemala">
+                      Republic of Guatemala
+                      </option>
+                      <option value="Republic of Haitin">
+                      Republic of Haiti
+                      </option>
+                      <option value="Republic of Honduras">Republic of Honduras</option>
+                      <option value="Hungary">
+                      Hungary
+                      </option>
+                      <option value="Republic of Iceland">
+                      Republic of Iceland
+                      </option>
+                      <option value="Republic of India
+">
+                      Republic of India
+
+                      </option>
+                      <option value="Republic of Indonesia">
+                      Republic of Indonesia
+                      </option>
+                      <option value="Islamic Republic of Iran">
+                      Islamic Republic of Iran
+                      </option>
+                      <option value="Republic of Iraq
+">
+                      Republic of Iraq
+
+                      </option>
+                      <option value="Ireland
+">
+                     Ireland
+
+                      </option>
+                      <option value="Republic of Italy">Republic of Italy</option>
+                      <option value="Japan
+">
+                       Japan
+
+                      </option>
+                      <option value="Hashemite Kingdom of Jordan">
+                      Hashemite Kingdom of Jordan
+                      </option>
+                      <option value="Republic of Kenya
+">
+                       Republic of Kenya
+
+                      </option>
+                      <option value="Republic of Kiribati
+">
+                      Republic of Kiribati
+
+                      </option>
+                      <option value="State of Kuwait">State of Kuwait</option>
+                      <option value="Lao People’s Democratic Republic">
+                      Lao People’s Democratic Republic
+                      </option>
+                      <option value="Republic of Latvia">Republic of Latvia</option>
+                      <option value="Republic of Lithuania">
+                      Republic of Lithuania
+                      </option>
+                      <option value="Grand Duchy of Luxembourg">
+                      Grand Duchy of Luxembourg
+                      </option>
+                      <option value="Republic of Malawi
+">
+                        Republic of Malawi
+
+                      </option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Republic of Marshall Islands">Republic of Marshall Islands</option>
+                      <option value="United Mexican States">
+                      United Mexican States
+                      </option>
+                      <option value="Mongolia">
+                      Mongolia
+                      </option>
+                      <option value="Montenegro">
+                      Montenegro
+                      </option>
+                      <option value="Kingdom of Morocco">
+                      Kingdom of Morocco
+                      </option>
+                      <option value="Republic of the Union of Myanmar">
+                      Republic of the Union of Myanmar
+                      </option>
+                      <option value="Republic of Nauru">
+                      Republic of Nauru
+                      </option>
+                      <option value="Kingdom of the Netherlands">
+                      Kingdom of the Netherlands
+                      </option>
+                      <option value="New Zealand">
+                      New Zealand
+                      </option>
+                      <option value="Republic of North Macedonia">
+                      Republic of North Macedonia
                       </option>
                       <option value="Kingdom of Norway">
-                        Kingdom of Norway
+                      Kingdom of Norway
                       </option>
-                      <option value="Kingdom of Spain">Kingdom of Spain</option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Argentine Republic">
-                        Argentine Republic
+                      <option value="Sultanate of Oman">
+                      Sultanate of Oman
                       </option>
-                      <option value="Republic of Bulgaria">
-                        Republic of Bulgaria
+                      <option value="Islamic Republic of Pakistan">
+                      Islamic Republic of Pakistan
                       </option>
-                      <option value="Swiss Confederation">
-                        Swiss Confederation
+                      <option value="Republic of Palau">
+                      Republic of Palau
                       </option>
-                      <option value="United Kingdom of Great Britain and Northern Ireland">
-                        United Kingdom of Great Britain and Northern Ireland
+                      <option value="Republic of Paraguay">
+                      Republic of Paraguay
+                      </option>
+                      <option value="Republic of the Phillippines">
+                      Republic of the Phillippines
                       </option>
                       <option value="Republic of Poland">
-                        Republic of Poland
+                      Republic of Poland
                       </option>
+                      <option value="Portuguese Republic
+">
+                      Portuguese Republic
+                      </option>
+                      <option value="State of Qatar">
+                      State of Qatar
+                      </option>
+                      <option value="Republic of Korea">
+                      Republic of Korea
+                      </option>
+                      <option value="Russian Federation">
+                      Russian Federation
+                      </option>
+                      <option value="Kingdom of Saudi Arabia">
+                      Kingdom of Saudi Arabia
+                      </option>
+                      <option value="Republic of Singapore">
+                      Republic of Singapore
+                      </option>
+                      <option value="Republic of Slovenia
+">
+                      Republic of Slovenia
+                      </option>
+                      <option value="Republic of South Africa">
+                      Republic of South Africa
+                      </option>
+                      <option value="Democratic Socialist Republic of Sri Lanka">
+                      Democratic Socialist Republic of Sri Lanka
+                      </option>
+                      <option value="Kingdom of Thailand
+">
+                    Kingdom of Thailand
+
+                      </option>
+                      <option value="Tuvalu">
+                      Tuvalu
+                      </option>
+                      <option value="Republic of Türkiye">
+                      Republic of Türkiye
+                      </option>
+                      <option value="United Arab Emirates">
+                      United Arab Emirates
+                      </option>
+                      <option value="United Kingdom of Great Britain and Northern Ireland">
+                      United Kingdom of Great Britain and Northern Ireland
+                      </option>
+                      <option value="United States of America">
+                      United States of America
+                      </option>
+                      <option value="Bolivarian Republic of Venezuela">
+                      Bolivarian Republic of Venezuela
+                      </option>
+                      <option value="Socialist Republic of Viet Nam">
+                      Socialist Republic of Viet Nam
+                      </option>
+                      <option value="State of Palestine (Observer State)">
+                      State of Palestine (Observer State)
+                      </option>
+                      <option value="Vatican City (Observer State)">
+                      Vatican City (Observer State)
+                      </option>
+
+
                     </>
                   ) : ( committee1 == "AIPPM") ? (
                     <>
                       <option value="Select">Select Portfolio</option>
-                      <option value="Narendra Modi">Narendra Modi</option>
-                      <option value="Arun Jaitley">Arun Jaitley</option>
-                      <option value="B S Yeddurappa">B S Yeddurappa</option>
-                      <option value="Anurag Thakur">Anurag Thakur</option>
-                      <option value="LK Advani">LK Advani</option>
-                      <option value="Hemanth Biswas Sharma">
-                        Hemanth Biswas Sharma
+                      <option value="Zoramthanga (Party Leader; not in the Indian Parliament)">Zoramthanga (Party Leader; not in the Indian Parliament)</option>
+                      <option value="N. Biren Singh (Chief Minister of Manipur)">N. Biren Singh (Chief Minister of Manipur)</option>
+                      <option value="Dr. R.K. RaTokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
+                      <option value="Pratima Bhowmik (MP from Tripura West)">Pratima Bhowmik (MP from Tripura West)</option>
+                      <option value="Rebati Tripura (MP from Tripura East)">
+                      Rebati Tripura (MP from Tripura East)
                       </option>
-                      <option value="Amit Shah">Amit Shah</option>
-                      <option value="Devendra Fadnavis">
-                        Devendra Fadnavis
+                      <option value="Karam Shyam Singh (Not in the Indian Parliament)
+">Karam Shyam Singh (Not in the Indian Parliament)
+</option>
+                      <option value="Thokchom Radheshyam Singh (Not in the Indian Parliament)">
+                      Thokchom Radheshyam Singh (Not in the Indian Parliament)
                       </option>
-                      <option value="Smruti Irani">Smruti Irani</option>
-                      <option value="Narotam Mishra">Narotam Mishra</option>
-                      <option value="Jyotiraditya Scindhi">
-                        Jyotiraditya Scindhi
+                      <option value="Nishikant Sing Sapam (Not in the Indian Parliament)
+">Nishikant Sing Sapam (Not in the Indian Parliament)
+</option>
+                      <option value="Khwairakpam Raghumani Singh (Not in the Indian Parliament)
+">Khwairakpam Raghumani Singh (Not in the Indian Parliament)
+</option>
+                      <option value="S Brojen Singh (Not in the Indian Parliament)
+">
+                       S Brojen Singh (Not in the Indian Parliament)
+
                       </option>
-                      <option value="Sibraj Singh">Sibraj Singh</option>
-                      <option value="Kapil Mishra">Kapil Mishra</option>
-                      <option value="Dharmendra Pradhan">
-                        Dharmendra Pradhan
+                      <option value="T Robindro Singh (Not in the Indian Parliament)">T Robindro Singh (Not in the Indian Parliament)</option>
+                      <option value="S Rajen Singh (Not in the Indian Parliament)">S Rajen Singh (Not in the Indian Parliament)</option>
+                      <option value="S Kebi Devi (Not in the Indian Parliament)
+">
+                       S Kebi Devi (Not in the Indian Parliament)
+
                       </option>
-                      <option value="Jp Nadda">Jp Nadda</option>
-                      <option value="Yogi Adityanath">Yogi Adityanath</option>
-                      <option value="Ravi Shankar Prasad">
-                        Ravi Shankar Prasad
+                      <option value="Y Radheshyam (Not in the Indian Parliament)
+">Y Radheshyam (Not in the Indian Parliament)
+</option>
+                      <option value="Narendra Modi
+">Narendra Modi
+</option>
+                      <option value="Amit Shah
+">
+                       Amit Shah
+
                       </option>
-                      <option value="Kiran Rijuju">Kiran Rijuju</option>
-                      <option value="Gaurav Bhatia">Gaurav Bhatia</option>
-                      <option value="Giriraj Singh">Giriraj Singh</option>
-                      <option value="Nalin Kohli">Nalin Kohli</option>
-                      <option value="Harsh Vardhan">Harsh Vardhan</option>
-                      <option value="Murli Manohar Joshi">
-                        Murli Manohar Joshi
+                      <option value="Dr. Subrahmanyam Jaishankar
+">Dr. Subrahmanyam Jaishankar
+</option>
+                      <option value="Smt. Smriti Zubin Irani
+">Smt. Smriti Zubin Irani
+</option>
+                      <option value="Smt. Nirmala Sitharaman
+">Smt. Nirmala Sitharaman
+</option>
+                      <option value="Shri Arjun Munda">Shri Arjun Munda</option>
+                      <option value="Shri Anurag Singh Thakur">Shri Anurag Singh Thakur</option>
+                      <option value="Rahul Gandhi (MP from Wayanad)">
+                      Rahul Gandhi (MP from Wayanad)
                       </option>
-                      <option value="Rajnath Singh">Rajnath Singh</option>
-                      <option value="Rajyavardhan Singh Rathore">
-                        Rajyavardhan Singh Rathore
+                      <option value="Shashi Tharoor (MP from Thiruvananthapuram)">Shashi Tharoor (MP from Thiruvananthapuram)</option>
+                      <option value="A K Antony (Not in the Indian Parliament)">
+                      A K Antony (Not in the Indian Parliament)
                       </option>
-                      <option value="Shivraj Singh Chouhan">
-                        Shivraj Singh Chouhan
+                      <option value="Priyanka Gandhi (Not in the Indian Parliament)">
+                      Priyanka Gandhi (Not in the Indian Parliament)
                       </option>
-                      <option value="Subramanian Swamy">
-                        Subramanian Swamy
+                      <option value="Ashok Gehlot (Chief Minister of Rajasthan)
+">
+                       Ashok Gehlot (Chief Minister of Rajasthan)
+
                       </option>
-                      <option value="Yashwant Sinha">Yashwant Sinha</option>
-                      <option value="Piyush Goyal">Piyush Goyal</option>
-                      <option value="Rajnath Singh">Rajnath Singh</option>
-                      <option value="V K Singh">V K Singh</option>
-                      <option value="Vijay Goyal">Vijay Goyal</option>
-                      <option value="Bhupender Yadav">Bhupender Yadav</option>
-                      <option value="Rameswar Teli">Rameswar Teli</option>
-                      <option value="Santosh Gangwar">Santosh Gangwar</option>
-                      <option value="Rahul Gandhi">Rahul Gandhi</option>
-                      <option value="A K Antony">A K Antony</option>
-                      <option value="Priyanka Gandhi">Priyanka Gandhi</option>
-                      <option value="Ashok Gehlot">Ashok Gehlot</option>
-                      <option value="Sachin Pilot">Sachin Pilot</option>
-                      <option value="Digvijay Singh">Digvijay Singh</option>
-                      <option value="Abhishek Manusinghvi">
-                        Abhishek Manusinghvi
+                      <option value="Bhupendra Singh Baghel (Chief Minister of Chhattisgarh)">Bhupendra Singh Baghel (Chief Minister of Chhattisgarh)</option>
+                      <option value="Kamal Nath (Not in the Indian Parliament)
+">Kamal Nath (Not in the Indian Parliament)
+</option>
+                      <option value="Salman Khurshid (MP from Rajya Sabha)
+">Salman Khurshid (MP from Rajya Sabha)
+</option>
+                      <option value="Supriya Sule (MP from Baramati)">Supriya Sule (MP from Baramati)</option>
+                      <option value="Hardik Patel (Not in the Indian Parliament)">Hardik Patel (Not in the Indian Parliament)</option>
+                      <option value="Ahmed Patel (Former MP; Deceased)">Ahmed Patel (Former MP; Deceased)</option>
+                      <option value="Anand Sharma (MP from Rajya Sabha)">Anand Sharma (MP from Rajya Sabha)</option>
+                      <option value="Kamakhya Prasad Singh Deo (Not in the Indian Parliament)">Kamakhya Prasad Singh Deo (Not in the Indian Parliament)</option>
+                      <option value="Kapil Sibal (MP from Rajya Sabha)">Kapil Sibal (MP from Rajya Sabha)</option>
+                      <option value="P Chidambaram (MP from Rajya Sabha)">P Chidambaram (MP from Rajya Sabha)</option>
+                      <option value="Ch. Ajang Khongsai (Not in the Indian Parliament)">Ch. Ajang Khongsai (Not in the Indian Parliament)</option>
+                      <option value="Nitish Kumar (Chief Minister of Bihar)">Nitish Kumar (Chief Minister of Bihar)</option>
+                      <option value="Mamata Banerjee (Chief Minister of West Bengal)">Mamata Banerjee (Chief Minister of West Bengal)</option>
+                      <option value="Abhishek Banerjee (MP from Diamond Harbour)
+">Abhishek Banerjee (MP from Diamond Harbour)
+</option>
+                      <option value="Derek O'Brien (MP from Rajya Sabha)">
+                      Derek O'Brien (MP from Rajya Sabha)
                       </option>
-                      <option value="Sonia Gandhi">Sonia Gandhi</option>
-                      <option value="Bhupendra Singh Baghela">
+                      <option value="Mahua Moitra (MP from Krishnanagar)">Mahua Moitra (MP from Krishnanagar)</option>
+                      <option value="Arvind Kejriwal (Chief Minister of Delhi)">
                         
-                        Bhupendra Singh Baghela
+                      Arvind Kejriwal (Chief Minister of Delhi)
                       </option>
-                      <option value="Kamal Nath">Kamal Nath</option>
-                      <option value="Salman Khurshid">Salman Khurshid</option>
-                      <option value="Supriya Srinet">Supriya Srinet</option>
-                      <option value="Hardik Patel">Hardik Patel</option>
-                      <option value="Sashi Tharoor">Sashi Tharoor</option>
-                      <option value="Ahmad Patel">Ahmad Patel</option>
-                      <option value="Anand Sharma">Anand Sharma</option>
-                      <option value="Kamak Nath">Kamak Nath</option>
-                      <option value="Kapil Sibal">Kapil Sibal</option>
-                      <option value="P Chidambaram">P Chidambaram</option>
-                      <option value="Sanjay Raut">Sanjay Raut</option>
-                      <option value="Uddhav Thackeray">Uddhav Thackeray</option>
-                      <option value="Aditya Thackeray">Aditya Thackeray</option>
-                      <option value="Mamta Bannerjee">Mamta Bannerjee</option>
-                      <option value="Abhishek Banerjee">
-                        Abhishek Banerjee
-                      </option>
-                      <option value="Derek O'Brian">Derek O'Brian</option>
-                      <option value="SHARAD  PAWAR">SHARAD PAWAR</option>
-                      <option value="Nitish Kumar">Nitish Kumar</option>
-                      <option value="Akhilesh Yadav">Akhilesh Yadav</option>
-                      <option value="Mulayam Singh Yadav">
-                        Mulayam Singh Yadav
-                      </option>
-                      <option value="Tejasvi Yadav">Tejasvi Yadav</option>
-                      <option value="Arvind Kejriwal">Arvind Kejriwal</option>
-                      <option value="Raghav Chadha">Raghav Chadha</option>
-                      <option value="Manish Sishodia">Manish Sishodia</option>
-                      <option value="MK Stalin">MK Stalin</option>
-                      <option value="Asaduddin Owaisi">Asaduddin Owaisi</option>
-                      <option value="E K Palaniswami">E K Palaniswami</option>
-                      <option value="O Panneerselvam">O Panneerselvam</option>
-                      <option value="H D Beve Gowda">H D Beve Gowda</option>
-                      <option value="HD Kumaraswamy">HD Kumaraswamy</option>
-                      <option value="N Chandrsbabu Naidu">
-                        N Chandrsbabu Naidu
-                      </option>
-                      <option value="Pinarayi Vijayan">Pinarayi Vijayan</option>
-                      <option value="Sitaram Yechury">Sitaram Yechury</option>
-                      <option value="Raj Thackeray">Raj Thackeray</option>
-                      <option value="Ram Vilas Paswan">Ram Vilas Paswan</option>
-                      <option value="Chirag Paswan">Chirag Paswan</option>
-                      <option value="Mayawati">Mayawati</option>
-                      <option value="Nodeep Kaur">Nodeep Kaur</option>
-                      <option value="Aruna Roy">Aruna Roy</option>
-                      <option value="Anannya Bhattacharjee">
-                        Anannya Bhattacharjee
-                      </option>
-                      <option value="Shanta Sinha">Shanta Sinha</option>
-                      <option value="Sunitha Krishnan">Sunitha Krishnan</option>
-                      <option value="Nalini Jameela">Nalini Jameela</option>
-                      <option value="Ruchira Gupta">Ruchira Gupta</option>
-                      <option value="Ashok Row Kavi">Ashok Row Kavi</option>
-                      <option value="Gopi Shankar Madurai">
-                        Gopi Shankar Madurai
+                      <option value="Raghav Chadha (Not in the Indian Parliament)">Raghav Chadha (Not in the Indian Parliament)</option>
+                      <option value="Manish Sisodia (Not in the Indian Parliament)">Manish Sisodia (Not in the Indian Parliament)</option>
+                      <option value="Akhilesh Yadav (Not in the Indian Parliament)">Akhilesh Yadav (Not in the Indian Parliament)</option>
+                      <option value="Mulayam Singh Yadav (Not in the Indian Parliament)">Mulayam Singh Yadav (Not in the Indian Parliament)</option>
+                      <option value="Tejasvi Yadav (Not in the Indian Parliament)">Tejasvi Yadav (Not in the Indian Parliament)</option>
+                      <option value="H D Deve Gowda (Not in the Indian Parliament)">H D Deve Gowda (Not in the Indian Parliament)</option>
+                      <option value="HD Kumaraswamy (Not in the Indian Parliament)">HD Kumaraswamy (Not in the Indian Parliament)</option>
+                      <option value="Pinarayi Vijayan (Chief Minister of Kerala)">Pinarayi Vijayan (Chief Minister of Kerala)</option>
+                      <option value="Sitaram Yechury (MP from Rajya Sabha)
+">Sitaram Yechury (MP from Rajya Sabha)
+</option>
+                      <option value="Kuldiep Singh (Affiliation not specified; Not in the Indian Parliament)
+">Kuldiep Singh (Affiliation not specified; Not in the Indian Parliament)
+</option>
+                      <option value="All Tribal Students' Union Manipur (ATSUM)
+">All Tribal Students' Union Manipur (ATSUM)
+</option>
+                      <option value="Dr. Bharati Pravin Pawar(Ministry of Tribal Affairs)">Dr. Bharati Pravin Pawar(Ministry of Tribal Affairs)</option>
+                      <option value="Dr. L. Murugan(Ministry of Information and Broadcasting)">Dr. L. Murugan(Ministry of Information and Broadcasting)</option>
+                      <option value="Shri Devusinh Chauhan(Ministry of Communications)
+">Shri Devusinh Chauhan(Ministry of Communications)
+</option>
+                      <option value="Shri Raj Nath Singh(Ministry of Defence)
+
+">
+                       Shri Raj Nath Singh(Ministry of Defence)
+
+
                       </option>
                     </>
                   ) : (
@@ -892,17 +907,16 @@ function RegisterPage() {
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
+                 
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p1">Preference 2:</p>
+                <p className="mb-4 pb-3 reg-p1">Preference 2:</p>
               </div>
-
               <div className="para-container">
               <p className="mb-4 pb-3 reg-p">Commitee 2</p>
               </div>
-
               <div className="form-group">
                 <select
-                  name="preference2"
+                  name="preference1"
                   className="form-style-2"
                   id="logemail"
                   placeholder="Select Commitee"
@@ -913,18 +927,18 @@ function RegisterPage() {
                   }}
                 >
                    <option value="select commitee"> select commitee..</option>
-                  <option value="UNGA-DISEC">UNGA-DISEC</option>
+                  <option value="UNSC">UNSC</option>
                   <option value="UNGA-SPECPOL">UNGA-SPECPOL</option>
                   <option value="AIPPM">AIPPM</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Country 2</p>
+              <p className="mb-4 pb-3 reg-p">Country 1</p>
               </div>
               <div className="form-group">
                 <select
-                  name="country2"
+                  name="logemail"
                   className="form-style-2"
                   id="logemail"
                   placeholder="Select Commitee"
@@ -934,544 +948,558 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 >
-                   {committee2 == "UNGA-DISEC" ? (
+                   {committee2 == "UNSC" ? (
                     <>
                       <option value="Select">Select Portfolio</option>
-                      <option value="Islamic Emirate of Afghanistan">
-                        Islamic Emirate of Afghanistan
+                      <option value="United States of America">
+                        United States of America
                       </option>
-                      <option value="Republic of Albania">
-                        Republic of Albania
+                      <option value="Russia">
+                        Russia
                       </option>
-                      <option value="People's Democratic Republic of Algeria">
-                        People's Democratic Republic of Algeria
+                      <option value="United Kingdom">
+                        United Kingdom
                       </option>
-                      <option value="Republic of Angola">
-                        Republic of Angola
+                      <option value="France">
+                        France
                       </option>
-                      <option value="Argentine Republic">
-                        Argentine Republic
+                      <option value="China">
+                        China
                       </option>
-                      <option value="Republic of Armenia">
-                        Republic of Armenia
+                      <option value="Sudan">
+                        Sudan
                       </option>
-                      <option value="Commonwealth of Australia">
-                        Commonwealth of Australia
+                      <option value="Egypt">
+                        Egypt
                       </option>
-                      <option value="Republic of Austria">
-                        Republic of Austria
+                      <option value="United Arab Emirates">
+                        United Arab Emirates
                       </option>
-                      <option value="Republic of Azerbaijan">
-                        Republic of Azerbaijan
+                      <option value="Saudi Arabia">
+                        Saudi Arabia
                       </option>
-                      <option value="Kingdom of Bahrain">
-                        Kingdom of Bahrain
+                      <option value="Ethiopia">
+                        Ethiopia
                       </option>
-                      <option value="People's Republic of Bangladesh">
-                        People's Republic of Bangladesh
+                      <option value="Chad">
+                        Chad
                       </option>
-                      <option value="Barbados">Barbados</option>
-                      <option value="Republic of Belarus">
-                        Republic of Belarus
+                      <option value="Libya">Libya</option>
+                      <option value="Eritrea">
+                        Eritrea
                       </option>
-                      <option value="Kingdom of Bhutan">
-                        Kingdom of Bhutan
+                      <option value="South Sudan">
+                        South Sudan
                       </option>
-                      <option value="Federative Republic of Brazil">
-                        Federative Republic of Brazil
+                      <option value="South Sudan">
+                        South Sudan
                       </option>
-                      <option value="Republic of Bulgaria">
-                        Republic of Bulgaria
+                      <option value="Central African Republic">
+                        Central African Republic
                       </option>
-                      <option value="Republic of Burundi">
-                        Republic of Burundi
+                      <option value="Israel">
+                        Israel
                       </option>
+                      <option value="Germany">Germany</option>
                       <option value="Canada">Canada</option>
-                      <option value="Republic of Chad">Republic of Chad</option>
-                      <option value="Republic of Chile">
-                        Republic of Chile
+                      <option value="India">
+                        India
                       </option>
-                      <option value="People's Republic of China (PRC)">
-                        People's Republic of China (PRC)
+                      <option value="Equador">
+                        Equador
                       </option>
-                      <option value="Republic of Colombia">
-                        Republic of Colombia
+                      <option value="Albania">
+                        Albania
                       </option>
-                      <option value="Republic of Côte d'Ivoire">
-                        Republic of Côte d'Ivoire
+                      <option value="Ghana">
+                        Ghana
                       </option>
-                      <option value="Republic of Cuba">Republic of Cuba</option>
-                      <option value="Republic of Cyprus">
-                        Republic of Cyprus
+                      <option value="Central African Union">Central African Union</option>
+                      <option value="Nigeria">
+                        Nigeria
                       </option>
-                      <option value="Czech Republic">Czech Republic</option>
-                      <option value="Democratic People's Republic of Korea (DPRK)">
-                        Democratic People's Republic of Korea (DPRK)
+                      <option value="Yemen">Yemen</option>
+                      <option value="Oman">
+                        Oman
                       </option>
-                      <option value="Democratic Republic of the Congo">
-                        Democratic Republic of the Congo
+                      <option value="Qatar">
+                        Qatar
                       </option>
                       <option value="Republic of Djibouti">
                         Republic of Djibouti
                       </option>
-                      <option value="Arab Republic of Egypt">
-                        Arab Republic of Egypt
+                      <option value="Uganda">
+                        Uganda
                       </option>
-                      <option value="Republic of El Salvador">
-                        Republic of El Salvador
+                      <option value="Democratic Republic of Congo">
+                        Democratic Republic of Congo
                       </option>
-                      <option value="State of Eritrea">State of Eritrea</option>
+                      <option value="Iran">Iran</option>
                       <option value="Kingdom of Eswatini">
                         Kingdom of Eswatini
                       </option>
-                      <option value="Federal Democratic Republic of Ethiopia">
-                        Federal Democratic Republic of Ethiopia
+                      <option value="South Africa">
+                        South Africa
                       </option>
-                      <option value="Republic of Fiji">Republic of Fiji</option>
-                      <option value="French Republic">French Republic</option>
-                      <option value="Georgia">Georgia</option>
-                      <option value="Federal Republic of Germany">
-                        Federal Republic of Germany
+                      <option value="Kenya">Kenya</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="Turkiye">Turkiye</option>
+                      <option value="Italy">
+                        Italy
                       </option>
                       <option value="Hellenic Republic(Greece)">
                         Hellenic Republic(Greece)
                       </option>
-                      <option value="Republic of Haiti">
-                        Republic of Haiti
+                      <option value="Spain">
+                        Spain
                       </option>
-                      <option value="Hungary">Hungary</option>
-                      <option value="Republic of India">
-                        Republic of India
+                      <option value="Jordan">Jordan</option>
+                      <option value="Seychelles">
+                        Seychelles
                       </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
+                      <option value="Pakistan">
+                        Pakistan
                       </option>
-                      <option value="Islamic Republic of Iran">
-                        Islamic Republic of Iran
+                      <option value="Brazil">
+                        Brazil
                       </option>
-                      <option value="Republic of Iraq">Republic of Iraq</option>
-                      <option value="Republic of Ireland">
-                        Republic of Ireland
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Australia">
+                        Australia
                       </option>
-                      <option value="State of Israel">State of Israel</option>
-                      <option value="Italian Republic">Italian Republic</option>
-                      <option value="Jamaica">Jamaica</option>
                       <option value="Japan">Japan</option>
-                      <option value="Hashemite Kingdom of Jordan">
-                        Hashemite Kingdom of Jordan
-                      </option>
-                      <option value="Republic of Kazakhstan">
-                        Republic of Kazakhstan
-                      </option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Kyrgyz Republic">Kyrgyz Republic</option>
-                      <option value="Republic of Latvia">
-                        Republic of Latvia
-                      </option>
-                      <option value="Republic of Lebanon">
-                        Republic of Lebanon
-                      </option>
-                      <option value="State of Libya">State of Libya</option>
-                      <option value="Republic of Madagascar">
-                        Republic of Madagascar
-                      </option>
-                      <option value="Republic of Mauritius">
-                        Republic of Mauritius
-                      </option>
-                      <option value="United Mexican States(Mexico)">
-                        United Mexican States(Mexico)
-                      </option>
-                      <option value="Mongolia">Mongolia</option>
-                      <option value="Kingdom of Morocco">
-                        Kingdom of Morocco
-                      </option>
-                      <option value="Kingdom of the Netherlands">
-                        Kingdom of the Netherlands
-                      </option>
-                      <option value="Realm of New Zealand">
-                        Realm of New Zealand
-                      </option>
-                      <option value="Federal Republic of Nigeria">
-                        Federal Republic of Nigeria
-                      </option>
-                      <option value="Kingdom of Norway">
-                        Kingdom of Norway
-                      </option>
-                      <option value="Sultanate of Oman">
-                        Sultanate of Oman
-                      </option>
-                      <option value="Islamic Republic of Pakistan">
-                        Islamic Republic of Pakistan
-                      </option>
-                      <option value="Republic of Panama">
-                        Republic of Panama
-                      </option>
-                      <option value="Republic of Peru">Republic of Peru</option>
-                      <option value="Republic of the Philippines">
-                        Republic of the Philippines
-                      </option>
-                      <option value="Republic of Poland">
-                        Republic of Poland
-                      </option>
-                      <option value="Portuguese Republic">
-                        Portuguese Republic
-                      </option>
-                      <option value="State of Qatar">State of Qatar</option>
-                      <option value="Republic of Korea(ROK)">
-                        Republic of Korea(ROK)
-                      </option>
-                      <option value="Russian Federation">
-                        Russian Federation
-                      </option>
-                      <option value="Saint Lucia">Saint Lucia</option>
-                      <option value="Independent State of Samoa">
-                        Independent State of Samoa
-                      </option>
-                      <option value="Kingdom of Saudi Arabia (KSA)">
-                        Kingdom of Saudi Arabia (KSA)
-                      </option>
-                      <option value="Republic of Senegal">
-                        Republic of Senegal
-                      </option>
-                      <option value="Republic of Seychelles">
-                        Republic of Seychelles
-                      </option>
-                      <option value="Republic of Singapore">
-                        Republic of Singapore
-                      </option>
-                      <option value="Solomon Islands">Solomon Islands</option>
-                      <option value="Federal Republic of Somalia">
-                        Federal Republic of Somalia
-                      </option>
-                      <option value="Republic of South Africa (RSA)">
-                        Republic of South Africa (RSA)
-                      </option>
-                      <option value="Kingdom of Spain">Kingdom of Spain</option>
-                      <option value="Republic of the Sudan">
-                        Republic of the Sudan
-                      </option>
-                      <option value="Swiss Confederation">
-                        Swiss Confederation
-                      </option>
-                      <option value="Syrian Arab Republic">
-                        Syrian Arab Republic
-                      </option>
-                      <option value="Republic of China (ROC)">
-                        Republic of China (ROC)
-                      </option>
-                      <option value="Kingdom of Thailand">
-                        Kingdom of Thailand
-                      </option>
-                      <option value="Republic of Türkiye">
-                        Republic of Türkiye
-                      </option>
-                      <option value="Turkmenistan">Turkmenistan</option>
-                      <option value="Ukraine">Ukraine</option>
-                      <option value="United Arab Emirates">
-                        United Arab Emirates
-                      </option>
-                      <option value="United Kingdom of Great Britain and Northern Ireland">
-                        United Kingdom of Great Britain and Northern Ireland
-                      </option>
-                      <option value="United States of America">
-                        United States of America
-                      </option>
-                      <option value="Bolivarian Republic of Venezuela">
-                        Bolivarian Republic of Venezuela
-                      </option>
-                      <option value="Socialist Republic of Vietnam">
-                        Socialist Republic of Vietnam
-                      </option>
-                      <option value="Republic of Yemen">
-                        Republic of Yemen
-                      </option>
                     </>
                   ) : (committee2 == "UNGA-SPECPOL") ? (
                     <>
                       <option value="Select">Select Portfolio</option>
 
-                      <option value="State of Israel">State of Israel</option>
-                      <option value="State of Palestine">
-                        State of Palestine
+                      <option value="Islamic Emirate of Afghanistan
+">Islamic Emiratre of Afghanistan</option>
+                      <option value="People's Democratic Republic of Angola">
+                      People’s Democratic Republic of Algeria
                       </option>
-                      <option value="United States of America">
-                        United States of America
+                      <option value="Republic of Argentina">
+                      Republic of Argentina
                       </option>
-                      <option value="French Republic">French Republic</option>
-                      <option value="Federal Republic of Germany">
-                        Federal Republic of Germany
-                      </option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Republic of Lebanon">
-                        Republic of Lebanon
-                      </option>
-                      <option value="Syrian Arab Republic">
-                        Syrian Arab Republic
-                      </option>
-                      <option value="Hashemite Kingdom of Jordan">
-                        Hashemite Kingdom of Jordan
-                      </option>
-                      <option value="Arab Republic of Egypt">
-                        Arab Republic of Egypt
-                      </option>
-                      <option value="Kingdom of Saudi Arabia">
-                        Kingdom of Saudi Arabia
-                      </option>
-                      <option value="Republic of Iraq">Republic of Iraq</option>
-                      <option value="Islamic Republic of Iran">
-                        Islamic Republic of Iran
-                      </option>
-                      <option value="Republic of India">
-                        Republic of India
-                      </option>
-                      <option value="People’s Republic of China">
-                        People’s Republic of China
-                      </option>
-                      <option value="Russian Federation">
-                        Russian Federation
-                      </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
-                      </option>
-                      <option value="Plurinational State of Bolivia">
-                        Plurinational State of Bolivia
-                      </option>
-                      <option value="Republic of Chile">
-                        Republic of Chile
-                      </option>
-                      <option value="Republic of Ecuador">
-                        Republic of Ecuador
-                      </option>
-                      <option value="Federal Democratic Republic of Ethiopia">
-                        Federal Democratic Republic of Ethiopia
-                      </option>
-                      <option value="Republic of Tunisia">
-                        Republic of Tunisia
-                      </option>
-                      <option value="United Republic of Tanzania">
-                        United Republic of Tanzania
-                      </option>
-                      <option value="Bolivarian Republic of Venezuela">
-                        Bolivarian Republic of Venezuela
-                      </option>
-                      <option value="Republic of Cuba">Republic of Cuba</option>
-                      <option value="Republic of the Congo">
-                        Republic of the Congo
-                      </option>
-                      <option value="Independent State of Papua New Guinea">
-                        Independent State of Papua New Guinea
-                      </option>
-                      <option value="Republic of Fiji">Republic of Fiji</option>
-                      <option value="Commonwealth of Dominica">
-                        Commonwealth of Dominica
-                      </option>
-                      <option value="Islamic Emirate of Afghanistan">
-                        Islamic Emirate of Afghanistan
-                      </option>
-                      <option value="Commonwealth of Australia">
+                      <option value="Republic of Armenia
+">Republic of Armenia
+</option>
+                      <option value="Commonwealth of Australia
+">
                         Commonwealth of Australia
+
                       </option>
-                      <option value="Federative Republic of Brazil">
-                        Federative Republic of Brazil
+                      <option value="Republic of Austria
+">Republic of Austria
+</option>
+                      <option value="Republic of Azerbaijan
+">
+                       Republic of Azerbaijan
+
                       </option>
-                      <option value="Democratic People's Republic of Korea">
-                        Democratic People's Republic of Korea
+                      <option value="Commonwealth of the Bahamas
+">
+                       Commonwealth of the Bahamas
+
                       </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
+                      <option value="Kingdom of Bahrain">
+                      Kingdom of Bahrain
                       </option>
-                      <option value="Canada">Canada</option>
-                      <option value="Kingdom of Belgium">
-                        Kingdom of Belgium
+                      <option value="People’s Republic of Bangladesh">
+                      People’s Republic of Bangladesh
                       </option>
-                      <option value="Republic of Italy">
-                        Republic of Italy
+                      <option value="Republic of Belarus
+">
+                       Republic of Belarus
+
                       </option>
-                      <option value="United Mexican States">
-                        United Mexican States
-                      </option>
-                      <option value="Republic of Belarus">
-                        Republic of Belarus
-                      </option>
-                      <option value="People's Republic of Bangladesh">
-                        People's Republic of Bangladesh
-                      </option>
-                      <option value="Islamic Republic of Pakistan">
-                        Islamic Republic of Pakistan
-                      </option>
-                      <option value="Realm of New Zealand">
-                        Realm of New Zealand
-                      </option>
-                      <option value="Japan">Japan</option>
-                      <option value="Republic of Singapore">
-                        Republic of Singapore
-                      </option>
-                      <option value="United Arab Emirates">
-                        United Arab Emirates
-                      </option>
-                      <option value="Republic of Austria">
-                        Republic of Austria
+                      <option value="Kingdom of Belgium">Kingdom of Belgium</option>
+                      <option value="Belize
+">
+                      Belize
+
                       </option>
                       <option value="Kingdom of Bhutan">
-                        Kingdom of Bhutan
+                      Kingdom of Bhutan
                       </option>
-                      <option value="Czech Republic">Czech Republic</option>
-                      <option value="Republic of Mauritius">
-                        Republic of Mauritius
+                      <option value="Plurinational State of Bolivia">
+                      Plurinational State of Bolivia
                       </option>
-                      <option value="State of Qatar">State of Qatar</option>
-                      <option value="Kingdom of Thailand">
-                        Kingdom of Thailand
+                      <option value="Federative Republic of Brazil
+">
+                      Federative Republic of Brazil
+
                       </option>
-                      <option value="Republic of the Philippines">
-                        Republic of the Philippines
+                      <option value="Republic of Bulgaria
+">
+                       Republic of Bulgaria
+
+                      </option>
+                      <option value="Kingdom of Cambodia">
+                      Kingdom of Cambodia
+                      </option>
+                      <option value="Canada">
+                      Canada
+                      </option>
+                      <option value="Central African Republic">
+                      Central African Republic
+                      </option>
+                      <option value="Republic of Chile">
+                      Republic of Chile
+                      </option>
+                      <option value="People’s Republic of China
+">
+                       People’s Republic of China
+
+                      </option>
+                      <option value="Republic of Croatia">
+                      Republic of Croatia
+                      </option>
+                      <option value="Republic of Cuba
+">
+                      Republic of Cuba
+
+                      </option>
+                      <option value="
+Czech Republic
+">
+Czech Republic
+</option>
+                      <option value="Democratic People’s Republic of Korea">
+                      Democratic People’s Republic of Korea
+                      </option>
+                      <option value="Kingdom of Denmark
+">
+                      Kingdom of Denmark
+
+                      </option>
+                      <option value="Arab Republic of Egypt">Arab Republic of Egypt</option>
+                      <option value="Republic of Estonia
+">
+                      Republic of Estonia
+
+                      </option>
+                      <option value="Republic of France
+">
+                      Republic of France
+
+                      </option>
+                      <option value="Federal Republic of Germany">
+                      Federal Republic of Germany
+                      </option>
+                      <option value="Hellenic Republic of Greece">
+                      Hellenic Republic of Greece
+                      </option>
+                      <option value="Republic of Guatemala">
+                      Republic of Guatemala
+                      </option>
+                      <option value="Republic of Haitin">
+                      Republic of Haiti
+                      </option>
+                      <option value="Republic of Honduras">Republic of Honduras</option>
+                      <option value="Hungary">
+                      Hungary
+                      </option>
+                      <option value="Republic of Iceland">
+                      Republic of Iceland
+                      </option>
+                      <option value="Republic of India
+">
+                      Republic of India
+
+                      </option>
+                      <option value="Republic of Indonesia">
+                      Republic of Indonesia
+                      </option>
+                      <option value="Islamic Republic of Iran">
+                      Islamic Republic of Iran
+                      </option>
+                      <option value="Republic of Iraq
+">
+                      Republic of Iraq
+
+                      </option>
+                      <option value="Ireland
+">
+                     Ireland
+
+                      </option>
+                      <option value="Republic of Italy">Republic of Italy</option>
+                      <option value="Japan
+">
+                       Japan
+
+                      </option>
+                      <option value="Hashemite Kingdom of Jordan">
+                      Hashemite Kingdom of Jordan
+                      </option>
+                      <option value="Republic of Kenya
+">
+                       Republic of Kenya
+
+                      </option>
+                      <option value="Republic of Kiribati
+">
+                      Republic of Kiribati
+
+                      </option>
+                      <option value="State of Kuwait">State of Kuwait</option>
+                      <option value="Lao People’s Democratic Republic">
+                      Lao People’s Democratic Republic
+                      </option>
+                      <option value="Republic of Latvia">Republic of Latvia</option>
+                      <option value="Republic of Lithuania">
+                      Republic of Lithuania
+                      </option>
+                      <option value="Grand Duchy of Luxembourg">
+                      Grand Duchy of Luxembourg
+                      </option>
+                      <option value="Republic of Malawi
+">
+                        Republic of Malawi
+
+                      </option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Republic of Marshall Islands">Republic of Marshall Islands</option>
+                      <option value="United Mexican States">
+                      United Mexican States
+                      </option>
+                      <option value="Mongolia">
+                      Mongolia
+                      </option>
+                      <option value="Montenegro">
+                      Montenegro
+                      </option>
+                      <option value="Kingdom of Morocco">
+                      Kingdom of Morocco
+                      </option>
+                      <option value="Republic of the Union of Myanmar">
+                      Republic of the Union of Myanmar
+                      </option>
+                      <option value="Republic of Nauru">
+                      Republic of Nauru
+                      </option>
+                      <option value="Kingdom of the Netherlands">
+                      Kingdom of the Netherlands
+                      </option>
+                      <option value="New Zealand">
+                      New Zealand
+                      </option>
+                      <option value="Republic of North Macedonia">
+                      Republic of North Macedonia
                       </option>
                       <option value="Kingdom of Norway">
-                        Kingdom of Norway
+                      Kingdom of Norway
                       </option>
-                      <option value="Kingdom of Spain">Kingdom of Spain</option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Argentine Republic">
-                        Argentine Republic
+                      <option value="Sultanate of Oman">
+                      Sultanate of Oman
                       </option>
-                      <option value="Republic of Bulgaria">
-                        Republic of Bulgaria
+                      <option value="Islamic Republic of Pakistan">
+                      Islamic Republic of Pakistan
                       </option>
-                      <option value="Swiss Confederation">
-                        Swiss Confederation
+                      <option value="Republic of Palau">
+                      Republic of Palau
                       </option>
-                      <option value="United Kingdom of Great Britain and Northern Ireland">
-                        United Kingdom of Great Britain and Northern Ireland
+                      <option value="Republic of Paraguay">
+                      Republic of Paraguay
+                      </option>
+                      <option value="Republic of the Phillippines">
+                      Republic of the Phillippines
                       </option>
                       <option value="Republic of Poland">
-                        Republic of Poland
+                      Republic of Poland
                       </option>
+                      <option value="Portuguese Republic
+">
+                      Portuguese Republic
+                      </option>
+                      <option value="State of Qatar">
+                      State of Qatar
+                      </option>
+                      <option value="Republic of Korea">
+                      Republic of Korea
+                      </option>
+                      <option value="Russian Federation">
+                      Russian Federation
+                      </option>
+                      <option value="Kingdom of Saudi Arabia">
+                      Kingdom of Saudi Arabia
+                      </option>
+                      <option value="Republic of Singapore">
+                      Republic of Singapore
+                      </option>
+                      <option value="Republic of Slovenia
+">
+                      Republic of Slovenia
+                      </option>
+                      <option value="Republic of South Africa">
+                      Republic of South Africa
+                      </option>
+                      <option value="Democratic Socialist Republic of Sri Lanka">
+                      Democratic Socialist Republic of Sri Lanka
+                      </option>
+                      <option value="Kingdom of Thailand
+">
+                    Kingdom of Thailand
+
+                      </option>
+                      <option value="Tuvalu">
+                      Tuvalu
+                      </option>
+                      <option value="Republic of Türkiye">
+                      Republic of Türkiye
+                      </option>
+                      <option value="United Arab Emirates">
+                      United Arab Emirates
+                      </option>
+                      <option value="United Kingdom of Great Britain and Northern Ireland">
+                      United Kingdom of Great Britain and Northern Ireland
+                      </option>
+                      <option value="United States of America">
+                      United States of America
+                      </option>
+                      <option value="Bolivarian Republic of Venezuela">
+                      Bolivarian Republic of Venezuela
+                      </option>
+                      <option value="Socialist Republic of Viet Nam">
+                      Socialist Republic of Viet Nam
+                      </option>
+                      <option value="State of Palestine (Observer State)">
+                      State of Palestine (Observer State)
+                      </option>
+                      <option value="Vatican City (Observer State)">
+                      Vatican City (Observer State)
+                      </option>
+
+
                     </>
                   ) : ( committee2 == "AIPPM") ? (
                     <>
                       <option value="Select">Select Portfolio</option>
-                      <option value="Narendra Modi">Narendra Modi</option>
-                      <option value="Arun Jaitley">Arun Jaitley</option>
-                      <option value="B S Yeddurappa">B S Yeddurappa</option>
-                      <option value="Anurag Thakur">Anurag Thakur</option>
-                      <option value="LK Advani">LK Advani</option>
-                      <option value="Hemanth Biswas Sharma">
-                        Hemanth Biswas Sharma
+                      <option value="Zoramthanga (Party Leader; not in the Indian Parliament)">Zoramthanga (Party Leader; not in the Indian Parliament)</option>
+                      <option value="N. Biren Singh (Chief Minister of Manipur)">N. Biren Singh (Chief Minister of Manipur)</option>
+                      <option value="Dr. R.K. RaTokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
+                      <option value="Pratima Bhowmik (MP from Tripura West)">Pratima Bhowmik (MP from Tripura West)</option>
+                      <option value="Rebati Tripura (MP from Tripura East)">
+                      Rebati Tripura (MP from Tripura East)
                       </option>
-                      <option value="Amit Shah">Amit Shah</option>
-                      <option value="Devendra Fadnavis">
-                        Devendra Fadnavis
+                      <option value="Karam Shyam Singh (Not in the Indian Parliament)
+">Karam Shyam Singh (Not in the Indian Parliament)
+</option>
+                      <option value="Thokchom Radheshyam Singh (Not in the Indian Parliament)">
+                      Thokchom Radheshyam Singh (Not in the Indian Parliament)
                       </option>
-                      <option value="Smruti Irani">Smruti Irani</option>
-                      <option value="Narotam Mishra">Narotam Mishra</option>
-                      <option value="Jyotiraditya Scindhi">
-                        Jyotiraditya Scindhi
+                      <option value="Nishikant Sing Sapam (Not in the Indian Parliament)
+">Nishikant Sing Sapam (Not in the Indian Parliament)
+</option>
+                      <option value="Khwairakpam Raghumani Singh (Not in the Indian Parliament)
+">Khwairakpam Raghumani Singh (Not in the Indian Parliament)
+</option>
+                      <option value="S Brojen Singh (Not in the Indian Parliament)
+">
+                       S Brojen Singh (Not in the Indian Parliament)
+
                       </option>
-                      <option value="Sibraj Singh">Sibraj Singh</option>
-                      <option value="Kapil Mishra">Kapil Mishra</option>
-                      <option value="Dharmendra Pradhan">
-                        Dharmendra Pradhan
+                      <option value="T Robindro Singh (Not in the Indian Parliament)">T Robindro Singh (Not in the Indian Parliament)</option>
+                      <option value="S Rajen Singh (Not in the Indian Parliament)">S Rajen Singh (Not in the Indian Parliament)</option>
+                      <option value="S Kebi Devi (Not in the Indian Parliament)
+">
+                       S Kebi Devi (Not in the Indian Parliament)
+
                       </option>
-                      <option value="Jp Nadda">Jp Nadda</option>
-                      <option value="Yogi Adityanath">Yogi Adityanath</option>
-                      <option value="Ravi Shankar Prasad">
-                        Ravi Shankar Prasad
+                      <option value="Y Radheshyam (Not in the Indian Parliament)
+">Y Radheshyam (Not in the Indian Parliament)
+</option>
+                      <option value="Narendra Modi
+">Narendra Modi
+</option>
+                      <option value="Amit Shah
+">
+                       Amit Shah
+
                       </option>
-                      <option value="Kiran Rijuju">Kiran Rijuju</option>
-                      <option value="Gaurav Bhatia">Gaurav Bhatia</option>
-                      <option value="Giriraj Singh">Giriraj Singh</option>
-                      <option value="Nalin Kohli">Nalin Kohli</option>
-                      <option value="Harsh Vardhan">Harsh Vardhan</option>
-                      <option value="Murli Manohar Joshi">
-                        Murli Manohar Joshi
+                      <option value="Dr. Subrahmanyam Jaishankar
+">Dr. Subrahmanyam Jaishankar
+</option>
+                      <option value="Smt. Smriti Zubin Irani
+">Smt. Smriti Zubin Irani
+</option>
+                      <option value="Smt. Nirmala Sitharaman
+">Smt. Nirmala Sitharaman
+</option>
+                      <option value="Shri Arjun Munda">Shri Arjun Munda</option>
+                      <option value="Shri Anurag Singh Thakur">Shri Anurag Singh Thakur</option>
+                      <option value="Rahul Gandhi (MP from Wayanad)">
+                      Rahul Gandhi (MP from Wayanad)
                       </option>
-                      <option value="Rajnath Singh">Rajnath Singh</option>
-                      <option value="Rajyavardhan Singh Rathore">
-                        Rajyavardhan Singh Rathore
+                      <option value="Shashi Tharoor (MP from Thiruvananthapuram)">Shashi Tharoor (MP from Thiruvananthapuram)</option>
+                      <option value="A K Antony (Not in the Indian Parliament)">
+                      A K Antony (Not in the Indian Parliament)
                       </option>
-                      <option value="Shivraj Singh Chouhan">
-                        Shivraj Singh Chouhan
+                      <option value="Priyanka Gandhi (Not in the Indian Parliament)">
+                      Priyanka Gandhi (Not in the Indian Parliament)
                       </option>
-                      <option value="Subramanian Swamy">
-                        Subramanian Swamy
+                      <option value="Ashok Gehlot (Chief Minister of Rajasthan)
+">
+                       Ashok Gehlot (Chief Minister of Rajasthan)
+
                       </option>
-                      <option value="Yashwant Sinha">Yashwant Sinha</option>
-                      <option value="Piyush Goyal">Piyush Goyal</option>
-                      <option value="Rajnath Singh">Rajnath Singh</option>
-                      <option value="V K Singh">V K Singh</option>
-                      <option value="Vijay Goyal">Vijay Goyal</option>
-                      <option value="Bhupender Yadav">Bhupender Yadav</option>
-                      <option value="Rameswar Teli">Rameswar Teli</option>
-                      <option value="Santosh Gangwar">Santosh Gangwar</option>
-                      <option value="Rahul Gandhi">Rahul Gandhi</option>
-                      <option value="A K Antony">A K Antony</option>
-                      <option value="Priyanka Gandhi">Priyanka Gandhi</option>
-                      <option value="Ashok Gehlot">Ashok Gehlot</option>
-                      <option value="Sachin Pilot">Sachin Pilot</option>
-                      <option value="Digvijay Singh">Digvijay Singh</option>
-                      <option value="Abhishek Manusinghvi">
-                        Abhishek Manusinghvi
+                      <option value="Bhupendra Singh Baghel (Chief Minister of Chhattisgarh)">Bhupendra Singh Baghel (Chief Minister of Chhattisgarh)</option>
+                      <option value="Kamal Nath (Not in the Indian Parliament)
+">Kamal Nath (Not in the Indian Parliament)
+</option>
+                      <option value="Salman Khurshid (MP from Rajya Sabha)
+">Salman Khurshid (MP from Rajya Sabha)
+</option>
+                      <option value="Supriya Sule (MP from Baramati)">Supriya Sule (MP from Baramati)</option>
+                      <option value="Hardik Patel (Not in the Indian Parliament)">Hardik Patel (Not in the Indian Parliament)</option>
+                      <option value="Ahmed Patel (Former MP; Deceased)">Ahmed Patel (Former MP; Deceased)</option>
+                      <option value="Anand Sharma (MP from Rajya Sabha)">Anand Sharma (MP from Rajya Sabha)</option>
+                      <option value="Kamakhya Prasad Singh Deo (Not in the Indian Parliament)">Kamakhya Prasad Singh Deo (Not in the Indian Parliament)</option>
+                      <option value="Kapil Sibal (MP from Rajya Sabha)">Kapil Sibal (MP from Rajya Sabha)</option>
+                      <option value="P Chidambaram (MP from Rajya Sabha)">P Chidambaram (MP from Rajya Sabha)</option>
+                      <option value="Ch. Ajang Khongsai (Not in the Indian Parliament)">Ch. Ajang Khongsai (Not in the Indian Parliament)</option>
+                      <option value="Nitish Kumar (Chief Minister of Bihar)">Nitish Kumar (Chief Minister of Bihar)</option>
+                      <option value="Mamata Banerjee (Chief Minister of West Bengal)">Mamata Banerjee (Chief Minister of West Bengal)</option>
+                      <option value="Abhishek Banerjee (MP from Diamond Harbour)
+">Abhishek Banerjee (MP from Diamond Harbour)
+</option>
+                      <option value="Derek O'Brien (MP from Rajya Sabha)">
+                      Derek O'Brien (MP from Rajya Sabha)
                       </option>
-                      <option value="Sonia Gandhi">Sonia Gandhi</option>
-                      <option value="Bhupendra Singh Baghela">
+                      <option value="Mahua Moitra (MP from Krishnanagar)">Mahua Moitra (MP from Krishnanagar)</option>
+                      <option value="Arvind Kejriwal (Chief Minister of Delhi)">
                         
-                        Bhupendra Singh Baghela
+                      Arvind Kejriwal (Chief Minister of Delhi)
                       </option>
-                      <option value="Kamal Nath">Kamal Nath</option>
-                      <option value="Salman Khurshid">Salman Khurshid</option>
-                      <option value="Supriya Srinet">Supriya Srinet</option>
-                      <option value="Hardik Patel">Hardik Patel</option>
-                      <option value="Sashi Tharoor">Sashi Tharoor</option>
-                      <option value="Ahmad Patel">Ahmad Patel</option>
-                      <option value="Anand Sharma">Anand Sharma</option>
-                      <option value="Kamak Nath">Kamak Nath</option>
-                      <option value="Kapil Sibal">Kapil Sibal</option>
-                      <option value="P Chidambaram">P Chidambaram</option>
-                      <option value="Sanjay Raut">Sanjay Raut</option>
-                      <option value="Uddhav Thackeray">Uddhav Thackeray</option>
-                      <option value="Aditya Thackeray">Aditya Thackeray</option>
-                      <option value="Mamta Bannerjee">Mamta Bannerjee</option>
-                      <option value="Abhishek Banerjee">
-                        Abhishek Banerjee
-                      </option>
-                      <option value="Derek O'Brian">Derek O'Brian</option>
-                      <option value="SHARAD  PAWAR">SHARAD PAWAR</option>
-                      <option value="Nitish Kumar">Nitish Kumar</option>
-                      <option value="Akhilesh Yadav">Akhilesh Yadav</option>
-                      <option value="Mulayam Singh Yadav">
-                        Mulayam Singh Yadav
-                      </option>
-                      <option value="Tejasvi Yadav">Tejasvi Yadav</option>
-                      <option value="Arvind Kejriwal">Arvind Kejriwal</option>
-                      <option value="Raghav Chadha">Raghav Chadha</option>
-                      <option value="Manish Sishodia">Manish Sishodia</option>
-                      <option value="MK Stalin">MK Stalin</option>
-                      <option value="Asaduddin Owaisi">Asaduddin Owaisi</option>
-                      <option value="E K Palaniswami">E K Palaniswami</option>
-                      <option value="O Panneerselvam">O Panneerselvam</option>
-                      <option value="H D Beve Gowda">H D Beve Gowda</option>
-                      <option value="HD Kumaraswamy">HD Kumaraswamy</option>
-                      <option value="N Chandrsbabu Naidu">
-                        N Chandrsbabu Naidu
-                      </option>
-                      <option value="Pinarayi Vijayan">Pinarayi Vijayan</option>
-                      <option value="Sitaram Yechury">Sitaram Yechury</option>
-                      <option value="Raj Thackeray">Raj Thackeray</option>
-                      <option value="Ram Vilas Paswan">Ram Vilas Paswan</option>
-                      <option value="Chirag Paswan">Chirag Paswan</option>
-                      <option value="Mayawati">Mayawati</option>
-                      <option value="Nodeep Kaur">Nodeep Kaur</option>
-                      <option value="Aruna Roy">Aruna Roy</option>
-                      <option value="Anannya Bhattacharjee">
-                        Anannya Bhattacharjee
-                      </option>
-                      <option value="Shanta Sinha">Shanta Sinha</option>
-                      <option value="Sunitha Krishnan">Sunitha Krishnan</option>
-                      <option value="Nalini Jameela">Nalini Jameela</option>
-                      <option value="Ruchira Gupta">Ruchira Gupta</option>
-                      <option value="Ashok Row Kavi">Ashok Row Kavi</option>
-                      <option value="Gopi Shankar Madurai">
-                        Gopi Shankar Madurai
+                      <option value="Raghav Chadha (Not in the Indian Parliament)">Raghav Chadha (Not in the Indian Parliament)</option>
+                      <option value="Manish Sisodia (Not in the Indian Parliament)">Manish Sisodia (Not in the Indian Parliament)</option>
+                      <option value="Akhilesh Yadav (Not in the Indian Parliament)">Akhilesh Yadav (Not in the Indian Parliament)</option>
+                      <option value="Mulayam Singh Yadav (Not in the Indian Parliament)">Mulayam Singh Yadav (Not in the Indian Parliament)</option>
+                      <option value="Tejasvi Yadav (Not in the Indian Parliament)">Tejasvi Yadav (Not in the Indian Parliament)</option>
+                      <option value="H D Deve Gowda (Not in the Indian Parliament)">H D Deve Gowda (Not in the Indian Parliament)</option>
+                      <option value="HD Kumaraswamy (Not in the Indian Parliament)">HD Kumaraswamy (Not in the Indian Parliament)</option>
+                      <option value="Pinarayi Vijayan (Chief Minister of Kerala)">Pinarayi Vijayan (Chief Minister of Kerala)</option>
+                      <option value="Sitaram Yechury (MP from Rajya Sabha)
+">Sitaram Yechury (MP from Rajya Sabha)
+</option>
+                      <option value="Kuldiep Singh (Affiliation not specified; Not in the Indian Parliament)
+">Kuldiep Singh (Affiliation not specified; Not in the Indian Parliament)
+</option>
+                      <option value="All Tribal Students' Union Manipur (ATSUM)
+">All Tribal Students' Union Manipur (ATSUM)
+</option>
+                      <option value="Dr. Bharati Pravin Pawar(Ministry of Tribal Affairs)">Dr. Bharati Pravin Pawar(Ministry of Tribal Affairs)</option>
+                      <option value="Dr. L. Murugan(Ministry of Information and Broadcasting)">Dr. L. Murugan(Ministry of Information and Broadcasting)</option>
+                      <option value="Shri Devusinh Chauhan(Ministry of Communications)
+">Shri Devusinh Chauhan(Ministry of Communications)
+</option>
+                      <option value="Shri Raj Nath Singh(Ministry of Defence)
+
+">
+                       Shri Raj Nath Singh(Ministry of Defence)
+
+
                       </option>
                     </>
                   ) : (
@@ -1480,18 +1508,16 @@ function RegisterPage() {
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
-
+                  
               <div className="para-container">
                 <p className="mb-4 pb-3 reg-p1">Preference 3:</p>
               </div>
-
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p"> Commitee 3</p>
+              <p className="mb-4 pb-3 reg-p">Commitee 3</p>
               </div>
-
               <div className="form-group">
                 <select
-                  name="commitee3"
+                  name="preference1"
                   className="form-style-2"
                   id="logemail"
                   placeholder="Select Commitee"
@@ -1502,18 +1528,18 @@ function RegisterPage() {
                   }}
                 >
                    <option value="select commitee"> select commitee..</option>
-                  <option value="UNGA-DISEC">UNGA-DISEC</option>
+                  <option value="UNSC">UNSC</option>
                   <option value="UNGA-SPECPOL">UNGA-SPECPOL</option>
                   <option value="AIPPM">AIPPM</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">Country 3</p>
+              <p className="mb-4 pb-3 reg-p">Country 3</p>
               </div>
               <div className="form-group">
                 <select
-                  name="preference3"
+                  name="logemail"
                   className="form-style-2"
                   id="logemail"
                   placeholder="Select Commitee"
@@ -1523,570 +1549,564 @@ function RegisterPage() {
                     console.log(e.target.value);
                   }}
                 >
-                   {committee3 == "UNGA-DISEC" ? (
+                   {committee3 == "UNSC" ? (
                     <>
                       <option value="Select">Select Portfolio</option>
-                      <option value="Islamic Emirate of Afghanistan">
-                        Islamic Emirate of Afghanistan
+                      <option value="United States of America">
+                        United States of America
                       </option>
-                      <option value="Republic of Albania">
-                        Republic of Albania
+                      <option value="Russia">
+                        Russia
                       </option>
-                      <option value="People's Democratic Republic of Algeria">
-                        People's Democratic Republic of Algeria
+                      <option value="United Kingdom">
+                        United Kingdom
                       </option>
-                      <option value="Republic of Angola">
-                        Republic of Angola
+                      <option value="France">
+                        France
                       </option>
-                      <option value="Argentine Republic">
-                        Argentine Republic
+                      <option value="China">
+                        China
                       </option>
-                      <option value="Republic of Armenia">
-                        Republic of Armenia
+                      <option value="Sudan">
+                        Sudan
                       </option>
-                      <option value="Commonwealth of Australia">
-                        Commonwealth of Australia
+                      <option value="Egypt">
+                        Egypt
                       </option>
-                      <option value="Republic of Austria">
-                        Republic of Austria
+                      <option value="United Arab Emirates">
+                        United Arab Emirates
                       </option>
-                      <option value="Republic of Azerbaijan">
-                        Republic of Azerbaijan
+                      <option value="Saudi Arabia">
+                        Saudi Arabia
                       </option>
-                      <option value="Kingdom of Bahrain">
-                        Kingdom of Bahrain
+                      <option value="Ethiopia">
+                        Ethiopia
                       </option>
-                      <option value="People's Republic of Bangladesh">
-                        People's Republic of Bangladesh
+                      <option value="Chad">
+                        Chad
                       </option>
-                      <option value="Barbados">Barbados</option>
-                      <option value="Republic of Belarus">
-                        Republic of Belarus
+                      <option value="Libya">Libya</option>
+                      <option value="Eritrea">
+                        Eritrea
                       </option>
-                      <option value="Kingdom of Bhutan">
-                        Kingdom of Bhutan
+                      <option value="South Sudan">
+                        South Sudan
                       </option>
-                      <option value="Federative Republic of Brazil">
-                        Federative Republic of Brazil
+                      <option value="South Sudan">
+                        South Sudan
                       </option>
-                      <option value="Republic of Bulgaria">
-                        Republic of Bulgaria
+                      <option value="Central African Republic">
+                        Central African Republic
                       </option>
-                      <option value="Republic of Burundi">
-                        Republic of Burundi
+                      <option value="Israel">
+                        Israel
                       </option>
+                      <option value="Germany">Germany</option>
                       <option value="Canada">Canada</option>
-                      <option value="Republic of Chad">Republic of Chad</option>
-                      <option value="Republic of Chile">
-                        Republic of Chile
+                      <option value="India">
+                        India
                       </option>
-                      <option value="People's Republic of China (PRC)">
-                        People's Republic of China (PRC)
+                      <option value="Equador">
+                        Equador
                       </option>
-                      <option value="Republic of Colombia">
-                        Republic of Colombia
+                      <option value="Albania">
+                        Albania
                       </option>
-                      <option value="Republic of Côte d'Ivoire">
-                        Republic of Côte d'Ivoire
+                      <option value="Ghana">
+                        Ghana
                       </option>
-                      <option value="Republic of Cuba">Republic of Cuba</option>
-                      <option value="Republic of Cyprus">
-                        Republic of Cyprus
+                      <option value="Central African Union">Central African Union</option>
+                      <option value="Nigeria">
+                        Nigeria
                       </option>
-                      <option value="Czech Republic">Czech Republic</option>
-                      <option value="Democratic People's Republic of Korea (DPRK)">
-                        Democratic People's Republic of Korea (DPRK)
+                      <option value="Yemen">Yemen</option>
+                      <option value="Oman">
+                        Oman
                       </option>
-                      <option value="Democratic Republic of the Congo">
-                        Democratic Republic of the Congo
+                      <option value="Qatar">
+                        Qatar
                       </option>
                       <option value="Republic of Djibouti">
                         Republic of Djibouti
                       </option>
-                      <option value="Arab Republic of Egypt">
-                        Arab Republic of Egypt
+                      <option value="Uganda">
+                        Uganda
                       </option>
-                      <option value="Republic of El Salvador">
-                        Republic of El Salvador
+                      <option value="Democratic Republic of Congo">
+                        Democratic Republic of Congo
                       </option>
-                      <option value="State of Eritrea">State of Eritrea</option>
+                      <option value="Iran">Iran</option>
                       <option value="Kingdom of Eswatini">
                         Kingdom of Eswatini
                       </option>
-                      <option value="Federal Democratic Republic of Ethiopia">
-                        Federal Democratic Republic of Ethiopia
+                      <option value="South Africa">
+                        South Africa
                       </option>
-                      <option value="Republic of Fiji">Republic of Fiji</option>
-                      <option value="French Republic">French Republic</option>
-                      <option value="Georgia">Georgia</option>
-                      <option value="Federal Republic of Germany">
-                        Federal Republic of Germany
+                      <option value="Kenya">Kenya</option>
+                      <option value="Somalia">Somalia</option>
+                      <option value="Turkiye">Turkiye</option>
+                      <option value="Italy">
+                        Italy
                       </option>
                       <option value="Hellenic Republic(Greece)">
                         Hellenic Republic(Greece)
                       </option>
-                      <option value="Republic of Haiti">
-                        Republic of Haiti
+                      <option value="Spain">
+                        Spain
                       </option>
-                      <option value="Hungary">Hungary</option>
-                      <option value="Republic of India">
-                        Republic of India
+                      <option value="Jordan">Jordan</option>
+                      <option value="Seychelles">
+                        Seychelles
                       </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
+                      <option value="Pakistan">
+                        Pakistan
                       </option>
-                      <option value="Islamic Republic of Iran">
-                        Islamic Republic of Iran
+                      <option value="Brazil">
+                        Brazil
                       </option>
-                      <option value="Republic of Iraq">Republic of Iraq</option>
-                      <option value="Republic of Ireland">
-                        Republic of Ireland
+                      <option value="Netherlands">Netherlands</option>
+                      <option value="Australia">
+                        Australia
                       </option>
-                      <option value="State of Israel">State of Israel</option>
-                      <option value="Italian Republic">Italian Republic</option>
-                      <option value="Jamaica">Jamaica</option>
                       <option value="Japan">Japan</option>
-                      <option value="Hashemite Kingdom of Jordan">
-                        Hashemite Kingdom of Jordan
-                      </option>
-                      <option value="Republic of Kazakhstan">
-                        Republic of Kazakhstan
-                      </option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Kyrgyz Republic">Kyrgyz Republic</option>
-                      <option value="Republic of Latvia">
-                        Republic of Latvia
-                      </option>
-                      <option value="Republic of Lebanon">
-                        Republic of Lebanon
-                      </option>
-                      <option value="State of Libya">State of Libya</option>
-                      <option value="Republic of Madagascar">
-                        Republic of Madagascar
-                      </option>
-                      <option value="Republic of Mauritius">
-                        Republic of Mauritius
-                      </option>
-                      <option value="United Mexican States(Mexico)">
-                        United Mexican States(Mexico)
-                      </option>
-                      <option value="Mongolia">Mongolia</option>
-                      <option value="Kingdom of Morocco">
-                        Kingdom of Morocco
-                      </option>
-                      <option value="Kingdom of the Netherlands">
-                        Kingdom of the Netherlands
-                      </option>
-                      <option value="Realm of New Zealand">
-                        Realm of New Zealand
-                      </option>
-                      <option value="Federal Republic of Nigeria">
-                        Federal Republic of Nigeria
-                      </option>
-                      <option value="Kingdom of Norway">
-                        Kingdom of Norway
-                      </option>
-                      <option value="Sultanate of Oman">
-                        Sultanate of Oman
-                      </option>
-                      <option value="Islamic Republic of Pakistan">
-                        Islamic Republic of Pakistan
-                      </option>
-                      <option value="Republic of Panama">
-                        Republic of Panama
-                      </option>
-                      <option value="Republic of Peru">Republic of Peru</option>
-                      <option value="Republic of the Philippines">
-                        Republic of the Philippines
-                      </option>
-                      <option value="Republic of Poland">
-                        Republic of Poland
-                      </option>
-                      <option value="Portuguese Republic">
-                        Portuguese Republic
-                      </option>
-                      <option value="State of Qatar">State of Qatar</option>
-                      <option value="Republic of Korea(ROK)">
-                        Republic of Korea(ROK)
-                      </option>
-                      <option value="Russian Federation">
-                        Russian Federation
-                      </option>
-                      <option value="Saint Lucia">Saint Lucia</option>
-                      <option value="Independent State of Samoa">
-                        Independent State of Samoa
-                      </option>
-                      <option value="Kingdom of Saudi Arabia (KSA)">
-                        Kingdom of Saudi Arabia (KSA)
-                      </option>
-                      <option value="Republic of Senegal">
-                        Republic of Senegal
-                      </option>
-                      <option value="Republic of Seychelles">
-                        Republic of Seychelles
-                      </option>
-                      <option value="Republic of Singapore">
-                        Republic of Singapore
-                      </option>
-                      <option value="Solomon Islands">Solomon Islands</option>
-                      <option value="Federal Republic of Somalia">
-                        Federal Republic of Somalia
-                      </option>
-                      <option value="Republic of South Africa (RSA)">
-                        Republic of South Africa (RSA)
-                      </option>
-                      <option value="Kingdom of Spain">Kingdom of Spain</option>
-                      <option value="Republic of the Sudan">
-                        Republic of the Sudan
-                      </option>
-                      <option value="Swiss Confederation">
-                        Swiss Confederation
-                      </option>
-                      <option value="Syrian Arab Republic">
-                        Syrian Arab Republic
-                      </option>
-                      <option value="Republic of China (ROC)">
-                        Republic of China (ROC)
-                      </option>
-                      <option value="Kingdom of Thailand">
-                        Kingdom of Thailand
-                      </option>
-                      <option value="Republic of Türkiye">
-                        Republic of Türkiye
-                      </option>
-                      <option value="Turkmenistan">Turkmenistan</option>
-                      <option value="Ukraine">Ukraine</option>
-                      <option value="United Arab Emirates">
-                        United Arab Emirates
-                      </option>
-                      <option value="United Kingdom of Great Britain and Northern Ireland">
-                        United Kingdom of Great Britain and Northern Ireland
-                      </option>
-                      <option value="United States of America">
-                        United States of America
-                      </option>
-                      <option value="Bolivarian Republic of Venezuela">
-                        Bolivarian Republic of Venezuela
-                      </option>
-                      <option value="Socialist Republic of Vietnam">
-                        Socialist Republic of Vietnam
-                      </option>
-                      <option value="Republic of Yemen">
-                        Republic of Yemen
-                      </option>
                     </>
                   ) : (committee3 == "UNGA-SPECPOL") ? (
                     <>
                       <option value="Select">Select Portfolio</option>
 
-                      <option value="State of Israel">State of Israel</option>
-                      <option value="State of Palestine">
-                        State of Palestine
+                      <option value="Islamic Emirate of Afghanistan
+">Islamic Emiratre of Afghanistan</option>
+                      <option value="People's Democratic Republic of Angola">
+                      People’s Democratic Republic of Algeria
                       </option>
-                      <option value="United States of America">
-                        United States of America
+                      <option value="Republic of Argentina">
+                      Republic of Argentina
                       </option>
-                      <option value="French Republic">French Republic</option>
-                      <option value="Federal Republic of Germany">
-                        Federal Republic of Germany
-                      </option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Republic of Lebanon">
-                        Republic of Lebanon
-                      </option>
-                      <option value="Syrian Arab Republic">
-                        Syrian Arab Republic
-                      </option>
-                      <option value="Hashemite Kingdom of Jordan">
-                        Hashemite Kingdom of Jordan
-                      </option>
-                      <option value="Arab Republic of Egypt">
-                        Arab Republic of Egypt
-                      </option>
-                      <option value="Kingdom of Saudi Arabia">
-                        Kingdom of Saudi Arabia
-                      </option>
-                      <option value="Republic of Iraq">Republic of Iraq</option>
-                      <option value="Islamic Republic of Iran">
-                        Islamic Republic of Iran
-                      </option>
-                      <option value="Republic of India">
-                        Republic of India
-                      </option>
-                      <option value="People’s Republic of China">
-                        People’s Republic of China
-                      </option>
-                      <option value="Russian Federation">
-                        Russian Federation
-                      </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
-                      </option>
-                      <option value="Plurinational State of Bolivia">
-                        Plurinational State of Bolivia
-                      </option>
-                      <option value="Republic of Chile">
-                        Republic of Chile
-                      </option>
-                      <option value="Republic of Ecuador">
-                        Republic of Ecuador
-                      </option>
-                      <option value="Federal Democratic Republic of Ethiopia">
-                        Federal Democratic Republic of Ethiopia
-                      </option>
-                      <option value="Republic of Tunisia">
-                        Republic of Tunisia
-                      </option>
-                      <option value="United Republic of Tanzania">
-                        United Republic of Tanzania
-                      </option>
-                      <option value="Bolivarian Republic of Venezuela">
-                        Bolivarian Republic of Venezuela
-                      </option>
-                      <option value="Republic of Cuba">Republic of Cuba</option>
-                      <option value="Republic of the Congo">
-                        Republic of the Congo
-                      </option>
-                      <option value="Independent State of Papua New Guinea">
-                        Independent State of Papua New Guinea
-                      </option>
-                      <option value="Republic of Fiji">Republic of Fiji</option>
-                      <option value="Commonwealth of Dominica">
-                        Commonwealth of Dominica
-                      </option>
-                      <option value="Islamic Emirate of Afghanistan">
-                        Islamic Emirate of Afghanistan
-                      </option>
-                      <option value="Commonwealth of Australia">
+                      <option value="Republic of Armenia
+">Republic of Armenia
+</option>
+                      <option value="Commonwealth of Australia
+">
                         Commonwealth of Australia
+
                       </option>
-                      <option value="Federative Republic of Brazil">
-                        Federative Republic of Brazil
+                      <option value="Republic of Austria
+">Republic of Austria
+</option>
+                      <option value="Republic of Azerbaijan
+">
+                       Republic of Azerbaijan
+
                       </option>
-                      <option value="Democratic People's Republic of Korea">
-                        Democratic People's Republic of Korea
+                      <option value="Commonwealth of the Bahamas
+">
+                       Commonwealth of the Bahamas
+
                       </option>
-                      <option value="Republic of Indonesia">
-                        Republic of Indonesia
+                      <option value="Kingdom of Bahrain">
+                      Kingdom of Bahrain
                       </option>
-                      <option value="Canada">Canada</option>
-                      <option value="Kingdom of Belgium">
-                        Kingdom of Belgium
+                      <option value="People’s Republic of Bangladesh">
+                      People’s Republic of Bangladesh
                       </option>
-                      <option value="Republic of Italy">
-                        Republic of Italy
+                      <option value="Republic of Belarus
+">
+                       Republic of Belarus
+
                       </option>
-                      <option value="United Mexican States">
-                        United Mexican States
-                      </option>
-                      <option value="Republic of Belarus">
-                        Republic of Belarus
-                      </option>
-                      <option value="People's Republic of Bangladesh">
-                        People's Republic of Bangladesh
-                      </option>
-                      <option value="Islamic Republic of Pakistan">
-                        Islamic Republic of Pakistan
-                      </option>
-                      <option value="Realm of New Zealand">
-                        Realm of New Zealand
-                      </option>
-                      <option value="Japan">Japan</option>
-                      <option value="Republic of Singapore">
-                        Republic of Singapore
-                      </option>
-                      <option value="United Arab Emirates">
-                        United Arab Emirates
-                      </option>
-                      <option value="Republic of Austria">
-                        Republic of Austria
+                      <option value="Kingdom of Belgium">Kingdom of Belgium</option>
+                      <option value="Belize
+">
+                      Belize
+
                       </option>
                       <option value="Kingdom of Bhutan">
-                        Kingdom of Bhutan
+                      Kingdom of Bhutan
                       </option>
-                      <option value="Czech Republic">Czech Republic</option>
-                      <option value="Republic of Mauritius">
-                        Republic of Mauritius
+                      <option value="Plurinational State of Bolivia">
+                      Plurinational State of Bolivia
                       </option>
-                      <option value="State of Qatar">State of Qatar</option>
-                      <option value="Kingdom of Thailand">
-                        Kingdom of Thailand
+                      <option value="Federative Republic of Brazil
+">
+                      Federative Republic of Brazil
+
                       </option>
-                      <option value="Republic of the Philippines">
-                        Republic of the Philippines
+                      <option value="Republic of Bulgaria
+">
+                       Republic of Bulgaria
+
+                      </option>
+                      <option value="Kingdom of Cambodia">
+                      Kingdom of Cambodia
+                      </option>
+                      <option value="Canada">
+                      Canada
+                      </option>
+                      <option value="Central African Republic">
+                      Central African Republic
+                      </option>
+                      <option value="Republic of Chile">
+                      Republic of Chile
+                      </option>
+                      <option value="People’s Republic of China
+">
+                       People’s Republic of China
+
+                      </option>
+                      <option value="Republic of Croatia">
+                      Republic of Croatia
+                      </option>
+                      <option value="Republic of Cuba
+">
+                      Republic of Cuba
+
+                      </option>
+                      <option value="
+Czech Republic
+">
+Czech Republic
+</option>
+                      <option value="Democratic People’s Republic of Korea">
+                      Democratic People’s Republic of Korea
+                      </option>
+                      <option value="Kingdom of Denmark
+">
+                      Kingdom of Denmark
+
+                      </option>
+                      <option value="Arab Republic of Egypt">Arab Republic of Egypt</option>
+                      <option value="Republic of Estonia
+">
+                      Republic of Estonia
+
+                      </option>
+                      <option value="Republic of France
+">
+                      Republic of France
+
+                      </option>
+                      <option value="Federal Republic of Germany">
+                      Federal Republic of Germany
+                      </option>
+                      <option value="Hellenic Republic of Greece">
+                      Hellenic Republic of Greece
+                      </option>
+                      <option value="Republic of Guatemala">
+                      Republic of Guatemala
+                      </option>
+                      <option value="Republic of Haitin">
+                      Republic of Haiti
+                      </option>
+                      <option value="Republic of Honduras">Republic of Honduras</option>
+                      <option value="Hungary">
+                      Hungary
+                      </option>
+                      <option value="Republic of Iceland">
+                      Republic of Iceland
+                      </option>
+                      <option value="Republic of India
+">
+                      Republic of India
+
+                      </option>
+                      <option value="Republic of Indonesia">
+                      Republic of Indonesia
+                      </option>
+                      <option value="Islamic Republic of Iran">
+                      Islamic Republic of Iran
+                      </option>
+                      <option value="Republic of Iraq
+">
+                      Republic of Iraq
+
+                      </option>
+                      <option value="Ireland
+">
+                     Ireland
+
+                      </option>
+                      <option value="Republic of Italy">Republic of Italy</option>
+                      <option value="Japan
+">
+                       Japan
+
+                      </option>
+                      <option value="Hashemite Kingdom of Jordan">
+                      Hashemite Kingdom of Jordan
+                      </option>
+                      <option value="Republic of Kenya
+">
+                       Republic of Kenya
+
+                      </option>
+                      <option value="Republic of Kiribati
+">
+                      Republic of Kiribati
+
+                      </option>
+                      <option value="State of Kuwait">State of Kuwait</option>
+                      <option value="Lao People’s Democratic Republic">
+                      Lao People’s Democratic Republic
+                      </option>
+                      <option value="Republic of Latvia">Republic of Latvia</option>
+                      <option value="Republic of Lithuania">
+                      Republic of Lithuania
+                      </option>
+                      <option value="Grand Duchy of Luxembourg">
+                      Grand Duchy of Luxembourg
+                      </option>
+                      <option value="Republic of Malawi
+">
+                        Republic of Malawi
+
+                      </option>
+                      <option value="Malaysia">Malaysia</option>
+                      <option value="Republic of Marshall Islands">Republic of Marshall Islands</option>
+                      <option value="United Mexican States">
+                      United Mexican States
+                      </option>
+                      <option value="Mongolia">
+                      Mongolia
+                      </option>
+                      <option value="Montenegro">
+                      Montenegro
+                      </option>
+                      <option value="Kingdom of Morocco">
+                      Kingdom of Morocco
+                      </option>
+                      <option value="Republic of the Union of Myanmar">
+                      Republic of the Union of Myanmar
+                      </option>
+                      <option value="Republic of Nauru">
+                      Republic of Nauru
+                      </option>
+                      <option value="Kingdom of the Netherlands">
+                      Kingdom of the Netherlands
+                      </option>
+                      <option value="New Zealand">
+                      New Zealand
+                      </option>
+                      <option value="Republic of North Macedonia">
+                      Republic of North Macedonia
                       </option>
                       <option value="Kingdom of Norway">
-                        Kingdom of Norway
+                      Kingdom of Norway
                       </option>
-                      <option value="Kingdom of Spain">Kingdom of Spain</option>
-                      <option value="State of Kuwait">State of Kuwait</option>
-                      <option value="Argentine Republic">
-                        Argentine Republic
+                      <option value="Sultanate of Oman">
+                      Sultanate of Oman
                       </option>
-                      <option value="Republic of Bulgaria">
-                        Republic of Bulgaria
+                      <option value="Islamic Republic of Pakistan">
+                      Islamic Republic of Pakistan
                       </option>
-                      <option value="Swiss Confederation">
-                        Swiss Confederation
+                      <option value="Republic of Palau">
+                      Republic of Palau
                       </option>
-                      <option value="United Kingdom of Great Britain and Northern Ireland">
-                        United Kingdom of Great Britain and Northern Ireland
+                      <option value="Republic of Paraguay">
+                      Republic of Paraguay
+                      </option>
+                      <option value="Republic of the Phillippines">
+                      Republic of the Phillippines
                       </option>
                       <option value="Republic of Poland">
-                        Republic of Poland
+                      Republic of Poland
                       </option>
+                      <option value="Portuguese Republic
+">
+                      Portuguese Republic
+                      </option>
+                      <option value="State of Qatar">
+                      State of Qatar
+                      </option>
+                      <option value="Republic of Korea">
+                      Republic of Korea
+                      </option>
+                      <option value="Russian Federation">
+                      Russian Federation
+                      </option>
+                      <option value="Kingdom of Saudi Arabia">
+                      Kingdom of Saudi Arabia
+                      </option>
+                      <option value="Republic of Singapore">
+                      Republic of Singapore
+                      </option>
+                      <option value="Republic of Slovenia
+">
+                      Republic of Slovenia
+                      </option>
+                      <option value="Republic of South Africa">
+                      Republic of South Africa
+                      </option>
+                      <option value="Democratic Socialist Republic of Sri Lanka">
+                      Democratic Socialist Republic of Sri Lanka
+                      </option>
+                      <option value="Kingdom of Thailand
+">
+                    Kingdom of Thailand
+
+                      </option>
+                      <option value="Tuvalu">
+                      Tuvalu
+                      </option>
+                      <option value="Republic of Türkiye">
+                      Republic of Türkiye
+                      </option>
+                      <option value="United Arab Emirates">
+                      United Arab Emirates
+                      </option>
+                      <option value="United Kingdom of Great Britain and Northern Ireland">
+                      United Kingdom of Great Britain and Northern Ireland
+                      </option>
+                      <option value="United States of America">
+                      United States of America
+                      </option>
+                      <option value="Bolivarian Republic of Venezuela">
+                      Bolivarian Republic of Venezuela
+                      </option>
+                      <option value="Socialist Republic of Viet Nam">
+                      Socialist Republic of Viet Nam
+                      </option>
+                      <option value="State of Palestine (Observer State)">
+                      State of Palestine (Observer State)
+                      </option>
+                      <option value="Vatican City (Observer State)">
+                      Vatican City (Observer State)
+                      </option>
+
+
                     </>
                   ) : ( committee3 == "AIPPM") ? (
                     <>
                       <option value="Select">Select Portfolio</option>
-                      <option value="Narendra Modi">Narendra Modi</option>
-                      <option value="Arun Jaitley">Arun Jaitley</option>
-                      <option value="B S Yeddurappa">B S Yeddurappa</option>
-                      <option value="Anurag Thakur">Anurag Thakur</option>
-                      <option value="LK Advani">LK Advani</option>
-                      <option value="Hemanth Biswas Sharma">
-                        Hemanth Biswas Sharma
+                      <option value="Zoramthanga (Party Leader; not in the Indian Parliament)">Zoramthanga (Party Leader; not in the Indian Parliament)</option>
+                      <option value="N. Biren Singh (Chief Minister of Manipur)">N. Biren Singh (Chief Minister of Manipur)</option>
+                      <option value="Dr. R.K. RaTokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
+                      <option value="Pratima Bhowmik (MP from Tripura West)">Pratima Bhowmik (MP from Tripura West)</option>
+                      <option value="Rebati Tripura (MP from Tripura East)">
+                      Rebati Tripura (MP from Tripura East)
                       </option>
-                      <option value="Amit Shah">Amit Shah</option>
-                      <option value="Devendra Fadnavis">
-                        Devendra Fadnavis
+                      <option value="Karam Shyam Singh (Not in the Indian Parliament)
+">Karam Shyam Singh (Not in the Indian Parliament)
+</option>
+                      <option value="Thokchom Radheshyam Singh (Not in the Indian Parliament)">
+                      Thokchom Radheshyam Singh (Not in the Indian Parliament)
                       </option>
-                      <option value="Smruti Irani">Smruti Irani</option>
-                      <option value="Narotam Mishra">Narotam Mishra</option>
-                      <option value="Jyotiraditya Scindhi">
-                        Jyotiraditya Scindhi
+                      <option value="Nishikant Sing Sapam (Not in the Indian Parliament)
+">Nishikant Sing Sapam (Not in the Indian Parliament)
+</option>
+                      <option value="Khwairakpam Raghumani Singh (Not in the Indian Parliament)
+">Khwairakpam Raghumani Singh (Not in the Indian Parliament)
+</option>
+                      <option value="S Brojen Singh (Not in the Indian Parliament)
+">
+                       S Brojen Singh (Not in the Indian Parliament)
+
                       </option>
-                      <option value="Sibraj Singh">Sibraj Singh</option>
-                      <option value="Kapil Mishra">Kapil Mishra</option>
-                      <option value="Dharmendra Pradhan">
-                        Dharmendra Pradhan
+                      <option value="T Robindro Singh (Not in the Indian Parliament)">T Robindro Singh (Not in the Indian Parliament)</option>
+                      <option value="S Rajen Singh (Not in the Indian Parliament)">S Rajen Singh (Not in the Indian Parliament)</option>
+                      <option value="S Kebi Devi (Not in the Indian Parliament)
+">
+                       S Kebi Devi (Not in the Indian Parliament)
+
                       </option>
-                      <option value="Jp Nadda">Jp Nadda</option>
-                      <option value="Yogi Adityanath">Yogi Adityanath</option>
-                      <option value="Ravi Shankar Prasad">
-                        Ravi Shankar Prasad
+                      <option value="Y Radheshyam (Not in the Indian Parliament)
+">Y Radheshyam (Not in the Indian Parliament)
+</option>
+                      <option value="Narendra Modi
+">Narendra Modi
+</option>
+                      <option value="Amit Shah
+">
+                       Amit Shah
+
                       </option>
-                      <option value="Kiran Rijuju">Kiran Rijuju</option>
-                      <option value="Gaurav Bhatia">Gaurav Bhatia</option>
-                      <option value="Giriraj Singh">Giriraj Singh</option>
-                      <option value="Nalin Kohli">Nalin Kohli</option>
-                      <option value="Harsh Vardhan">Harsh Vardhan</option>
-                      <option value="Murli Manohar Joshi">
-                        Murli Manohar Joshi
+                      <option value="Dr. Subrahmanyam Jaishankar
+">Dr. Subrahmanyam Jaishankar
+</option>
+                      <option value="Smt. Smriti Zubin Irani
+">Smt. Smriti Zubin Irani
+</option>
+                      <option value="Smt. Nirmala Sitharaman
+">Smt. Nirmala Sitharaman
+</option>
+                      <option value="Shri Arjun Munda">Shri Arjun Munda</option>
+                      <option value="Shri Anurag Singh Thakur">Shri Anurag Singh Thakur</option>
+                      <option value="Rahul Gandhi (MP from Wayanad)">
+                      Rahul Gandhi (MP from Wayanad)
                       </option>
-                      <option value="Rajnath Singh">Rajnath Singh</option>
-                      <option value="Rajyavardhan Singh Rathore">
-                        Rajyavardhan Singh Rathore
+                      <option value="Shashi Tharoor (MP from Thiruvananthapuram)">Shashi Tharoor (MP from Thiruvananthapuram)</option>
+                      <option value="A K Antony (Not in the Indian Parliament)">
+                      A K Antony (Not in the Indian Parliament)
                       </option>
-                      <option value="Shivraj Singh Chouhan">
-                        Shivraj Singh Chouhan
+                      <option value="Priyanka Gandhi (Not in the Indian Parliament)">
+                      Priyanka Gandhi (Not in the Indian Parliament)
                       </option>
-                      <option value="Subramanian Swamy">
-                        Subramanian Swamy
+                      <option value="Ashok Gehlot (Chief Minister of Rajasthan)
+">
+                       Ashok Gehlot (Chief Minister of Rajasthan)
+
                       </option>
-                      <option value="Yashwant Sinha">Yashwant Sinha</option>
-                      <option value="Piyush Goyal">Piyush Goyal</option>
-                      <option value="Rajnath Singh">Rajnath Singh</option>
-                      <option value="V K Singh">V K Singh</option>
-                      <option value="Vijay Goyal">Vijay Goyal</option>
-                      <option value="Bhupender Yadav">Bhupender Yadav</option>
-                      <option value="Rameswar Teli">Rameswar Teli</option>
-                      <option value="Santosh Gangwar">Santosh Gangwar</option>
-                      <option value="Rahul Gandhi">Rahul Gandhi</option>
-                      <option value="A K Antony">A K Antony</option>
-                      <option value="Priyanka Gandhi">Priyanka Gandhi</option>
-                      <option value="Ashok Gehlot">Ashok Gehlot</option>
-                      <option value="Sachin Pilot">Sachin Pilot</option>
-                      <option value="Digvijay Singh">Digvijay Singh</option>
-                      <option value="Abhishek Manusinghvi">
-                        Abhishek Manusinghvi
+                      <option value="Bhupendra Singh Baghel (Chief Minister of Chhattisgarh)">Bhupendra Singh Baghel (Chief Minister of Chhattisgarh)</option>
+                      <option value="Kamal Nath (Not in the Indian Parliament)
+">Kamal Nath (Not in the Indian Parliament)
+</option>
+                      <option value="Salman Khurshid (MP from Rajya Sabha)
+">Salman Khurshid (MP from Rajya Sabha)
+</option>
+                      <option value="Supriya Sule (MP from Baramati)">Supriya Sule (MP from Baramati)</option>
+                      <option value="Hardik Patel (Not in the Indian Parliament)">Hardik Patel (Not in the Indian Parliament)</option>
+                      <option value="Ahmed Patel (Former MP; Deceased)">Ahmed Patel (Former MP; Deceased)</option>
+                      <option value="Anand Sharma (MP from Rajya Sabha)">Anand Sharma (MP from Rajya Sabha)</option>
+                      <option value="Kamakhya Prasad Singh Deo (Not in the Indian Parliament)">Kamakhya Prasad Singh Deo (Not in the Indian Parliament)</option>
+                      <option value="Kapil Sibal (MP from Rajya Sabha)">Kapil Sibal (MP from Rajya Sabha)</option>
+                      <option value="P Chidambaram (MP from Rajya Sabha)">P Chidambaram (MP from Rajya Sabha)</option>
+                      <option value="Ch. Ajang Khongsai (Not in the Indian Parliament)">Ch. Ajang Khongsai (Not in the Indian Parliament)</option>
+                      <option value="Nitish Kumar (Chief Minister of Bihar)">Nitish Kumar (Chief Minister of Bihar)</option>
+                      <option value="Mamata Banerjee (Chief Minister of West Bengal)">Mamata Banerjee (Chief Minister of West Bengal)</option>
+                      <option value="Abhishek Banerjee (MP from Diamond Harbour)
+">Abhishek Banerjee (MP from Diamond Harbour)
+</option>
+                      <option value="Derek O'Brien (MP from Rajya Sabha)">
+                      Derek O'Brien (MP from Rajya Sabha)
                       </option>
-                      <option value="Sonia Gandhi">Sonia Gandhi</option>
-                      <option value="Bhupendra Singh Baghela">
+                      <option value="Mahua Moitra (MP from Krishnanagar)">Mahua Moitra (MP from Krishnanagar)</option>
+                      <option value="Arvind Kejriwal (Chief Minister of Delhi)">
                         
-                        Bhupendra Singh Baghela
+                      Arvind Kejriwal (Chief Minister of Delhi)
                       </option>
-                      <option value="Kamal Nath">Kamal Nath</option>
-                      <option value="Salman Khurshid">Salman Khurshid</option>
-                      <option value="Supriya Srinet">Supriya Srinet</option>
-                      <option value="Hardik Patel">Hardik Patel</option>
-                      <option value="Sashi Tharoor">Sashi Tharoor</option>
-                      <option value="Ahmad Patel">Ahmad Patel</option>
-                      <option value="Anand Sharma">Anand Sharma</option>
-                      <option value="Kamak Nath">Kamak Nath</option>
-                      <option value="Kapil Sibal">Kapil Sibal</option>
-                      <option value="P Chidambaram">P Chidambaram</option>
-                      <option value="Sanjay Raut">Sanjay Raut</option>
-                      <option value="Uddhav Thackeray">Uddhav Thackeray</option>
-                      <option value="Aditya Thackeray">Aditya Thackeray</option>
-                      <option value="Mamta Bannerjee">Mamta Bannerjee</option>
-                      <option value="Abhishek Banerjee">
-                        Abhishek Banerjee
-                      </option>
-                      <option value="Derek O'Brian">Derek O'Brian</option>
-                      <option value="SHARAD  PAWAR">SHARAD PAWAR</option>
-                      <option value="Nitish Kumar">Nitish Kumar</option>
-                      <option value="Akhilesh Yadav">Akhilesh Yadav</option>
-                      <option value="Mulayam Singh Yadav">
-                        Mulayam Singh Yadav
-                      </option>
-                      <option value="Tejasvi Yadav">Tejasvi Yadav</option>
-                      <option value="Arvind Kejriwal">Arvind Kejriwal</option>
-                      <option value="Raghav Chadha">Raghav Chadha</option>
-                      <option value="Manish Sishodia">Manish Sishodia</option>
-                      <option value="MK Stalin">MK Stalin</option>
-                      <option value="Asaduddin Owaisi">Asaduddin Owaisi</option>
-                      <option value="E K Palaniswami">E K Palaniswami</option>
-                      <option value="O Panneerselvam">O Panneerselvam</option>
-                      <option value="H D Beve Gowda">H D Beve Gowda</option>
-                      <option value="HD Kumaraswamy">HD Kumaraswamy</option>
-                      <option value="N Chandrsbabu Naidu">
-                        N Chandrsbabu Naidu
-                      </option>
-                      <option value="Pinarayi Vijayan">Pinarayi Vijayan</option>
-                      <option value="Sitaram Yechury">Sitaram Yechury</option>
-                      <option value="Raj Thackeray">Raj Thackeray</option>
-                      <option value="Ram Vilas Paswan">Ram Vilas Paswan</option>
-                      <option value="Chirag Paswan">Chirag Paswan</option>
-                      <option value="Mayawati">Mayawati</option>
-                      <option value="Nodeep Kaur">Nodeep Kaur</option>
-                      <option value="Aruna Roy">Aruna Roy</option>
-                      <option value="Anannya Bhattacharjee">
-                        Anannya Bhattacharjee
-                      </option>
-                      <option value="Shanta Sinha">Shanta Sinha</option>
-                      <option value="Sunitha Krishnan">Sunitha Krishnan</option>
-                      <option value="Nalini Jameela">Nalini Jameela</option>
-                      <option value="Ruchira Gupta">Ruchira Gupta</option>
-                      <option value="Ashok Row Kavi">Ashok Row Kavi</option>
-                      <option value="Gopi Shankar Madurai">
-                        Gopi Shankar Madurai
+                      <option value="Raghav Chadha (Not in the Indian Parliament)">Raghav Chadha (Not in the Indian Parliament)</option>
+                      <option value="Manish Sisodia (Not in the Indian Parliament)">Manish Sisodia (Not in the Indian Parliament)</option>
+                      <option value="Akhilesh Yadav (Not in the Indian Parliament)">Akhilesh Yadav (Not in the Indian Parliament)</option>
+                      <option value="Mulayam Singh Yadav (Not in the Indian Parliament)">Mulayam Singh Yadav (Not in the Indian Parliament)</option>
+                      <option value="Tejasvi Yadav (Not in the Indian Parliament)">Tejasvi Yadav (Not in the Indian Parliament)</option>
+                      <option value="H D Deve Gowda (Not in the Indian Parliament)">H D Deve Gowda (Not in the Indian Parliament)</option>
+                      <option value="HD Kumaraswamy (Not in the Indian Parliament)">HD Kumaraswamy (Not in the Indian Parliament)</option>
+                      <option value="Pinarayi Vijayan (Chief Minister of Kerala)">Pinarayi Vijayan (Chief Minister of Kerala)</option>
+                      <option value="Sitaram Yechury (MP from Rajya Sabha)
+">Sitaram Yechury (MP from Rajya Sabha)
+</option>
+                      <option value="Kuldiep Singh (Affiliation not specified; Not in the Indian Parliament)
+">Kuldiep Singh (Affiliation not specified; Not in the Indian Parliament)
+</option>
+                      <option value="All Tribal Students' Union Manipur (ATSUM)
+">All Tribal Students' Union Manipur (ATSUM)
+</option>
+                      <option value="Dr. Bharati Pravin Pawar(Ministry of Tribal Affairs)">Dr. Bharati Pravin Pawar(Ministry of Tribal Affairs)</option>
+                      <option value="Dr. L. Murugan(Ministry of Information and Broadcasting)">Dr. L. Murugan(Ministry of Information and Broadcasting)</option>
+                      <option value="Shri Devusinh Chauhan(Ministry of Communications)
+">Shri Devusinh Chauhan(Ministry of Communications)
+</option>
+                      <option value="Shri Raj Nath Singh(Ministry of Defence)
+
+">
+                       Shri Raj Nath Singh(Ministry of Defence)
+
+
                       </option>
                     </>
                   ) : (
                     <option value="select...">Select..</option>
                   )}
                 </select>
-                <i className="input-icon uil uil-at"></i>
-              </div>
-              <div className="from-group">
-              <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">Experience</p>
-              </div>
-                <input
-                  className="form-style"
-                  placeholder="Experience"
-                  name="Experience"
-                  id="logemail"
-                  type="email"
-                  data-type="text"
-                  autoComplete="off"
-                  value={experience}
-                  onChange={(e) => {
-                    setExperience(e.target.value);
-                    console.log(e.target.value);
-                  }}
-                />
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="btn-container">

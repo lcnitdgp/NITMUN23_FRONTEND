@@ -14,7 +14,7 @@ class Navbar extends Component {
   render() {
     return (
       <>
-      <nav className="NavbarItems">
+        <nav className={`NavbarItems ${this.state.clicked ? 'no-blur' : ''}`}>
         <h1 className="navabr-logo">NITMUN</h1>
 
         <div className="menu-icons" onClick={this.handleClick}> 

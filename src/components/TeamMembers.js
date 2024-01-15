@@ -19,7 +19,7 @@ function TeamCards() {
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Epshitha Chakraborthy" 
+    name="Epshita Chakravarthy" 
     jobTitle="Secretary General" 
      backgroundImage="./assets/epshitha1.jpg"
 />
@@ -69,7 +69,7 @@ function TeamCards() {
 
     name="Navneet Berwal" 
     jobTitle="Under Secretary General" 
-     backgroundImage="./assets/ayush.jpeg"
+     backgroundImage="./assets/navneet.jpg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
@@ -83,9 +83,9 @@ function TeamCards() {
     facebookLink="https://facebook.com" 
     instagramLink="https://instagram.com" 
 
-    name="Kshitiz Chada" 
+    name="Kshitiz Chadha" 
     jobTitle="Under Secretary General" 
-     backgroundImage="./assets/ayush.jpeg"
+     backgroundImage="./assets/kshitiz.jpg"
 />
             <Cards 
     facebookLink="https://facebook.com" 
