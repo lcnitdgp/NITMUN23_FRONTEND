@@ -111,7 +111,7 @@ function RegisterPage() {
           <div className="center-wrap">
             <div className="reg-section text-center">
             <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">NAME</p>
+                <p className="mb-4 pb-3 reg-p">NAME*</p>
               </div>
               <div className="form-group">
                 <input
@@ -133,7 +133,7 @@ function RegisterPage() {
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">EMAIL ID</p>
+                <p className="mb-4 pb-3 reg-p">EMAIL ID*</p>
               </div>
               <div className="form-group">
                 <input
@@ -155,7 +155,7 @@ function RegisterPage() {
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">PHONE NUMBER</p>
+                <p className="mb-4 pb-3 reg-p">PHONE NUMBER*</p>
               </div>
               <div className="form-group">
                 <input
@@ -322,17 +322,17 @@ function RegisterPage() {
               </div>
 
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p1">Preference 1:</p>
+                <p className="mb-4 pb-3 reg-p1">PREFERENCE 1: </p>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Commitee 1</p>
+              <p className="mb-4 pb-3 reg-p">COMMITTEE 1 *</p>
               </div>
               <div className="form-group">
                 <select
                   name="preference1"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={committee1}
                   onChange={(e) => {
                     setComittee1(e.target.value);
@@ -347,14 +347,14 @@ function RegisterPage() {
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">  {committee1 == "AIPPM" ? "Personality 1" : "Country 1"}</p>
+              <p className="mb-4 pb-3 reg-p">  {committee1 == "AIPPM" ? "PERSONALITY 1*" : "COUNTRY 1*"}</p>
               </div>
               <div className="form-group">
                 <select
                   name="logemail"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={preference1}
                   onChange={(e) => {
                     setPreferences1(e.target.value);
@@ -923,17 +923,17 @@ Czech Republic
               </div>
                  
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p1">Preference 2:</p>
+                <p className="mb-4 pb-3 reg-p1">PREFERENCE 2: </p>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Commitee 2</p>
+              <p className="mb-4 pb-3 reg-p">COMMITTEE 2*</p>
               </div>
               <div className="form-group">
                 <select
                   name="preference1"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={committee2}
                   onChange={(e) => {
                     setComittee2(e.target.value);
@@ -948,14 +948,14 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">  {committee2 == "AIPPM" ? "Personality 2" : "Country 2"}</p>
+              <p className="mb-4 pb-3 reg-p">  {committee2 == "AIPPM" ? "PERSONALITY 2*" : "COUNTRY 2*"}</p>
               </div>
               <div className="form-group">
                 <select
                   name="logemail"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={preference2}
                   onChange={(e) => {
                     setPreferences2(e.target.value);
@@ -1524,17 +1524,17 @@ Czech Republic
               </div>
                   
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p1">Preference 3:</p>
+                <p className="mb-4 pb-3 reg-p1">PREFERENCE 3: </p>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Commitee 3</p>
+              <p className="mb-4 pb-3 reg-p">COMMITTEE 3*</p>
               </div>
               <div className="form-group">
                 <select
                   name="preference1"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={committee3}
                   onChange={(e) => {
                     setComittee3(e.target.value);
@@ -1549,14 +1549,14 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">  {committee3 == "AIPPM" ? "Personality 3" : "Country 3"}</p>
+              <p className="mb-4 pb-3 reg-p">  {committee3 == "AIPPM" ? "PERSONALITY 3*" : "COUNTRY 3*"}</p>
               </div>
               <div className="form-group">
                 <select
                   name="logemail"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={preference3}
                   onChange={(e) => {
                     setPreferences3(e.target.value);
@@ -2125,7 +2125,7 @@ Czech Republic
               </div>
               <div className="from-group">
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">Experience</p>
+                <p className="mb-4 pb-3 reg-p">EXPERIENCE</p>
               </div>
                 <input
                   className="form-style"
@@ -2157,7 +2157,7 @@ Czech Republic
           <div className="center-wrap">
             <div className="reg-section text-center">
             <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">NAME</p>
+                <p className="mb-4 pb-3 reg-p">NAME*</p>
               </div>
               <div className="form-group">
                 <input
@@ -2179,7 +2179,7 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">EMAIL ID</p>
+                <p className="mb-4 pb-3 reg-p">EMAIL ID*</p>
               </div>
               <div className="form-group">
                 <input
@@ -2201,7 +2201,7 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">PHONE NUMBER</p>
+                <p className="mb-4 pb-3 reg-p">PHONE NUMBER*</p>
               </div>
               <div className="form-group">
                 <input
@@ -2349,7 +2349,7 @@ Czech Republic
                 }
               >
                  <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">Institute name</p>
+                <p className="mb-4 pb-3 reg-p">INSTITUTE NAME</p>
               </div>
                 <input
                   className="form-style"
@@ -2368,17 +2368,17 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p1">Preference 1:</p>
+                <p className="mb-4 pb-3 reg-p1">PREFERENCE 1:</p>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Commitee 1</p>
+              <p className="mb-4 pb-3 reg-p">COMMITTEE 1*</p>
               </div>
               <div className="form-group">
                 <select
                   name="commitee1"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={committee1}
                   onChange={(e) => {
                     setComittee1(e.target.value);
@@ -2393,14 +2393,14 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Press 1</p>
+              <p className="mb-4 pb-3 reg-p">PRESS 1*</p>
               </div>
               <div className="form-group">
                 <select
                   name="press1"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={preference1}
                   onChange={(e) => {
                     setPreferences1(e.target.value);
@@ -2412,12 +2412,13 @@ Czech Republic
                       <option value="Select">Select Press</option>
                       <option value="Hindustan Times">Hindustan Times</option>
                       <option value="Times Of India">Times Of India</option>
+                      <option value="The Hindu">The Hindu</option>
                        
                     </>
                   ) : (
                     <>
                       <option value="Select">Select Press</option>
-                       
+                      <option value="Union Press International">Union Press International</option>
                       <option value="Associated Press">Associated Press</option>
                       <option value="Reuters">Reuters</option>
                     </>
@@ -2426,17 +2427,17 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p1">Preference 2:</p>
+                <p className="mb-4 pb-3 reg-p1">PREFERENCE 2: </p>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Commitee 2</p>
+              <p className="mb-4 pb-3 reg-p">COMMITTEE 2*</p>
               </div>
               <div className="form-group">
                 <select
                   name="commitee2"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={committee2}
                   onChange={(e) => {
                     setComittee2(e.target.value);
@@ -2451,14 +2452,14 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Press 2</p>
+              <p className="mb-4 pb-3 reg-p">PRESS 2*</p>
               </div>
               <div className="form-group">
                 <select
                   name="press2"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={preference2}
                   onChange={(e) => {
                     setPreferences2(e.target.value);
@@ -2470,12 +2471,12 @@ Czech Republic
                       <option value="Select">Select Press</option>
                       <option value="Hindustan Times">Hindustan Times</option>
                       <option value="Times Of India">Times Of India</option>
-                      
+                      <option value="The Hindu">The Hindu</option>
                     </>
                   ) : (
                     <>
                       <option value="Select">Select Press</option>
-                       
+                      <option value="Union Press International">Union Press International</option>
                       <option value="Associated Press">Associated Press</option>
                       <option value="Reuters">Reuters</option>
                     </>
@@ -2485,17 +2486,17 @@ Czech Republic
               </div>
 
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p1">Preference 3:</p>
+                <p className="mb-4 pb-3 reg-p1">PREFERENCE 3:</p>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Commitee 3</p>
+              <p className="mb-4 pb-3 reg-p">COMMITTEE 3*</p>
               </div>
               <div className="form-group">
                 <select
                   name="commitee3"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={committee3}
                   onChange={(e) => {
                     setComittee3(e.target.value);
@@ -2510,14 +2511,14 @@ Czech Republic
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="para-container">
-              <p className="mb-4 pb-3 reg-p">Press 3</p>
+              <p className="mb-4 pb-3 reg-p">PRESS 3*</p>
               </div>
               <div className="form-group">
                 <select
                   name="press3"
                   className="form-style-2"
                   id="logemail"
-                  placeholder="Select Commitee"
+                  placeholder="Select Committee"
                   value={preference3}
                   onChange={(e) => {
                     setPreferences3(e.target.value);
@@ -2529,12 +2530,12 @@ Czech Republic
                       <option value="Select">Select Press</option>
                       <option value="Hindustan Times">Hindustan Times</option>
                       <option value="Times Of India">Times Of India</option>
-                      
+                      <option value="The Hindu">The Hindu</option>
                     </>
                   ) : (
                     <>
                       <option value="Select">Select Press</option>
-                       
+                      <option value="Union Press International">Union Press International</option>
                       <option value="Associated Press">Associated Press</option>
                       <option value="Reuters">Reuters</option>
                     </>
@@ -2544,7 +2545,7 @@ Czech Republic
               </div>
               <div className="from-group">
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">Experience</p>
+                <p className="mb-4 pb-3 reg-p">EXPERIENCE</p>
               </div>
                 <input
                   className="form-style"

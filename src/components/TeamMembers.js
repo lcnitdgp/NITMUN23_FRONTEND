@@ -16,12 +16,18 @@ function TeamCards() {
     backgroundImage="./assets/tushar.jpg"
 />
             <Cards 
-    facebookLink="https://www.facebook.com/epshita.chakravarty.31" 
+      
     instagramLink="https://www.instagram.com/whyecwhy/" 
 
     name="Epshita Chakravarthy" 
     jobTitle="Secretary General" 
      backgroundImage="./assets/epshitha1.jpg"
+/>
+<Cards 
+    facebookLink="https://www.facebook.com/diya.sutar.56" 
+    name="Diya Sutar" 
+    jobTitle="International Press Head" 
+     backgroundImage="./assets/diya.jpg"
 />
             <Cards 
     facebookLink="https://www.facebook.com/pushpal.ghodaskar" 
@@ -31,15 +37,18 @@ function TeamCards() {
     jobTitle="Head of the Organising Committee" 
      backgroundImage="./assets/pushpal1.jpg"
 />
-            <Cards 
-    facebookLink="https://www.facebook.com/diya.sutar.56" 
-    instagramLink="https://www.instagram.com/dia._.sutar/" 
+           
+            
+<Cards 
+    facebookLink="https://www.facebook.com/profile.php?id=100012941355984" 
+    instagramLink="https://www.instagram.com/sakshimishra_sm/" 
 
-    name="Diya Sutar" 
-    jobTitle="International Press Head" 
-     backgroundImage="./assets/diya.jpg"
+    name="Sakshi" 
+    jobTitle="Director of Commitee Affairs" 
+     backgroundImage="./assets/sakshi2.jpg"
 />
-            <Cards 
+
+<Cards 
     facebookLink="https://www.facebook.com/archit.lall" 
     instagramLink="https://www.instagram.com/archit_lall/" 
 
@@ -47,14 +56,9 @@ function TeamCards() {
     jobTitle="Director of Commitee Affairs" 
      backgroundImage="./assets/archit.jpg"
 />
-            <Cards 
-    facebookLink="https://www.facebook.com/profile.php?id=100012941355984" 
-    instagramLink="https://www.instagram.com/sakshimishra_sm/" 
 
-    name="Sakshi Mishra" 
-    jobTitle="Director of Commitee Affairs" 
-     backgroundImage="./assets/sakshi2.jpg"
-/>
+
+           
             <Cards 
     facebookLink="https://www.facebook.com/sou.bis.9" 
     instagramLink="https://www.instagram.com/_soumiik_" 
@@ -72,7 +76,7 @@ function TeamCards() {
      backgroundImage="./assets/navneet.jpg"
 />
             <Cards 
-    facebookLink="https://m.facebook.com/100015495341184" 
+    facebookLink="https://facebook.com/100015495341184" 
     instagramLink="https://www.instagram.com/ab._.hi._.sh._.ek" 
 
     name="Abhishek Prusty" 
@@ -80,29 +84,31 @@ function TeamCards() {
      backgroundImage="./assets/abhishek1.jpg"
 />
             <Cards 
-    facebookLink="https://m.facebook.com/100078722296049" 
+    facebookLink="https://facebook.com/100078722296049" 
     instagramLink="https://www.instagram.com/iam.kshitiz._" 
 
     name="Kshitiz Chadha" 
     jobTitle="Under Secretary General" 
      backgroundImage="./assets/kshitiz.jpg"
 />
-            <Cards 
-    facebookLink="https://m.facebook.com/100024698449929" 
-    instagramLink="https://www.instagram.com/rishavmishra_97" 
 
-    name="Rishav Mishra" 
-    jobTitle="Editor-in-Chief" 
-     backgroundImage="./assets/rishav.jpg"
-/>
-            <Cards 
-    facebookLink="https://m.facebook.com/100024698449929" 
-    instagramLink="https://www.instagram.com/_7ayush_raj7" 
+<Cards 
+     
+    instagramLink="https://www.instagram.com/_7ayush_7" 
 
     name="Ayush Raj" 
     jobTitle="Editor-in-Chief" 
      backgroundImage="./assets/ayush.jpg"
 />
+            <Cards 
+    facebookLink="https://facebook.com/100024698449929" 
+    
+
+    name="Rishav Mishra" 
+    jobTitle="Editor-in-Chief" 
+     backgroundImage="./assets/rishav.jpg"
+/>
+            
              
         </div>
         </div>

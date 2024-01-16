@@ -14,16 +14,22 @@ function Cards(props) {
         </div>
 
         <ul className="social-icons">
+
+        {props.facebookLink && (
         <li>
         <a href={props.facebookLink}>
             <i className="fab fa-facebook-f"></i>
           </a>
         </li>
+        )}
+
+        {props.instagramLink && (
         <li>
         <a href={props.instagramLink}>
             <i className="fab fa-instagram"></i>
           </a>
         </li>
+        )}
       </ul>
 
       <div className="details">

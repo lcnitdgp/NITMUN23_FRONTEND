@@ -34,10 +34,10 @@ import { useState, useEffect } from 'react';
             </Slide>
             <div className='commitee-btn-container'>
             <div className='commitee-btn'>
-            <a className="guide-button "  href={props.studyguide} download >Study Guide</a> {/* Add this line */}
+            <a className="guide-button " target="_blank" href={props.studyguide} download >Study Guide</a>  
             </div>
             <div className='commitee-btn'>
-        <a className="matrix-button" href={props.portfolio} download >Portfolio Matrix</a> {/* Add this line */}
+        <a className="matrix-button" target="_blank" href={props.portfolio} download >Portfolio Matrix</a>  
         </div>
         </div>
           </div>
