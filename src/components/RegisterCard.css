@@ -11,8 +11,8 @@
   height: 110%;
   backface-visibility: hidden;
   scroll-behavior: smooth;
- /* scrollbar-width: none;  
-  -ms-overflow-style: none;  */ 
+  srollbar-width: none;  
+  -ms-overflow-style: none;
 }
 
 ::-webkit-scrollbar {
@@ -309,7 +309,7 @@ h6 span {
 }
 
 .toggle-container-btn{
-    padding-top: 20vh;
+    padding-top: 140px;
   }
 
   [type="checkbox"]:checked,

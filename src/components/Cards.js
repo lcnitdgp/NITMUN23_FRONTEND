@@ -3,12 +3,11 @@ import './Cards.scss';
 
 function Cards(props) {
     return (
-      <>
-  <div class="container">    
+  <div class="card-container">    
     
 <div class="card-wrapper">
       
-      <div class="card profile-two">
+      <div class="card">
         
         <div class="card-image profile-img--two">
           <img src={props.backgroundImage} alt="profile two" />
@@ -37,7 +36,6 @@ function Cards(props) {
  </div >
      
  </div> 
-  </>
     );
 }
 

@@ -276,15 +276,15 @@ function RegisterPage() {
                   }}
                 >
                    <option value="Select option">Select option</option>
-                   <option value="HALL 14"> HALL 1</option>
-                   <option value="HALL 14"> HALL 2</option>
-                   <option value="HALL 14"> HALL 3</option>
-                   <option value="HALL 14"> HALL 4</option>
-                   <option value="HALL 14"> HALL 5</option>
-                   <option value="HALL 14"> HALL 6</option>
-                   <option value="HALL 14"> HALL 7</option>
-                   <option value="HALL 14"> HALL 8</option>
-                   <option value="HALL 14"> HALL 9</option>
+                   <option value="HALL 1"> HALL 1</option>
+                   <option value="HALL 2"> HALL 2</option>
+                   <option value="HALL 3"> HALL 3</option>
+                   <option value=" HALL 4"> HALL 4</option>
+                   <option value="HALL 5"> HALL 5</option>
+                   <option value="HALL 6"> HALL 6</option>
+                   <option value="HALL 7"> HALL 7</option>
+                   <option value="HALL 8"> HALL 8</option>
+                   <option value="HALL 9"> HALL 9</option>
                    <option value="HALL 10"> HALL 10</option>
                    <option value="HALL 11"> HALL 11</option>
                    <option value="HALL 12"> HALL 14</option>
@@ -2323,10 +2323,20 @@ Czech Republic
                   }}
                 >
                    <option value="Select option">Select option</option>
-                  <option value="HALL 1"> HALL 1</option>
-                  <option value="HALL 1">HALL 1</option>
-                  <option value="HALL 1"> HALL 1</option>
-                  <option value="HALL 1"> HALL 1</option>
+                   <option value="HALL 1"> HALL 1</option>
+                   <option value="HALL 2"> HALL 2</option>
+                   <option value="HALL 3"> HALL 3</option>
+                   <option value=" HALL 4"> HALL 4</option>
+                   <option value="HALL 5"> HALL 5</option>
+                   <option value="HALL 6"> HALL 6</option>
+                   <option value="HALL 7"> HALL 7</option>
+                   <option value="HALL 8"> HALL 8</option>
+                   <option value="HALL 9"> HALL 9</option>
+                   <option value="HALL 10"> HALL 10</option>
+                   <option value="HALL 11"> HALL 11</option>
+                   <option value="HALL 12"> HALL 14</option>
+                   <option value="HALL 13"> HALL 13</option>
+                   <option value="HALL 14"> HALL 14</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
               </div>

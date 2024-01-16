@@ -1,5 +1,5 @@
 .timer{
-  margin-top: 10vh;
+  margin-top: 60px;
   width: 50%;
   font-family: 'Courier New', Courier, monospace;
   color: #222; /* Adjust the color to match the previous color scheme */
@@ -50,4 +50,10 @@
     margin-top: -35px;
   }
 } 
+
+@media screen and (max-width: 300px)   {
+  .Clock-days{
+    font-size: 1.4rem; /* adjust as needed */
+  }
+}
 /* Remove the keyframes rule for the pulsing animation */

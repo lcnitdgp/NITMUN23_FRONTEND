@@ -1,5 +1,5 @@
 .artist-section {
-  min-height: 80%;
+  min-height: 45%;
   background-color: #232020;
   display: flex; /* Makes this a flex container */
   flex-direction: row; /* Places the children side by side */
@@ -115,7 +115,7 @@ canvas {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 90%;
   height: 100%;
 
 }
@@ -124,7 +124,7 @@ canvas {
   padding: 3% 5%;
   border-radius: 5px;
   color: #201d1d; /* Change text color to white */
-  background-color: bisque; /* Change background color to blue */
+  background-color: #ede6df; /* Change background color to blue */
   text-decoration: none;
   font-size: 1.1rem;
   cursor: pointer;

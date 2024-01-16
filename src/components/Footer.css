@@ -3,7 +3,7 @@
     height: auto;
 }
         section {
-            padding: 60px 0;
+            padding: 20px 10px;
            /* min-height: 100vh;*/
         }
  ul {
@@ -13,6 +13,13 @@
         }
 .contact-area {
     border-bottom: 1px solid #353C46;
+}
+
+.contact-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact-content p {

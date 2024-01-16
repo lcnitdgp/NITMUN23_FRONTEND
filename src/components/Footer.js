@@ -8,12 +8,16 @@ function Footer() {
             <div className="row">
                 <div className="col-lg-6 offset-lg-3">
                     <div className="contact-content text-center">
+                        <div>
                         <a href="#"><img className='footer-image' src="./assets/lclogo.png" alt="logo" /></a>
-                        <p>  </p>
+                        </div>
+
                         <div className="hr"></div>
+                        <div>
                         <h6> NATIONAL INSTITUTE OF TECHNOLOGY, DURGAPUR. 713209, WEST BENGAL</h6>
                         <h6>+91 9054093102<span>|</span> lc.nitdgp@gmail.com </h6>
                         <h6>NITMUN XII  &copy;  2024</h6>
+                        
                         <div className="contact-social">
                             <ul className='footer-ul'>
                                 <li><a className="hover-target" href="https://www.facebook.com/lcnitdgp/"><i className="fab fa-facebook-f"></i></a></li>
@@ -22,7 +26,7 @@ function Footer() {
                                 <li><a className="hover-target" href="https://lcnitd.co.in/"><i className="fa fa-globe"></i></a></li>
                             </ul>
                         </div>
-                       
+                        </div>
                     </div>
                 </div>
             </div>

@@ -9,7 +9,7 @@ function Hero () {
      <div className='mobile-hero-gap'><h1>The clock<br />is <span>ticking</span>.</h1></div>
      <div><p>Resolution through Diplomacy<br />not Ideology</p></div>
      <div><TimerComp/></div>
-     <div><Link to="/register" className="register-button pf-400">Register</Link> </div>
+     <div><Link to="/register" className="register-button pf-200">Register</Link> </div>
      <div className="bg"></div>
      </div>
     </>

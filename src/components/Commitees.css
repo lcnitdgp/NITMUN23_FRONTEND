@@ -25,9 +25,9 @@
   align-items: center;
   color: white;
   word-break: break-word;
-  padding: 10px 10px 0px 10px;
+  padding: 10px 10px 10px 10px;
   width: 50%;
-  padding-left: 5%;
+  
 }
 
 .about {
@@ -91,3 +91,4 @@ canvas {
     width: 90%; /* Increase the width of the images on small screens */
   }
 }
+
