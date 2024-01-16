@@ -31,7 +31,7 @@ function RegisterPage() {
     e.preventDefault();
     console.log("yes")
     await axios
-      .post("http://localhost:5000/api/register", {
+      .post("https://nitmun-xii-backend.onrender.com/api/register", {
         // headers: {
         //   'Content-Type': 'application/json'
         // }
