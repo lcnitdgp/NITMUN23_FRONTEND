@@ -11,9 +11,7 @@
             padding: 0;
             list-style: none;
         }
-.contact-area {
-    border-bottom: 1px solid #353C46;
-}
+ 
 
 .contact-content{
     display: flex;
@@ -82,7 +80,7 @@
 section, footer {
     background: #232020;;
     color: #868c96;
-    border-top: 5px solid #342427;
+    border: 20px solid rgba(29, 34, 24, 0.267)
 }
 
 footer p {

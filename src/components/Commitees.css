@@ -1,5 +1,5 @@
 .about-section {
-  min-height: 80%;
+  min-height: 50%;
   background-color: #232020;
   display: flex; /* Makes this a flex container */
   flex-direction: row; /* Places the children side by side */

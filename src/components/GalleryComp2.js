@@ -6,27 +6,27 @@ function GalleryComp2 () {
         <>
 		<div className="gallery-body">
        <article className="gallery">
-  <img src="https://i.imgur.com/VudsVdb.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/gXt2Lda.jpg" alt="NITMUN" />
   <blockquote className="quote spacer">
   <span>Resolution through Diplomacy, not ideology</span>
     <cite>&mdash;NITMUN XII</cite>
   </blockquote>
-  <img src="https://i.imgur.com/rHQwwtq.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/LnYquyf.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/h81KJBZ.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/HVVaxBi.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/AKLEm2b.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/Edpdtsv.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/Pu99r8C.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/9D3SXpN.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="https://i.imgur.com/SZz59tq.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/uRe8t5z.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/xFPohwo.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/6McD8Pg.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/LpFZE1e.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/hfwdTJj.jpg" alt="NITMUN" />
   <div className="spacer"></div>
   <div className="spacer"></div>
-  <img src="https://i.imgur.com/TfpIk1q.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/BYpVkhQ.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/IZvTUG9.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/WGJTmeO.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/i2NW9yG.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/Vf1UmIM.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="https://i.imgur.com/DHKofbJ.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/azTFwUA.jpg" alt="NITMUN" /> 
+  <img src="https://i.imgur.com/igndnqU.jpg" alt="NITMUN" />
+  <img src="https://i.imgur.com/XixsMLO.jpg" alt="NITMUN" /> 
 </article>
 </div>
         </>

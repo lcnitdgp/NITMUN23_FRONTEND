@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 .gallery-body {
-  margin: -1px;
+  margin: 0;
   display: grid;
   place-items: center;
   background-color: #232020;

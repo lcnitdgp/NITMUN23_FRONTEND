@@ -2412,12 +2412,12 @@ Czech Republic
                       <option value="Select">Select Press</option>
                       <option value="Hindustan Times">Hindustan Times</option>
                       <option value="Times Of India">Times Of India</option>
-                      <option value="The Hindu">The Hindu</option>
+                       
                     </>
                   ) : (
                     <>
                       <option value="Select">Select Press</option>
-                      <option value="United Press International">United Press International</option>
+                       
                       <option value="Associated Press">Associated Press</option>
                       <option value="Reuters">Reuters</option>
                     </>
@@ -2470,12 +2470,12 @@ Czech Republic
                       <option value="Select">Select Press</option>
                       <option value="Hindustan Times">Hindustan Times</option>
                       <option value="Times Of India">Times Of India</option>
-                      <option value="The Hindu">The Hindu</option>
+                      
                     </>
                   ) : (
                     <>
                       <option value="Select">Select Press</option>
-                      <option value="United Press International">United Press International</option>
+                       
                       <option value="Associated Press">Associated Press</option>
                       <option value="Reuters">Reuters</option>
                     </>
@@ -2529,12 +2529,12 @@ Czech Republic
                       <option value="Select">Select Press</option>
                       <option value="Hindustan Times">Hindustan Times</option>
                       <option value="Times Of India">Times Of India</option>
-                      <option value="The Hindu">The Hindu</option>
+                      
                     </>
                   ) : (
                     <>
                       <option value="Select">Select Press</option>
-                      <option value="United Press International">United Press International</option>
+                       
                       <option value="Associated Press">Associated Press</option>
                       <option value="Reuters">Reuters</option>
                     </>
