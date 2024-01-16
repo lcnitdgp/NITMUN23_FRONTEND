@@ -19,7 +19,7 @@ function TeamCards() {
       
     instagramLink="https://www.instagram.com/whyecwhy/" 
 
-    name="Epshita Chakravarthy" 
+    name="Epshita Chakravarty" 
     jobTitle="Secretary General" 
      backgroundImage="./assets/epshitha1.jpg"
 />

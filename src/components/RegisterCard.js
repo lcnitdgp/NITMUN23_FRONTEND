@@ -54,7 +54,9 @@ function RegisterPage() {
       .then((res) => {
         console.log(res);
         console.log("submit");
-        toast.success("Submitted.");
+        toast.success("Submitted.", {
+          onClose: () => window.location.reload()
+        });
         // window.location("/");
         //window.location.replace = "/";
       })
@@ -62,8 +64,11 @@ function RegisterPage() {
       .catch((err) => {
         console.log("hello");
         console.log(err);
-        toast.error("Please enter correct credentials");
+        toast.error("Please enter correct credentials", {
+          onClose: () => window.location.reload()
+        });
       });
+      
   };
 
 
@@ -791,7 +796,8 @@ Czech Republic
                       <option value="Select">Select Portfolio</option>
                       <option value="Zoramthanga (Party Leader; not in the Indian Parliament)">Zoramthanga (Party Leader; not in the Indian Parliament)</option>
                       <option value="N. Biren Singh (Chief Minister of Manipur)">N. Biren Singh (Chief Minister of Manipur)</option>
-                      <option value="Dr. R.K. RaTokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
+                      <option value="Dr. R.K. Ranjan(MP from Inner Manipur)">Dr. R.K. Ranjan(MP from Inner Manipur)</option>
+                      <option value=" Tokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
                       <option value="Pratima Bhowmik (MP from Tripura West)">Pratima Bhowmik (MP from Tripura West)</option>
                       <option value="Rebati Tripura (MP from Tripura East)">
                       Rebati Tripura (MP from Tripura East)
@@ -907,6 +913,9 @@ Czech Republic
                       <option value="Shri Devusinh Chauhan(Ministry of Communications)
 ">Shri Devusinh Chauhan(Ministry of Communications)
 </option>
+<option value="Shri B.L.Verma(Ministry of Development of North Eastern Region">
+                       Shri B.L.Verma(Ministry of Development of North Eastern Region
+                      </option>
                       <option value="Shri Raj Nath Singh(Ministry of Defence)
 
 ">
@@ -914,6 +923,7 @@ Czech Republic
 
 
                       </option>
+
                     </>
                   ) : (
                     <option value="select...">Select..</option>
@@ -1391,8 +1401,9 @@ Czech Republic
                     <>
                       <option value="Select">Select Portfolio</option>
                       <option value="Zoramthanga (Party Leader; not in the Indian Parliament)">Zoramthanga (Party Leader; not in the Indian Parliament)</option>
+                      <option value="Dr. R.K. Ranjan(MP from Inner Manipur)">Dr. R.K. Ranjan(MP from Inner Manipur)</option>
                       <option value="N. Biren Singh (Chief Minister of Manipur)">N. Biren Singh (Chief Minister of Manipur)</option>
-                      <option value="Dr. R.K. RaTokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
+                      <option value="Tokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
                       <option value="Pratima Bhowmik (MP from Tripura West)">Pratima Bhowmik (MP from Tripura West)</option>
                       <option value="Rebati Tripura (MP from Tripura East)">
                       Rebati Tripura (MP from Tripura East)
@@ -1508,6 +1519,9 @@ Czech Republic
                       <option value="Shri Devusinh Chauhan(Ministry of Communications)
 ">Shri Devusinh Chauhan(Ministry of Communications)
 </option>
+<option value="Shri B.L.Verma(Ministry of Development of North Eastern Region">
+                       Shri B.L.Verma(Ministry of Development of North Eastern Region
+                      </option>
                       <option value="Shri Raj Nath Singh(Ministry of Defence)
 
 ">
@@ -1992,8 +2006,9 @@ Czech Republic
                     <>
                       <option value="Select">Select Portfolio</option>
                       <option value="Zoramthanga (Party Leader; not in the Indian Parliament)">Zoramthanga (Party Leader; not in the Indian Parliament)</option>
+                      <option value="Dr. R.K. Ranjan(MP from Inner Manipur)">Dr. R.K. Ranjan(MP from Inner Manipur)</option>
                       <option value="N. Biren Singh (Chief Minister of Manipur)">N. Biren Singh (Chief Minister of Manipur)</option>
-                      <option value="Dr. R.K. RaTokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
+                      <option value="Tokheho Yepthomi (MP from Nagaland)">Tokheho Yepthomi (MP from Nagaland)</option>
                       <option value="Pratima Bhowmik (MP from Tripura West)">Pratima Bhowmik (MP from Tripura West)</option>
                       <option value="Rebati Tripura (MP from Tripura East)">
                       Rebati Tripura (MP from Tripura East)
@@ -2109,6 +2124,9 @@ Czech Republic
                       <option value="Shri Devusinh Chauhan(Ministry of Communications)
 ">Shri Devusinh Chauhan(Ministry of Communications)
 </option>
+<option value="Shri B.L.Verma(Ministry of Development of North Eastern Region">
+                       Shri B.L.Verma(Ministry of Development of North Eastern Region
+                      </option>
                       <option value="Shri Raj Nath Singh(Ministry of Defence)
 
 ">
