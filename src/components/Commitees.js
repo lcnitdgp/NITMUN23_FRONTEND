@@ -11,11 +11,11 @@ const Commitees = (props,{ border = '0px solid #fff' }) => {
             <span className="lato-400 small-lato"> <span className="pf-400" style={{fontSize: '15px'}}>{props.number}</span>{"  "}{props.numbertext}</span>
             <Fade duration={700} top cascade><span className="pf-200 section-heading " style={{fontSize: '30px'}}>{ props.comname}</span></Fade>
             <Slide bottom>
-              <p className="lato-400 about">
+              <p className="pf-200 about">
               {props.textone}
               </p>
               
-              <p className="lato-400 about">
+              <p className="pf-200 about">
              {props.texttwo}
               </p>
             </Slide>
