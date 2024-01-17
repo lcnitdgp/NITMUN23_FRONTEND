@@ -1,5 +1,7 @@
 import React from "react";
 import "./GalleryComp.css";
+import img1 from './DSC_0041.JPG';
+ 
 
 function GalleryComp4 () {
     return(
@@ -26,7 +28,7 @@ function GalleryComp4 () {
   <img src="./assets/IMG_9844.jpg" alt="NITMUN" />
   <div className="spacer"></div>
   <img src="./assets/IMG_9890.jpg" alt="NITMUN" />
-  <img src="./DSC_0041.jpg" alt="NITMUN" />
+  <img src={img1} alt="NITMUN" />
 </article>
 </div>
         </>
