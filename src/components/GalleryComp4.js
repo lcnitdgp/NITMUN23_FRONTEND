@@ -26,7 +26,7 @@ function GalleryComp4 () {
   <img src="./assets/IMG_9844.jpg" alt="NITMUN" />
   <div className="spacer"></div>
   <img src="./assets/IMG_9890.jpg" alt="NITMUN" />
-  <img src="./assets/DSC_0041.jpg" alt="NITMUN" />
+  <img src="./DSC_0041.jpg" alt="NITMUN" />
 </article>
 </div>
         </>
