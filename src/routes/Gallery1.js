@@ -1,5 +1,4 @@
 import  React, { useState, useEffect } from "react";
-import { RingLoader } from "react-spinners";
 import Loader from "./Loader";
 import "./Loader.css";
 import Gallery from "./Gallery";
@@ -10,7 +9,7 @@ const GalleryPage = () => {
       setLoading(true);
       setTimeout(() => {
         setLoading(false);
-      }, 3500);
+      }, 2000);
     }, []);
     return (
         <div className="App">

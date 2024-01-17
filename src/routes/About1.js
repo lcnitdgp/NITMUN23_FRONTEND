@@ -1,6 +1,4 @@
 import  React, { useState, useEffect } from "react";
-import Home from "./Home";
-import { RingLoader } from "react-spinners";
 import Loader from "./Loader";
 import "./Loader.css";
 import About from "./About";

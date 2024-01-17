@@ -3,13 +3,13 @@ import './Cards.scss';
 
 function Cards(props) {
     return (
-  <div class="card-container">    
+  <div className="card-container">    
     
-<div class="card-wrapper">
+<div className="card-wrapper">
       
-      <div class="card">
+      <div className="card">
         
-        <div class="card-image profile-img--two">
+        <div className="card-image profile-img--two">
           <img src={props.backgroundImage} alt="profile two" />
         </div>
 

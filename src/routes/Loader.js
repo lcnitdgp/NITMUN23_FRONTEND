@@ -4,8 +4,8 @@ import "./Loader.css";
 function Loader() {
 
     return (
-      <div class="pageLoad">
-      <div class="inner">
+      <div className="pageLoad">
+      <div className="inner">
         <div></div>
         <div></div> 
         <div></div>

@@ -1,12 +1,6 @@
 import './App.css';
 import {Route , Routes} from "react-router-dom";
-import Navbar from './components/Navbar';
-import Home from './routes/Home';
-import About from './routes/About';
-import Gallery from './routes/Gallery';
-import Team from './routes/Team';
-import Register from './routes/Register';
-import withLoader from "./components/Loader";
+
 import HomePage from "./routes/Home1";
 
 import {RingLoader} from "react-spinners";
