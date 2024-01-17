@@ -25,8 +25,8 @@ function GalleryComp () {
   <img src="./assets/NITMUN12.jpg" alt="NITMUN" />
   <img src="./assets/NITMUN13.jpg" alt="NITMUN" />
   <div className="spacer"></div>
-  <img src="https://i.imgur.com/VNazUqN.jpg" alt="NITMUN" />
-  <img src="https://i.imgur.com/6TbJxu9.jpg" alt="NITMUN" />
+  <img src="./assets/DSC_0041.jpg" alt="NITMUN" />
+  <img src="./assets/DSC_0054.jpg" alt="NITMUN" />
 </article>
 </div>
         </>
