@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import "./HeroStyles.css";
 import TimerComp from "../components/timercomp"; // Fix the casing of the file name
 
+
 function Hero () {
   return(
     <>
