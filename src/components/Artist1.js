@@ -32,13 +32,17 @@ import { useState, useEffect } from 'react';
               </p>
             </Slide>
             <div className='commitee-btn-container'>
-            <div className='commitee-btn'>
-            <a className="guide-button " target="_blank" href={props.studyguide} download >Study Guide</a>  
-            </div>
-            <div className='commitee-btn'>
-        <a className="matrix-button" target="_blank" href={props.portfolio} download >Portfolio Matrix</a>  
-        </div>
-        </div>
+  <a className="guide-button " target="_blank" href={props.studyguide} download>
+    <div className='commitee-btn'>
+      Study Guide
+    </div>
+  </a>
+  <a className="matrix-button" target="_blank" href={props.portfolio} download>
+    <div className='commitee-btn'>
+      Portfolio Matrix
+    </div>
+  </a>
+</div>
           </div>
           <div className="artist-image" style={{order: isMobile ? 1 : props.orderImage}}>
             <img src={props.imagesrc} alt="Top view"/>
