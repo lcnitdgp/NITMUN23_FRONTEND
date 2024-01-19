@@ -2159,6 +2159,9 @@ Czech Republic
                     console.log(e.target.value);
                   }}
                 />
+                  {formik.touched.experience && formik.errors.experience? (
+                  <div>{formik.errors.experience}</div>
+                ) : null}
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="btn-container">
@@ -2577,8 +2580,12 @@ Czech Republic
                   onChange={(e) => {
                     setExperience(e.target.value);
                     console.log(e.target.value);
-                  }}
+                  }
+                }
                 />
+                   {formik.touched.experience && formik.errors.experience? (
+                  <div>{formik.errors.experience}</div>
+                ) : null}
                 <i className="input-icon uil uil-at"></i>
               </div>
               <div className="btn-container">
