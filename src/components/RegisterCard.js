@@ -2143,12 +2143,12 @@ Czech Republic
               </div>
               <div className="from-group">
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">EXPERIENCE</p>
+                <p className="mb-4 pb-3 reg-p">EXPERIENCE *</p>
               </div>
                 <input
                   className="form-style"
                   placeholder="Experience"
-                  name="Experience"
+                  name="experience"
                   id="logemail"
                   type="email"
                   data-type="text"
@@ -2563,12 +2563,12 @@ Czech Republic
               </div>
               <div className="from-group">
               <div className="para-container">
-                <p className="mb-4 pb-3 reg-p">EXPERIENCE</p>
+                <p className="mb-4 pb-3 reg-p">EXPERIENCE *</p>
               </div>
                 <input
                   className="form-style"
                   placeholder="Experience"
-                  name="Experience"
+                  name="experience"
                   id="logemail"
                   type="email"
                   data-type="text"
