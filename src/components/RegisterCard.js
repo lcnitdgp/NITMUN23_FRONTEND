@@ -64,9 +64,7 @@ function RegisterPage() {
       .catch((err) => {
         console.log("hello");
         console.log(err);
-        toast.error("Please enter correct credentials", {
-          onClose: () => window.location.reload()
-        });
+        toast.error("Please enter correct credentials")
       });
       
   };
