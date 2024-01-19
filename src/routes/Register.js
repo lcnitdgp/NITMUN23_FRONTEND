@@ -10,7 +10,7 @@ function Register () {
     return(
         <>
         <Navbar/>
-        <Hero2/>
+        <RegisterPage/>
         <Footer/>
         </>
     )
