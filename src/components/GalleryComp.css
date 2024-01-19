@@ -47,7 +47,7 @@
   }
   
   & .spacer {
-    background: #3d3333;
+    background:#323230;
     clip-path: polygon(0 20px, 100% 0, 100% calc(100% - 20px), 0 100%);
     box-sizing: border-box;
   }

@@ -29,7 +29,7 @@ function RegisterPage() {
 
   const postData = async (e) => {
     e.preventDefault();
-    console.log("yes")
+     
     await axios
       .post("https://nitmun-xii-backend.onrender.com/api/register", {
         // headers: {
@@ -62,7 +62,7 @@ function RegisterPage() {
       })
 
       .catch((err) => {
-        console.log("hello");
+         
         console.log(err);
         toast.error("Please enter correct credentials")
       });
@@ -127,7 +127,7 @@ function RegisterPage() {
                   value={name}
                   onChange={(e) => {
                     setName(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                   {formik.touched.Name && formik.errors.Name ? (
@@ -148,7 +148,7 @@ function RegisterPage() {
                   autoComplete="off"
                   onChange={(e) => {
                     setEmail(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                   value={email}
                 />
@@ -170,7 +170,7 @@ function RegisterPage() {
                   value={phoneNumber}
                   onChange={(e) => {
                     setPhoneNumber(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                 {formik.touched.phone && formik.errors.phone ? (
@@ -188,7 +188,7 @@ function RegisterPage() {
                   id="logemail"
                   onChange={(e) => {
                     setInstitute(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                   value={institute}
                 >
@@ -221,7 +221,7 @@ function RegisterPage() {
                   value={roll}
                   onChange={(e) => {
                     setRoll(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                 <i className="input-icon uil uil-at"></i>
@@ -246,7 +246,7 @@ function RegisterPage() {
                   value={year}
                   onChange={(e) => {
                     setYear(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="Select option">Select option</option>
@@ -275,7 +275,7 @@ function RegisterPage() {
                   value={hall}
                   onChange={(e) => {
                     setHall(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="Select option">Select option</option>
@@ -318,7 +318,7 @@ function RegisterPage() {
                   value={instName}
                   onChange={(e) => {
                     setInstName(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                 <i className="input-icon uil uil-at"></i>
@@ -339,7 +339,7 @@ function RegisterPage() {
                   value={committee1}
                   onChange={(e) => {
                     setComittee1(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="select commitee"> select commitee..</option>
@@ -361,7 +361,7 @@ function RegisterPage() {
                   value={preference1}
                   onChange={(e) => {
                     setPreferences1(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    {committee1 == "UNSC" ? (
@@ -945,7 +945,7 @@ Czech Republic
                   value={committee2}
                   onChange={(e) => {
                     setComittee2(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="select commitee"> select commitee..</option>
@@ -967,7 +967,7 @@ Czech Republic
                   value={preference2}
                   onChange={(e) => {
                     setPreferences2(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    {committee2 == "UNSC" ? (
@@ -1550,7 +1550,7 @@ Czech Republic
                   value={committee3}
                   onChange={(e) => {
                     setComittee3(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="select commitee"> select commitee..</option>
@@ -1572,7 +1572,7 @@ Czech Republic
                   value={preference3}
                   onChange={(e) => {
                     setPreferences3(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    {committee3 == "UNSC" ? (
@@ -2154,7 +2154,7 @@ Czech Republic
                   value={experience}
                   onChange={(e) => {
                     setExperience(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                   {formik.touched.experience && formik.errors.experience? (
@@ -2189,7 +2189,7 @@ Czech Republic
                   value={name}
                   onChange={(e) => {
                     setName(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                   {formik.touched.Name && formik.errors.Name ? (
@@ -2210,7 +2210,7 @@ Czech Republic
                   autoComplete="off"
                   onChange={(e) => {
                     setEmail(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                   value={email}
                 />
@@ -2232,7 +2232,7 @@ Czech Republic
                   value={phoneNumber}
                   onChange={(e) => {
                     setPhoneNumber(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                 {formik.touched.phone && formik.errors.phone ? (
@@ -2251,7 +2251,7 @@ Czech Republic
                   type="text"
                   onChange={(e) => {
                     setInstitute(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                   value={institute}
                 >
@@ -2284,7 +2284,7 @@ Czech Republic
                   value={roll}
                   onChange={(e) => {
                     setRoll(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                 <i className="input-icon uil uil-at"></i>
@@ -2309,7 +2309,7 @@ Czech Republic
                   value={year}
                   onChange={(e) => {
                     setYear(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="Select option">Select option</option>
@@ -2338,7 +2338,7 @@ Czech Republic
                   value={hall}
                   onChange={(e) => {
                     setHall(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option value="Select option">Select option</option>
@@ -2381,7 +2381,7 @@ Czech Republic
                   value={instName}
                   onChange={(e) => {
                     setInstName(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 />
                 <i className="input-icon uil uil-at"></i>
@@ -2401,7 +2401,7 @@ Czech Republic
                   value={committee1}
                   onChange={(e) => {
                     setComittee1(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                   <option defaultValue="Select">Select Committee</option>
@@ -2423,7 +2423,7 @@ Czech Republic
                   value={preference1}
                   onChange={(e) => {
                     setPreferences1(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                   {committee1 == "AIPPM-IP" ? (
@@ -2460,7 +2460,7 @@ Czech Republic
                   value={committee2}
                   onChange={(e) => {
                     setComittee2(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option defaultValue="Select">Select Committee</option>
@@ -2482,7 +2482,7 @@ Czech Republic
                   value={preference2}
                   onChange={(e) => {
                     setPreferences2(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    {committee2 == "AIPPM-IP" ? (
@@ -2519,7 +2519,7 @@ Czech Republic
                   value={committee3}
                   onChange={(e) => {
                     setComittee3(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    <option defaultValue="Select">Select Committee</option>
@@ -2541,7 +2541,7 @@ Czech Republic
                   value={preference3}
                   onChange={(e) => {
                     setPreferences3(e.target.value);
-                    console.log(e.target.value);
+                     
                   }}
                 >
                    {committee3== "AIPPM-IP" ? (
@@ -2577,7 +2577,7 @@ Czech Republic
                   value={experience}
                   onChange={(e) => {
                     setExperience(e.target.value);
-                    console.log(e.target.value);
+                     
                   }
                 }
                 />
