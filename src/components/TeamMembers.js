@@ -34,7 +34,7 @@ function TeamCards() {
     instagramLink="https://www.instagram.com/pushpal__g/" 
 
     name="Pushpal Ghodaskar" 
-    jobTitle="Head of the Organising Committee" 
+    jobTitle="Head of the Organizing Committee" 
      backgroundImage="./assets/pushpal1.jpg"
 />
            
