@@ -2406,7 +2406,7 @@ Czech Republic
                 >
                   <option defaultValue="Select">Select Committee</option>
                   <option value="UNGA-DISEC-IP">UNGA-DISEC-IP</option>
-                  <option value="UNGA-SPECPOL-IP">UNGA-SPECPOL-IP</option>
+                  <option value="UNSC-IP">UNSC-IP</option>
                   <option value="AIPPM-IP">AIPPM-IP</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
@@ -2465,7 +2465,7 @@ Czech Republic
                 >
                    <option defaultValue="Select">Select Committee</option>
                   <option value="UNGA-DISEC-IP">UNGA-DISEC-IP</option>
-                  <option value="UNGA-SPECPOL-IP">UNGA-SPECPOL-IP</option>
+                  <option value="UNSC-IP">UNSC-IP</option>
                   <option value="AIPPM-IP">AIPPM-IP</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
@@ -2524,7 +2524,7 @@ Czech Republic
                 >
                    <option defaultValue="Select">Select Committee</option>
                   <option value="UNGA-DISEC-IP">UNGA-DISEC-IP</option>
-                  <option value="UNGA-SPECPOL-IP">UNGA-SPECPOL-IP</option>
+                  <option value="UNSC-IP">UNSC-IP</option>
                   <option value="AIPPM-IP">AIPPM-IP</option>
                 </select>
                 <i className="input-icon uil uil-at"></i>
