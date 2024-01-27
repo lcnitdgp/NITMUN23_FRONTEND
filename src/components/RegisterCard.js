@@ -290,7 +290,7 @@ function RegisterPage() {
                    <option value="HALL 9"> HALL 9</option>
                    <option value="HALL 10"> HALL 10</option>
                    <option value="HALL 11"> HALL 11</option>
-                   <option value="HALL 12"> HALL 14</option>
+                   <option value="HALL 12"> HALL 12</option>
                    <option value="HALL 13"> HALL 13</option>
                    <option value="HALL 14"> HALL 14</option>
                 </select>
@@ -2353,7 +2353,7 @@ Czech Republic
                    <option value="HALL 9"> HALL 9</option>
                    <option value="HALL 10"> HALL 10</option>
                    <option value="HALL 11"> HALL 11</option>
-                   <option value="HALL 12"> HALL 14</option>
+                   <option value="HALL 12"> HALL 12</option>
                    <option value="HALL 13"> HALL 13</option>
                    <option value="HALL 14"> HALL 14</option>
                 </select>
