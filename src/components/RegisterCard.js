@@ -2578,10 +2578,9 @@ Czech Republic
                   onChange={(e) => {
                     setExperience(e.target.value);
                      
-                  }
-                }
+                  }}
                 />
-                   {formik.touched.experience && formik.errors.experience? (
+                  {formik.touched.experience && formik.errors.experience? (
                   <div>{formik.errors.experience}</div>
                 ) : null}
                 <i className="input-icon uil uil-at"></i>
